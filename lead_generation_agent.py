@@ -515,7 +515,7 @@ async def find_qualified_leads():
     Analyze the database and identify WASTE-TO-ENERGY plants with MAXIMUM efficiency improvement potential!
     """
 
-    print("🔥 GMAB Waste-to-Energy Plant Optimization Lead Finder")
+    print("[HOT] GMAB Waste-to-Energy Plant Optimization Lead Finder")
     print("   Finding WtE plants with efficiency improvement opportunities...\n")
 
     qualified_leads = []
@@ -532,14 +532,14 @@ async def find_qualified_leads():
         )
     ):
         if message.type == "assistant":
-            for content in message.message.content:N
+            for content in message.message.content:
                 if hasattr(content, 'text') and content.text:
                     print(f"\n{content.text}")
                 elif hasattr(content, 'name'):
-                    print(f"\n🔧 Using tool: {content.name}")
+                    print(f"\n[TOOL] Using tool: {content.name}")
 
         elif message.type == "result":
-            print(f"\n\n✅ Analysis Complete!")
+            print(f"\n\n[DONE] Analysis Complete!")
             print(f"   Duration: {message.duration_ms/1000:.2f} seconds")
             print(f"   Cost: ${message.total_cost_usd:.4f}")
             print(f"   Turns: {message.num_turns}")

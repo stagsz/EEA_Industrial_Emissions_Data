@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where:*)",
+      "Bash(claude --version:*)",
+      "Bash(set CLAUDE_CLI_PATH=C:UsersstaffAppDataRoamingnpmclaude.cmd)",
+      "Bash(python lead_generation_agent.py:*)",
+      "Bash(claude code agents run:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(python run_agents_demo.py:*)",
+      "Bash(python -c \"import subprocess; subprocess.run([''python'', ''run_agents_demo.py''], input=b''\\n\\n\\n\\n'')\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -12,14 +12,14 @@ Takes leads from lead generation and performs:
 """
 import asyncio
 import json
-from claude_agent_sdk import query, tool, create_sdk_mcp_server
+from claude_agent_sdk import query, tool, create_sdk_mcp_server, ClaudeAgentOptions
 
 
 # Define evaluation tools
 @tool(
     name="technical_feasibility_analysis",
     description="Analyze technical feasibility of waste heat recovery installation",
-    inputSchema={
+    input_schema={
         "lead_data": {
             "type": "object",
             "description": "Lead information to analyze"
@@ -78,7 +78,7 @@ async def technical_feasibility_analysis(args, extra):
 @tool(
     name="detailed_roi_calculation",
     description="Calculate detailed ROI and financial metrics for the project",
-    inputSchema={
+    input_schema={
         "lead_data": {
             "type": "object",
             "description": "Lead information for ROI calculation"
@@ -159,7 +159,7 @@ async def detailed_roi_calculation(args, extra):
 @tool(
     name="competitive_analysis",
     description="Analyze competitive landscape and GMAB positioning",
-    inputSchema={
+    input_schema={
         "lead_data": {
             "type": "object",
             "description": "Lead information"
@@ -236,7 +236,7 @@ async def competitive_analysis(args, extra):
 @tool(
     name="sales_action_plan",
     description="Create detailed sales action plan and next steps",
-    inputSchema={
+    input_schema={
         "lead_data": {
             "type": "object",
             "description": "Lead information"
@@ -411,14 +411,14 @@ async def evaluate_leads():
 
     async for message in query(
         prompt=prompt,
-        options={
-            "cwd": "C:\\Users\\staff\\anthropicFun\\EEA_Industrial_Emissions_Data",
-            "maxTurns": 40,
-            "model": "sonnet",
-            "mcpServers": {
+        options=ClaudeAgentOptions(
+            cwd="C:\\Users\\staff\\anthropicFun\\EEA_Industrial_Emissions_Data",
+            max_turns=40,
+            model="sonnet",
+            mcp_servers={
                 "evaluation": mcp_server
             }
-        }
+        )
     ):
         if message.type == "assistant":
             for content in message.message.content:

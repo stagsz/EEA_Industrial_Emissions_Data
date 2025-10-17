@@ -1,0 +1,61 @@
+# Large data files - exceeding GitHub limits
+*.accdb
+*.db
+*.csv
+*.xlsx
+*.xls
+
+# Data directories
+converted_csv/
+downloaded_data/
+emission_data_analysis/
+AcsessDB/
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env

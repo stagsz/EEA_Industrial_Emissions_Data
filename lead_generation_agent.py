@@ -22,14 +22,14 @@ Focus: Maximize energy recovery while meeting strict emission standards
 """
 import asyncio
 import json
-from claude_agent_sdk import query, tool, create_sdk_mcp_server
+from claude_agent_sdk import query, tool, create_sdk_mcp_server, ClaudeAgentOptions
 
 
 # Define custom tools for database access
 @tool(
     name="query_database",
     description="Query the leads database with SQL or filters",
-    inputSchema={
+    input_schema={  # Change from inputSchema
         "query_type": {
             "type": "string",
             "enum": ["sql", "filter"],
@@ -167,7 +167,7 @@ async def query_database(args, extra):
 @tool(
     name="score_lead",
     description="Score a lead based on qualification criteria",
-    inputSchema={
+    input_schema={  # Change from inputSchema
         "lead_data": {
             "type": "object",
             "description": "Lead information to score"
@@ -271,7 +271,7 @@ async def score_lead(args, extra):
 @tool(
     name="export_leads",
     description="Export qualified leads to Excel file with multiple priority sheets",
-    inputSchema={
+    input_schema={  # Change from inputSchema
         "leads": {
             "type": "array",
             "description": "List of leads to export"
@@ -522,17 +522,17 @@ async def find_qualified_leads():
 
     async for message in query(
         prompt=prompt,
-        options={
-            "cwd": "C:\\Users\\staff\\anthropicFun\\EEA_Industrial_Emissions_Data",
-            "maxTurns": 30,
-            "model": "sonnet",
-            "mcpServers": {
+        options=ClaudeAgentOptions(
+            cwd="C:\\Users\\staff\\anthropicFun\\EEA_Industrial_Emissions_Data",
+            max_turns=30,
+            model="sonnet",
+            mcp_servers={
                 "leads": mcp_server
             }
-        }
+        )
     ):
         if message.type == "assistant":
-            for content in message.message.content:
+            for content in message.message.content:N
                 if hasattr(content, 'text') and content.text:
                     print(f"\n{content.text}")
                 elif hasattr(content, 'name'):

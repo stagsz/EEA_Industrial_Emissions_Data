@@ -1,15 +1,26 @@
 {
   "permissions": {
     "allow": [
-      "Bash(where:*)",
-      "Bash(claude --version:*)",
-      "Bash(set CLAUDE_CLI_PATH=C:UsersstaffAppDataRoamingnpmclaude.cmd)",
-      "Bash(python lead_generation_agent.py:*)",
-      "Bash(claude code agents run:*)",
-      "Bash(pip show:*)",
-      "Bash(pip install:*)",
-      "Bash(python run_agents_demo.py:*)",
-      "Bash(python -c \"import subprocess; subprocess.run([''python'', ''run_agents_demo.py''], input=b''\\n\\n\\n\\n'')\")"
+      "Bash(python simple_compliance_lead_finder.py)",
+      "Bash(python create_presentation.py)",
+      "Read(//c/Users/staff/**)",
+      "Bash(claude mcp --help)",
+      "Bash(claude mcp add --transport stdio playwright -- npx @playwright/mcp@latest)",
+      "Bash(claude mcp add --transport stdio bright-data --env API_TOKEN=8f0f06bb2033e8fc38c92710440c9c9f409d21081b4888c26ad250fe55b49222 -- npx @brightdata/mcp)",
+      "Bash(claude mcp add --transport stdio desktop-commander -- npx.cmd @wonderwhy-er/desktop-commander@latest)",
+      "Bash(claude mcp list)",
+      "Bash(cat ~/.claude.json)",
+      "Bash(python -c \"import json; config = json.load(open(''C:/Users/staff/.claude.json'')); eea_config = config.get(''C:\\\\Users\\\\staff\\\\anthropicFun\\\\EEA_Industrial_Emissions_Data'', {}); print(json.dumps(eea_config.get(''mcpServers'', {}), indent=2))\")",
+      "Bash(claude mcp get playwright)",
+      "Bash(claude mcp get bright-data)",
+      "Bash(claude mcp get desktop-commander)",
+      "WebSearch",
+      "WebFetch(domain:www.gem.wiki)",
+      "WebFetch(domain:dallenergy.com)",
+      "Bash(awk -F',' '{print $4, $5, $6, $7, $8}')",
+      "Bash(pip install python-pptx python-docx pillow)",
+      "Bash(python outputs/create_sonderborg_pitch_materials.py)",
+      "Bash(python -X utf8 outputs/create_sonderborg_pitch_materials.py)"
     ],
     "deny": [],
     "ask": []

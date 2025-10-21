@@ -1,0 +1,89 @@
+{
+  "facility_overview": {
+    "company_name": "SOCIEDAD ANONIMA DE INDUSTRIAS CELULOSA ARAGONESA",
+    "facility_location": "BURGO DE EBRO (EL), Spain",
+    "full_address": "EL ESPARTAL, CTRA. CASTELLON KM 21, 50730 BURGO DE EBRO (EL)",
+    "facility_type": "Chemical/Industrial Manufacturing",
+    "industry_sector": "Chemical/Materials",
+    "primary_activity": "Chemical manufacturing and processing",
+    "lead_score": "90/100",
+    "priority_level": "CRITICAL"
+  },
+  "emissions_profile": {
+    "total_annual_emissions_tonnes": 1654410.678,
+    "number_of_pollutants": 5,
+    "has_nox": true,
+    "has_co2": true,
+    "has_so2": false,
+    "energy_input_tj_yr": 0,
+    "scoring_details": "Very high total emissions: 1654410.7 tonnes/year; Several pollutant types: 5 pollutants; NOx emissions: 2315000.0 kg/year (regulatory concern); CO2 emissions: 1652000000.0 kg/year; Priority market: ES"
+  },
+  "compliance_analysis": {
+    "regulatory_framework": "IED Annex I - Chemical industry activities",
+    "compliance_risks": [
+      {
+        "type": "HIGH",
+        "pollutant": "NOx",
+        "level": "2,315 tonnes/year",
+        "concern": "High NOx emissions likely exceed BAT-AEL standards",
+        "action": "Advanced NOx reduction technology needed"
+      },
+      {
+        "type": "HIGH",
+        "pollutant": "CO2",
+        "level": "1,652,000 tonnes/year",
+        "concern": "Subject to EU ETS - carbon trading obligations",
+        "action": "EU ETS compliance and carbon reduction strategies"
+      }
+    ],
+    "immediate_concerns": [
+      {
+        "type": "HIGH",
+        "pollutant": "NOx",
+        "level": "2,315 tonnes/year",
+        "concern": "High NOx emissions likely exceed BAT-AEL standards",
+        "action": "Advanced NOx reduction technology needed"
+      },
+      {
+        "type": "HIGH",
+        "pollutant": "CO2",
+        "level": "1,652,000 tonnes/year",
+        "concern": "Subject to EU ETS - carbon trading obligations",
+        "action": "EU ETS compliance and carbon reduction strategies"
+      }
+    ],
+    "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+    "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+  },
+  "business_opportunity": {
+    "immediate_services": [
+      "Emission control system audit",
+      "BAT compliance assessment",
+      "Technology upgrade planning",
+      "Monitoring system enhancement"
+    ],
+    "medium_term_opportunities": [],
+    "estimated_contract_value": "€2-8 million",
+    "decision_timeline": "6-12 months"
+  },
+  "contact_strategy": {
+    "primary_target": "SOCIEDAD ANONIMA DE INDUSTRIAS CELULOSA ARAGONESA",
+    "location": "BURGO DE EBRO (EL), Spain",
+    "address": "EL ESPARTAL, CTRA. CASTELLON KM 21, 50730 BURGO DE EBRO (EL)",
+    "approach_method": "B2B corporate sales",
+    "key_contacts": [
+      "Environmental Manager",
+      "Plant Manager",
+      "Technical Director",
+      "Compliance Officer",
+      "Procurement Manager"
+    ],
+    "company_type": "Private corporation",
+    "decision_process": "Corporate procurement"
+  },
+  "competitive_analysis": {
+    "market_position": "Chemical/Materials",
+    "regulatory_pressure": "HIGH",
+    "funding_availability": "PRIVATE"
+  }
+}

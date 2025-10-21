@@ -1,0 +1,90 @@
+{
+  "facility_overview": {
+    "company_name": "SOGAMA",
+    "facility_location": "ENCROBAS, Spain",
+    "full_address": "MORZOS 10 BAJO. SAN ROMAN. ENCROBAS, 15187 ENCROBAS",
+    "facility_type": "Waste-to-Energy/Waste Management",
+    "industry_sector": "Waste Management",
+    "primary_activity": "Municipal solid waste incineration with energy recovery",
+    "lead_score": "95/100",
+    "priority_level": "CRITICAL"
+  },
+  "emissions_profile": {
+    "total_annual_emissions_tonnes": 763505.3668,
+    "number_of_pollutants": 11,
+    "has_nox": true,
+    "has_co2": true,
+    "has_so2": false,
+    "energy_input_tj_yr": 0,
+    "scoring_details": "Very high total emissions: 763505.4 tonnes/year; Multiple pollutant types: 11 different pollutants; NOx emissions: 5314000.0 kg/year (regulatory concern); CO2 emissions: 758000000.0 kg/year; Priority market: ES"
+  },
+  "compliance_analysis": {
+    "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+    "compliance_risks": [
+      {
+        "type": "CRITICAL",
+        "pollutant": "NOx",
+        "level": "5,314 tonnes/year",
+        "concern": "Extremely high NOx emissions likely exceed all BAT-AEL standards",
+        "action": "Immediate SCR/SNCR implementation required"
+      },
+      {
+        "type": "HIGH",
+        "pollutant": "CO2",
+        "level": "758,000 tonnes/year",
+        "concern": "Subject to EU ETS - carbon trading obligations",
+        "action": "EU ETS compliance and carbon reduction strategies"
+      }
+    ],
+    "immediate_concerns": [
+      {
+        "type": "CRITICAL",
+        "pollutant": "NOx",
+        "level": "5,314 tonnes/year",
+        "concern": "Extremely high NOx emissions likely exceed all BAT-AEL standards",
+        "action": "Immediate SCR/SNCR implementation required"
+      },
+      {
+        "type": "HIGH",
+        "pollutant": "CO2",
+        "level": "758,000 tonnes/year",
+        "concern": "Subject to EU ETS - carbon trading obligations",
+        "action": "EU ETS compliance and carbon reduction strategies"
+      }
+    ],
+    "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+    "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+  },
+  "business_opportunity": {
+    "immediate_services": [
+      "Emergency compliance assessment",
+      "Advanced emission control technology",
+      "Regulatory compliance consulting",
+      "Continuous monitoring systems"
+    ],
+    "medium_term_opportunities": [],
+    "estimated_contract_value": "€5-15 million",
+    "decision_timeline": "3-6 months (urgent compliance)"
+  },
+  "contact_strategy": {
+    "primary_target": "SOGAMA",
+    "location": "ENCROBAS, Spain",
+    "address": "MORZOS 10 BAJO. SAN ROMAN. ENCROBAS, 15187 ENCROBAS",
+    "approach_method": "Government relations approach",
+    "key_contacts": [
+      "Environmental Manager",
+      "Plant Manager",
+      "Technical Director",
+      "Compliance Officer",
+      "Procurement Manager"
+    ],
+    "company_type": "Public company (Galician Government)",
+    "decision_process": "Public procurement procedures",
+    "headquarters": "Santiago de Compostela, Galicia"
+  },
+  "competitive_analysis": {
+    "market_position": "Waste Management",
+    "regulatory_pressure": "HIGH",
+    "funding_availability": "PUBLIC"
+  }
+}

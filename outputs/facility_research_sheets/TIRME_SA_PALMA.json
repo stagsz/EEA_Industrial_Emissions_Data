@@ -1,0 +1,89 @@
+{
+  "facility_overview": {
+    "company_name": "TIRME, S.A.",
+    "facility_location": "PALMA, Spain",
+    "full_address": "SÓLLER KM 8.2, 7120 PALMA",
+    "facility_type": "Waste-to-Energy/Waste Management",
+    "industry_sector": "Waste Management",
+    "primary_activity": "Municipal solid waste incineration with energy recovery",
+    "lead_score": "85/100",
+    "priority_level": "HIGH"
+  },
+  "emissions_profile": {
+    "total_annual_emissions_tonnes": 5056731.81,
+    "number_of_pollutants": 4,
+    "has_nox": true,
+    "has_co2": true,
+    "has_so2": false,
+    "energy_input_tj_yr": 0,
+    "scoring_details": "Very high total emissions: 5056731.8 tonnes/year; Few pollutant types: 4 pollutants; NOx emissions: 2711000.0 kg/year (regulatory concern); CO2 emissions: 5054000000.0 kg/year; Priority market: ES"
+  },
+  "compliance_analysis": {
+    "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+    "compliance_risks": [
+      {
+        "type": "HIGH",
+        "pollutant": "NOx",
+        "level": "2,711 tonnes/year",
+        "concern": "High NOx emissions likely exceed BAT-AEL standards",
+        "action": "Advanced NOx reduction technology needed"
+      },
+      {
+        "type": "HIGH",
+        "pollutant": "CO2",
+        "level": "5,054,000 tonnes/year",
+        "concern": "Subject to EU ETS - carbon trading obligations",
+        "action": "EU ETS compliance and carbon reduction strategies"
+      }
+    ],
+    "immediate_concerns": [
+      {
+        "type": "HIGH",
+        "pollutant": "NOx",
+        "level": "2,711 tonnes/year",
+        "concern": "High NOx emissions likely exceed BAT-AEL standards",
+        "action": "Advanced NOx reduction technology needed"
+      },
+      {
+        "type": "HIGH",
+        "pollutant": "CO2",
+        "level": "5,054,000 tonnes/year",
+        "concern": "Subject to EU ETS - carbon trading obligations",
+        "action": "EU ETS compliance and carbon reduction strategies"
+      }
+    ],
+    "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+    "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+  },
+  "business_opportunity": {
+    "immediate_services": [
+      "Emission control system audit",
+      "BAT compliance assessment",
+      "Technology upgrade planning",
+      "Monitoring system enhancement"
+    ],
+    "medium_term_opportunities": [],
+    "estimated_contract_value": "€2-8 million",
+    "decision_timeline": "6-12 months"
+  },
+  "contact_strategy": {
+    "primary_target": "TIRME SA",
+    "location": "PALMA, Spain",
+    "address": "SÓLLER KM 8.2, 7120 PALMA",
+    "approach_method": "B2B corporate sales",
+    "key_contacts": [
+      "Environmental Manager",
+      "Plant Manager",
+      "Technical Director",
+      "Compliance Officer",
+      "Procurement Manager"
+    ],
+    "company_type": "Private corporation",
+    "decision_process": "Corporate procurement"
+  },
+  "competitive_analysis": {
+    "market_position": "Waste Management",
+    "regulatory_pressure": "HIGH",
+    "funding_availability": "PRIVATE"
+  }
+}

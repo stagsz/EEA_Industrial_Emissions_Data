@@ -1,0 +1,66 @@
+{
+  "facility_overview": {
+    "company_name": "GRAFTECH IBERICA, S.L.",
+    "facility_location": "ORORBIA, Spain",
+    "full_address": "ASTRAIN, 31171 ORORBIA",
+    "facility_type": "Chemical/Industrial Manufacturing",
+    "industry_sector": "Chemical/Materials",
+    "primary_activity": "Chemical manufacturing and processing",
+    "lead_score": "50/100",
+    "priority_level": "MEDIUM"
+  },
+  "emissions_profile": {
+    "total_annual_emissions_tonnes": 289.3044,
+    "number_of_pollutants": 2,
+    "has_nox": true,
+    "has_co2": false,
+    "has_so2": false,
+    "energy_input_tj_yr": 0,
+    "scoring_details": "Moderate total emissions: 289.3 tonnes/year; NOx emissions: 289000.0 kg/year (regulatory concern); Priority market: ES"
+  },
+  "compliance_analysis": {
+    "regulatory_framework": "IED Annex I - Chemical industry activities",
+    "compliance_risks": [
+      {
+        "type": "MEDIUM",
+        "pollutant": "NOx",
+        "level": "289 tonnes/year",
+        "concern": "NOx emissions may exceed future stricter standards",
+        "action": "Optimization and monitoring improvements"
+      }
+    ],
+    "immediate_concerns": [],
+    "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+    "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+  },
+  "business_opportunity": {
+    "immediate_services": [
+      "Emission optimization",
+      "Preventive compliance planning",
+      "Monitoring system modernization"
+    ],
+    "medium_term_opportunities": [],
+    "estimated_contract_value": "€500K-3 million",
+    "decision_timeline": "12-18 months"
+  },
+  "contact_strategy": {
+    "primary_target": "GRAFTECH IBERICA SL",
+    "location": "ORORBIA, Spain",
+    "address": "ASTRAIN, 31171 ORORBIA",
+    "approach_method": "B2B corporate sales",
+    "key_contacts": [
+      "Environmental Manager",
+      "Plant Manager",
+      "Technical Director",
+      "Compliance Officer",
+      "Procurement Manager"
+    ],
+    "company_type": "Private corporation",
+    "decision_process": "Corporate procurement"
+  },
+  "competitive_analysis": {
+    "market_position": "Chemical/Materials",
+    "regulatory_pressure": "HIGH",
+    "funding_availability": "PRIVATE"
+  }
+}

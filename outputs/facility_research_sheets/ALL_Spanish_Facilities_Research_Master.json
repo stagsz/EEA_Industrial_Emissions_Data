@@ -1,0 +1,892 @@
+{
+  "generation_date": "2025-10-20T22:32:50.012189",
+  "total_facilities": 11,
+  "facilities": {
+    "SOGAMA - ENCROBAS": {
+      "facility_overview": {
+        "company_name": "SOGAMA",
+        "facility_location": "ENCROBAS, Spain",
+        "full_address": "MORZOS 10 BAJO. SAN ROMAN. ENCROBAS, 15187 ENCROBAS",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "95/100",
+        "priority_level": "CRITICAL"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 763505.3668,
+        "number_of_pollutants": 11,
+        "has_nox": true,
+        "has_co2": true,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 763505.4 tonnes/year; Multiple pollutant types: 11 different pollutants; NOx emissions: 5314000.0 kg/year (regulatory concern); CO2 emissions: 758000000.0 kg/year; Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "CRITICAL",
+            "pollutant": "NOx",
+            "level": "5,314 tonnes/year",
+            "concern": "Extremely high NOx emissions likely exceed all BAT-AEL standards",
+            "action": "Immediate SCR/SNCR implementation required"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "758,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "CRITICAL",
+            "pollutant": "NOx",
+            "level": "5,314 tonnes/year",
+            "concern": "Extremely high NOx emissions likely exceed all BAT-AEL standards",
+            "action": "Immediate SCR/SNCR implementation required"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "758,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emergency compliance assessment",
+          "Advanced emission control technology",
+          "Regulatory compliance consulting",
+          "Continuous monitoring systems"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€5-15 million",
+        "decision_timeline": "3-6 months (urgent compliance)"
+      },
+      "contact_strategy": {
+        "primary_target": "SOGAMA",
+        "location": "ENCROBAS, Spain",
+        "address": "MORZOS 10 BAJO. SAN ROMAN. ENCROBAS, 15187 ENCROBAS",
+        "approach_method": "Government relations approach",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Public company (Galician Government)",
+        "decision_process": "Public procurement procedures",
+        "headquarters": "Santiago de Compostela, Galicia"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PUBLIC"
+      }
+    },
+    "TRACTAMENT I SELECCIÓ DE RESIDUS, SA - Sant Adrià de Besòs": {
+      "facility_overview": {
+        "company_name": "TRACTAMENT I SELECCIÓ DE RESIDUS, SA",
+        "facility_location": "Sant Adrià de Besòs, Spain",
+        "full_address": "EDUARD MARISTANY, 8930 Sant Adrià de Besòs",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "90/100",
+        "priority_level": "CRITICAL"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 3136993.045,
+        "number_of_pollutants": 8,
+        "has_nox": true,
+        "has_co2": true,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 3136993.0 tonnes/year; Several pollutant types: 8 pollutants; NOx emissions: 3888000.0 kg/year (regulatory concern); CO2 emissions: 3133000000.0 kg/year; Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "3,888 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "3,133,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "3,888 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "3,133,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "TRACTAMENT I SELECCIÓ DE RESIDUS SA",
+        "location": "Sant Adrià de Besòs, Spain",
+        "address": "EDUARD MARISTANY, 8930 Sant Adrià de Besòs",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "SOCIEDAD ANONIMA DE INDUSTRIAS CELULOSA ARAGONESA - BURGO DE EBRO (EL)": {
+      "facility_overview": {
+        "company_name": "SOCIEDAD ANONIMA DE INDUSTRIAS CELULOSA ARAGONESA",
+        "facility_location": "BURGO DE EBRO (EL), Spain",
+        "full_address": "EL ESPARTAL, CTRA. CASTELLON KM 21, 50730 BURGO DE EBRO (EL)",
+        "facility_type": "Chemical/Industrial Manufacturing",
+        "industry_sector": "Chemical/Materials",
+        "primary_activity": "Chemical manufacturing and processing",
+        "lead_score": "90/100",
+        "priority_level": "CRITICAL"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 1654410.678,
+        "number_of_pollutants": 5,
+        "has_nox": true,
+        "has_co2": true,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 1654410.7 tonnes/year; Several pollutant types: 5 pollutants; NOx emissions: 2315000.0 kg/year (regulatory concern); CO2 emissions: 1652000000.0 kg/year; Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I - Chemical industry activities",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "2,315 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "1,652,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "2,315 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "1,652,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "SOCIEDAD ANONIMA DE INDUSTRIAS CELULOSA ARAGONESA",
+        "location": "BURGO DE EBRO (EL), Spain",
+        "address": "EL ESPARTAL, CTRA. CASTELLON KM 21, 50730 BURGO DE EBRO (EL)",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Chemical/Materials",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "URBASER, S.A. - MADRID": {
+      "facility_overview": {
+        "company_name": "URBASER, S.A.",
+        "facility_location": "MADRID, Spain",
+        "full_address": "CAÑADA REAL DE MERINAS, 28051 MADRID",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "90/100",
+        "priority_level": "CRITICAL"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 730348.6228,
+        "number_of_pollutants": 5,
+        "has_nox": true,
+        "has_co2": true,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 730348.6 tonnes/year; Several pollutant types: 5 pollutants; NOx emissions: 3316000.0 kg/year (regulatory concern); CO2 emissions: 727000000.0 kg/year; Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "3,316 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "727,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "3,316 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "727,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "URBASER SA",
+        "location": "MADRID, Spain",
+        "address": "CAÑADA REAL DE MERINAS, 28051 MADRID",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "SHOWA DENKO CARBON SPAIN, SA - GRELA (LA)": {
+      "facility_overview": {
+        "company_name": "SHOWA DENKO CARBON SPAIN, SA",
+        "facility_location": "GRELA (LA), Spain",
+        "full_address": "BAÑOS DE ARTEIXO, 15008 GRELA (LA)",
+        "facility_type": "Chemical/Industrial Manufacturing",
+        "industry_sector": "Chemical/Materials",
+        "primary_activity": "Chemical manufacturing and processing",
+        "lead_score": "85/100",
+        "priority_level": "HIGH"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 793.231,
+        "number_of_pollutants": 5,
+        "has_nox": true,
+        "has_co2": false,
+        "has_so2": true,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "High total emissions: 793.2 tonnes/year; Several pollutant types: 5 pollutants; NOx emissions: 480000.0 kg/year (regulatory concern); SO2 emissions: 302000.0 kg/year (requires scrubbing); Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I - Chemical industry activities",
+        "compliance_risks": [
+          {
+            "type": "MEDIUM",
+            "pollutant": "NOx",
+            "level": "480 tonnes/year",
+            "concern": "NOx emissions may exceed future stricter standards",
+            "action": "Optimization and monitoring improvements"
+          },
+          {
+            "type": "MEDIUM",
+            "pollutant": "SO2",
+            "level": "302 tonnes/year",
+            "concern": "SO2 emissions require acid gas treatment",
+            "action": "Wet/dry scrubbing technology implementation"
+          }
+        ],
+        "immediate_concerns": [],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission optimization",
+          "Preventive compliance planning",
+          "Monitoring system modernization"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€500K-3 million",
+        "decision_timeline": "12-18 months"
+      },
+      "contact_strategy": {
+        "primary_target": "SHOWA DENKO CARBON SPAIN SA",
+        "location": "GRELA (LA), Spain",
+        "address": "BAÑOS DE ARTEIXO, 15008 GRELA (LA)",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Chemical/Materials",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "TIRME, S.A. - PALMA": {
+      "facility_overview": {
+        "company_name": "TIRME, S.A.",
+        "facility_location": "PALMA, Spain",
+        "full_address": "SÓLLER KM 8.2, 7120 PALMA",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "85/100",
+        "priority_level": "HIGH"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 5056731.81,
+        "number_of_pollutants": 4,
+        "has_nox": true,
+        "has_co2": true,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 5056731.8 tonnes/year; Few pollutant types: 4 pollutants; NOx emissions: 2711000.0 kg/year (regulatory concern); CO2 emissions: 5054000000.0 kg/year; Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "2,711 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "5,054,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "2,711 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          },
+          {
+            "type": "HIGH",
+            "pollutant": "CO2",
+            "level": "5,054,000 tonnes/year",
+            "concern": "Subject to EU ETS - carbon trading obligations",
+            "action": "EU ETS compliance and carbon reduction strategies"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "TIRME SA",
+        "location": "PALMA, Spain",
+        "address": "SÓLLER KM 8.2, 7120 PALMA",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "SEVEI D INCINERACIÓ RESIDUS URBANS, SA- (TITULAR: SERVEIS MANCOMUNATS D´INCINERACIÓ DE RESIDUS URBANS) - Tarragona": {
+      "facility_overview": {
+        "company_name": "SEVEI D INCINERACIÓ RESIDUS URBANS, SA- (TITULAR: SERVEIS MANCOMUNATS D´INCINERACIÓ DE RESIDUS URBANS)",
+        "facility_location": "Tarragona, Spain",
+        "full_address": "RIU CLAR, 43006 Tarragona",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "60/100",
+        "priority_level": "MEDIUM"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 1135.4,
+        "number_of_pollutants": 2,
+        "has_nox": true,
+        "has_co2": false,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 1135.4 tonnes/year; NOx emissions: 1125000.0 kg/year (regulatory concern); Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "1,125 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "1,125 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "SEVEI D INCINERACIÓ RESIDUS URBANS SA- (TITULAR: SERVEIS MANCOMUNATS D´INCINERACIÓ DE RESIDUS URBANS)",
+        "location": "Tarragona, Spain",
+        "address": "RIU CLAR, 43006 Tarragona",
+        "approach_method": "Municipal government relations",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Municipal consortium",
+        "decision_process": "Multi-municipal decision making"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "HEXCEL FIBERS, S.L. - ILLESCAS": {
+      "facility_overview": {
+        "company_name": "HEXCEL FIBERS, S.L.",
+        "facility_location": "ILLESCAS, Spain",
+        "full_address": "POLÍGONO INDUSTRIAL LA VEREDILLA II. ILLESCAS 45.200 (TOLEDO), 45200 ILLESCAS",
+        "facility_type": "Chemical/Industrial Manufacturing",
+        "industry_sector": "Chemical/Materials",
+        "primary_activity": "Chemical manufacturing and processing",
+        "lead_score": "60/100",
+        "priority_level": "MEDIUM"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 230.685,
+        "number_of_pollutants": 3,
+        "has_nox": true,
+        "has_co2": false,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Moderate total emissions: 230.7 tonnes/year; Few pollutant types: 3 pollutants; NOx emissions: 126000.0 kg/year (regulatory concern); Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I - Chemical industry activities",
+        "compliance_risks": [
+          {
+            "type": "MEDIUM",
+            "pollutant": "NOx",
+            "level": "126 tonnes/year",
+            "concern": "NOx emissions may exceed future stricter standards",
+            "action": "Optimization and monitoring improvements"
+          }
+        ],
+        "immediate_concerns": [],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission optimization",
+          "Preventive compliance planning",
+          "Monitoring system modernization"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€500K-3 million",
+        "decision_timeline": "12-18 months"
+      },
+      "contact_strategy": {
+        "primary_target": "HEXCEL FIBERS SL",
+        "location": "ILLESCAS, Spain",
+        "address": "POLÍGONO INDUSTRIAL LA VEREDILLA II. ILLESCAS 45.200 (TOLEDO), 45200 ILLESCAS",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Chemical/Materials",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "TIRCANTABRIA, S.L.U. - SAN BARTOLOME DE MERUELO": {
+      "facility_overview": {
+        "company_name": "TIRCANTABRIA, S.L.U.",
+        "facility_location": "SAN BARTOLOME DE MERUELO, Spain",
+        "full_address": "BARRIO DE VIERNA, 39192 SAN BARTOLOME DE MERUELO",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "60/100",
+        "priority_level": "MEDIUM"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 2088.8,
+        "number_of_pollutants": 2,
+        "has_nox": true,
+        "has_co2": false,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 2088.8 tonnes/year; NOx emissions: 1737000.0 kg/year (regulatory concern); Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "1,737 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "1,737 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "TIRCANTABRIA SLU",
+        "location": "SAN BARTOLOME DE MERUELO, Spain",
+        "address": "BARRIO DE VIERNA, 39192 SAN BARTOLOME DE MERUELO",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "CONSORCI PER AL TRACTAMENT DE RESIDUS SOLIDS URBANS DEL MARESME - Mataró": {
+      "facility_overview": {
+        "company_name": "CONSORCI PER AL TRACTAMENT DE RESIDUS SOLIDS URBANS DEL MARESME",
+        "facility_location": "Mataró, Spain",
+        "full_address": "C/ DE LA TEIXIDORA (P.I. LES HORTES DEL CAMÍ RAL), 8302 Mataró",
+        "facility_type": "Waste-to-Energy/Waste Management",
+        "industry_sector": "Waste Management",
+        "primary_activity": "Municipal solid waste incineration with energy recovery",
+        "lead_score": "60/100",
+        "priority_level": "MEDIUM"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 1648.0172,
+        "number_of_pollutants": 2,
+        "has_nox": true,
+        "has_co2": false,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Very high total emissions: 1648.0 tonnes/year; NOx emissions: 1648000.0 kg/year (regulatory concern); Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I (5.2) - Disposal/recovery of municipal waste >3 tonnes/hour",
+        "compliance_risks": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "1,648 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          }
+        ],
+        "immediate_concerns": [
+          {
+            "type": "HIGH",
+            "pollutant": "NOx",
+            "level": "1,648 tonnes/year",
+            "concern": "High NOx emissions likely exceed BAT-AEL standards",
+            "action": "Advanced NOx reduction technology needed"
+          }
+        ],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission control system audit",
+          "BAT compliance assessment",
+          "Technology upgrade planning",
+          "Monitoring system enhancement"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€2-8 million",
+        "decision_timeline": "6-12 months"
+      },
+      "contact_strategy": {
+        "primary_target": "CONSORCI PER AL TRACTAMENT DE RESIDUS SOLIDS URBANS DEL MARESME",
+        "location": "Mataró, Spain",
+        "address": "C/ DE LA TEIXIDORA (P.I. LES HORTES DEL CAMÍ RAL), 8302 Mataró",
+        "approach_method": "Municipal government relations",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Municipal consortium",
+        "decision_process": "Multi-municipal decision making"
+      },
+      "competitive_analysis": {
+        "market_position": "Waste Management",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    },
+    "GRAFTECH IBERICA, S.L. - ORORBIA": {
+      "facility_overview": {
+        "company_name": "GRAFTECH IBERICA, S.L.",
+        "facility_location": "ORORBIA, Spain",
+        "full_address": "ASTRAIN, 31171 ORORBIA",
+        "facility_type": "Chemical/Industrial Manufacturing",
+        "industry_sector": "Chemical/Materials",
+        "primary_activity": "Chemical manufacturing and processing",
+        "lead_score": "50/100",
+        "priority_level": "MEDIUM"
+      },
+      "emissions_profile": {
+        "total_annual_emissions_tonnes": 289.3044,
+        "number_of_pollutants": 2,
+        "has_nox": true,
+        "has_co2": false,
+        "has_so2": false,
+        "energy_input_tj_yr": 0,
+        "scoring_details": "Moderate total emissions: 289.3 tonnes/year; NOx emissions: 289000.0 kg/year (regulatory concern); Priority market: ES"
+      },
+      "compliance_analysis": {
+        "regulatory_framework": "IED Annex I - Chemical industry activities",
+        "compliance_risks": [
+          {
+            "type": "MEDIUM",
+            "pollutant": "NOx",
+            "level": "289 tonnes/year",
+            "concern": "NOx emissions may exceed future stricter standards",
+            "action": "Optimization and monitoring improvements"
+          }
+        ],
+        "immediate_concerns": [],
+        "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+        "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+      },
+      "business_opportunity": {
+        "immediate_services": [
+          "Emission optimization",
+          "Preventive compliance planning",
+          "Monitoring system modernization"
+        ],
+        "medium_term_opportunities": [],
+        "estimated_contract_value": "€500K-3 million",
+        "decision_timeline": "12-18 months"
+      },
+      "contact_strategy": {
+        "primary_target": "GRAFTECH IBERICA SL",
+        "location": "ORORBIA, Spain",
+        "address": "ASTRAIN, 31171 ORORBIA",
+        "approach_method": "B2B corporate sales",
+        "key_contacts": [
+          "Environmental Manager",
+          "Plant Manager",
+          "Technical Director",
+          "Compliance Officer",
+          "Procurement Manager"
+        ],
+        "company_type": "Private corporation",
+        "decision_process": "Corporate procurement"
+      },
+      "competitive_analysis": {
+        "market_position": "Chemical/Materials",
+        "regulatory_pressure": "HIGH",
+        "funding_availability": "PRIVATE"
+      }
+    }
+  },
+  "summary_statistics": {
+    "critical_facilities": 4,
+    "high_priority_facilities": 2,
+    "total_estimated_value": "See individual facility estimates",
+    "primary_compliance_concerns": [
+      "NOx emissions",
+      "CO2 reporting",
+      "BAT compliance"
+    ]
+  }
+}

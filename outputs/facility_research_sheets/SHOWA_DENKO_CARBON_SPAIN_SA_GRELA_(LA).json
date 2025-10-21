@@ -1,0 +1,73 @@
+{
+  "facility_overview": {
+    "company_name": "SHOWA DENKO CARBON SPAIN, SA",
+    "facility_location": "GRELA (LA), Spain",
+    "full_address": "BAÑOS DE ARTEIXO, 15008 GRELA (LA)",
+    "facility_type": "Chemical/Industrial Manufacturing",
+    "industry_sector": "Chemical/Materials",
+    "primary_activity": "Chemical manufacturing and processing",
+    "lead_score": "85/100",
+    "priority_level": "HIGH"
+  },
+  "emissions_profile": {
+    "total_annual_emissions_tonnes": 793.231,
+    "number_of_pollutants": 5,
+    "has_nox": true,
+    "has_co2": false,
+    "has_so2": true,
+    "energy_input_tj_yr": 0,
+    "scoring_details": "High total emissions: 793.2 tonnes/year; Several pollutant types: 5 pollutants; NOx emissions: 480000.0 kg/year (regulatory concern); SO2 emissions: 302000.0 kg/year (requires scrubbing); Priority market: ES"
+  },
+  "compliance_analysis": {
+    "regulatory_framework": "IED Annex I - Chemical industry activities",
+    "compliance_risks": [
+      {
+        "type": "MEDIUM",
+        "pollutant": "NOx",
+        "level": "480 tonnes/year",
+        "concern": "NOx emissions may exceed future stricter standards",
+        "action": "Optimization and monitoring improvements"
+      },
+      {
+        "type": "MEDIUM",
+        "pollutant": "SO2",
+        "level": "302 tonnes/year",
+        "concern": "SO2 emissions require acid gas treatment",
+        "action": "Wet/dry scrubbing technology implementation"
+      }
+    ],
+    "immediate_concerns": [],
+    "bat_requirements": "Subject to Best Available Techniques (BAT) conclusions",
+    "monitoring_requirements": "Continuous emission monitoring for key pollutants"
+  },
+  "business_opportunity": {
+    "immediate_services": [
+      "Emission optimization",
+      "Preventive compliance planning",
+      "Monitoring system modernization"
+    ],
+    "medium_term_opportunities": [],
+    "estimated_contract_value": "€500K-3 million",
+    "decision_timeline": "12-18 months"
+  },
+  "contact_strategy": {
+    "primary_target": "SHOWA DENKO CARBON SPAIN SA",
+    "location": "GRELA (LA), Spain",
+    "address": "BAÑOS DE ARTEIXO, 15008 GRELA (LA)",
+    "approach_method": "B2B corporate sales",
+    "key_contacts": [
+      "Environmental Manager",
+      "Plant Manager",
+      "Technical Director",
+      "Compliance Officer",
+      "Procurement Manager"
+    ],
+    "company_type": "Private corporation",
+    "decision_process": "Corporate procurement"
+  },
+  "competitive_analysis": {
+    "market_position": "Chemical/Materials",
+    "regulatory_pressure": "HIGH",
+    "funding_availability": "PRIVATE"
+  }
+}

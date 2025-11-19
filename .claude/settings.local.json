@@ -20,7 +20,10 @@
       "Bash(awk -F',' '{print $4, $5, $6, $7, $8}')",
       "Bash(pip install python-pptx python-docx pillow)",
       "Bash(python outputs/create_sonderborg_pitch_materials.py)",
-      "Bash(python -X utf8 outputs/create_sonderborg_pitch_materials.py)"
+      "Bash(python -X utf8 outputs/create_sonderborg_pitch_materials.py)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

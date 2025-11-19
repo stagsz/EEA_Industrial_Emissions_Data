@@ -104,7 +104,7 @@ def score_facility_with_compliance(row):
     facility_id = row.get('Facility_INSPIRE_ID')
     if pd.notna(facility_id):
         facility_emissions = pollutant_releases[
-            pollutant_releases['Parent_Facility_INSPIRE_ID'] == facility_id
+            pollutant_releases['Facility_INSPIRE_ID'] == facility_id
         ]
     else:
         facility_emissions = pd.DataFrame()

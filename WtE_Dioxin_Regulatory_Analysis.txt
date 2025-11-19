@@ -1,0 +1,185 @@
+WASTE TO ENERGY 2024-2025: DIOXIN & EMISSIONS CONTROL ANALYSIS
+======================================================================
+
+
+======================================================================
+PAGE 135
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 135 
+India  
+Last update: 10-2024 
+Inhabitants [million] 1,429 Number of waste incineration plants 18 
+Municipal solid waste [1,000 t] 55,060 Incineration capacity [1,000 Mg/a]  3,903 
+of which thermally treated [1,000 t] n/a Average age of incineration lines 5 
+Electricity from waste 2022 [GWh] 3,492 Share of total electricity production 2022 [%] 0.2 
+Heat from waste 2022 [TJ] - Share of total heat production 2022 [%] - 
+ 
+Management summary 
+India experiences a WtE boom, mainly driven by waste disposal problems, new waste management handling 
+rules, and governmental incentives. However, most projects still continue to fail, amongst others, due to 
+uncertain project financing conditions. Neverthe less, we expect the Indian market to grow steadily by an 
+average of 0.8 million tonnes annually with 2 to 5 commissionings per year.  
+ 
+Background / market factors / legal framework 
+India is the most populated country in the world. The 2021 decennial census has been postponed several 
+times and the process is now expected to start in 2025. The population data will be announced by 2026. This 
+is impacting the quality of all government statistical surveys, as they are still based on the 2011 census. India’s 
+annual population growth has averaged 1.2% since 2011, down from 1.7% in the previous decade, as 
+government data shows. 
+Even though the share of people living in urban agglomerations has increased in recent years, India still is a 
+very rural country, even when compared to other emerging countries such as China or Indonesia.  
+The administration of an area in urban India is called urban local body (ULB). For the WtE market, the most 
+important ULBs are the Municipal Cooperations (Nagar Nigam/Mahanagar Palika) that administer larger urban 
+areas. 
+For the future, all available prognoses expect a strong increase of waste amounts in India, as a result of the 
+country’s growing population, its economic growth, and higher shares of collected MSW.  
+There is no reliable data on waste amounts available, at least not at the national level. In its annual 
+implementation report on waste legislation, the Central Pollution Control Board (CPCB) requires certain waste 
+data from the federal states and union territories. According to the CPCB report for 2021/2022, total MSW 
+amounts sum up to more than 150,847 tpd or 55.06 million tpy.  
+However, it is noted that this information only includes the collected waste – and not the waste that was 
+produced. In addition, the collected waste does not reflect those waste amounts that are collected by the 
+informal sector due to their value as a secondary raw material, e.g. plastic or paper.  
+======================================================================
+PAGE 137
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 137 
+We do not know of further landfill reduction rules in individual states. On a national level no targets for material 
+recycling have been agreed so far and we do not know of any federal state who has done this on a state-wide 
+level either. 
+In 2012, the Ministry of New and Renewable Energy (MNRE) recognized recovery of MSW as a renewable 
+energy source. 
+The Central Government’s program Swachh Bharat Abhiyan  (“Clean India Mission”), which started in 2014, 
+was covering investments of 620 billion INR (8.4 billion EUR). Under this program,  the Ministry of Urban 
+Development (MoUD) has received 53 proposals for the construction of WtE plants (electric generation 
+capacity of 400 MW) from 22 Indian states. As of December 2023, according to the Central Government, the 
+solid waste processing capacity had increased by around 38.6 million annual tonnes during first 8 years under 
+the programme. 
+There are various ministries dealing with WtE: 
+- The Ministry of Environment, Forests and Climate Change (MoEFCC) is the policy -making body and 
+concerned with determining policies and rules/directives, such as what types of waste can be used for 
+WtE, calorific values, etc.  
+- The Ministry of Urban Development (MOUD funds the projects. A certain amount is budgeted for 
+projects and state governments may submit proposals to receive funding from this budget allocation.  
+- The Ministry of New and Renewable Energy (MNRE) has its own scheme for WtE projects and its own 
+budget to fund these projects.  
+The main incentives for WtE facilities, however, result from feed -in tariffs (FITs) in single states. FITs are not 
+mandatory, but most state Electricity Regulatory Commissions (ERCs) have adopted them. However, it is not 
+possible to give details on all the funding schemes of the different federal states in this report. 
+States are allowed to alter the FITs as per their requirements. The FITs of most WtE plants in India range 
+between INR 6 to 8/kWh (EUR 0.067 to 0.089), which are determined in regard to the regulations of the state 
+ERCs. Some states have introduced flexibl e tariffs that rely, amongst others, on the size and the capital 
+expense of a project. The ERCs are responsible for both conventional and non -conventional (including WtE) 
+sources.  
+In October 2024, the Central Government approved the target sectors for India’s new Carbon Credit and 
+Trading Scheme (CCTS), which is expected to be launched in the 2026-27 financial year. In phase I, the sector 
+“waste handling and disposal” will be included in the CCTS. However, as of October 2024, it remains unclear 
+whether WtE plants will also be covered by the scheme. 
+ 
+Plants 
+As of October 2024, according to our database, 19 WtE plants are active in India with a combined capacity of 
+around 3.9 mtpy. In 2020, we made a larger review of the existing plant asset which explains the decline from 
+2019 to 2020 in our forecast graph. 
+======================================================================
+PAGE 142
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 142 
+# 
+ 
+Project Unit / plant* Capacity (tpy) Start Status 
+20 Kozhikode Plant 164,250 2025 planned 
+21 Mumbai Plant n/a 2025 planned 
+22 Pyaranagar in Jinnaram RDF Plant n/a 2025 planned 
+23 Ahmedabad 2 Plant 219,000 2026 planned 
+24 Bawana Plant 1,095,000 2026 planned 
+25 Delhi Narela Bawana Plant 1,095,000 2026 planned 
+26 Jaipur Langdiyawas Plant 365,000 2026 planned 
+27 Chandigarh Plant 128,000 n/a planned 
+28 Delhi Bhalswa Plant 480,000 n/a planned 
+29 
+Delhi Timarpur Okhla Waste 
+Management Company RDF Plant n/a n/a planned 
+30 Doddabidarakallu RDF Plant 36,500 n/a planned 
+31 Ghaziabad-Galand Plant 547,500 n/a planned 
+32 Goa RDF Plant n/a n/a planned 
+33 Guwahati Plant n/a n/a planned 
+34 Indore Plant 182,500 n/a planned 
+35 Jawaharnagar RDF Unit 230,850 n/a planned 
+36 Jawaharnagar RDF Unit 230,850 n/a planned 
+37 Kanpur RDF Plant 547,500 n/a planned 
+38 Mavallipura Plant 219,000 n/a planned 
+39 Moshi WtE plant Unit 115,830 n/a planned 
+40 Munnar Plant 6,400 n/a planned 
+41 Noida Plant n/a n/a planned 
+42 Rajahmundry Plant 401,500 n/a planned 
+43 Shishambara RDF Plant 160,000 n/a planned 
+44 Shivri Plant 480,000 n/a planned 
+45 
+Vadodara Abelan Clean 
+Energy Plant n/a n/a planned 
+46 Varanasi Plant 219,000 n/a planned 
+47 Muzaffarnagar Plant n/a 2025 discussed 
+48 Chelora Plant n/a n/a discussed 
+49 Coimabatore Plant 224,000 n/a discussed 
+50 Delhi Narela-Bawana RDF Unit n/a n/a discussed 
+51 Delhi Tehkhand Unit 365,000 n/a discussed 
+52 Gwalior Plant n/a n/a discussed 
+53 Kollam Plant 64,000 n/a discussed 
+54 Ludhiana Plant 219,000 n/a discussed 
+======================================================================
+PAGE 146
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 146 
+Indonesia 
+Last update: 10-2024 
+Inhabitants [million] 277,5 Number of waste incineration plants 3 
+Municipal solid waste [1,000 t] 38,400 Incineration capacity [1,000 Mg/a] 541 
+of which thermally treated [1,000 t] n/a Average age of incineration lines 3 
+Electricity from waste 2022 [GWh] 44 Share of total electricity production 2022 [%] 0.0 
+Heat from waste 2022 [TJ] - Share of total heat production 2022 [%] - 
+ 
+Management summary 
+Driven by a robust economy and growing population, Indonesia could be an interesting WtE market in the 
+future, if the regulatory framework is upheld. However, several obstacles remain, like the still slow project 
+development and several uncertainties, e.g.  on financing. A regulation from 2018 aims for at least 12 plants 
+but only 2 of them became operational until today. 
+ 
+Background / market factors / legal framework 
+Indonesia's gross domestic product growth is forecast to average 5.1% per year from 2024 to 2026. The 
+country’s economic growth has resulted in increasing waste amounts, especially in metropolitan regions.  
+The progress in waste management in Indonesia still focuses to a great extent on institution building, collecting 
+reliable data on waste volumes and increasing the waste treatment share.  
+According to the National Waste Management Information System (SIPSN), household waste and similar 
+amounts increased from 36.2 million tonnes in 2022 to 38.4 million tonnes in 2023. Of this amount, the largest 
+share (39.7%) was food waste.  
+Ever since the first national waste law came into force in 2008, different laws and regulations for more detailed 
+issues came into force, such as the Government Regulation (GR) 81/2019 on household waste and household 
+waste like waste management. The Presidential Regulation (PR) 97/2017 defines a waste reduction target of 
+30% between 2017 and 2025. Moreover, a waste treatment rate of 70% is targeted. In 2023, however, less 
+waste was treated: 23.7 million tonnes (61.6%), compared to 23.2 million tonnes (64%) in 2022. A breakdown 
+into different types of treatment is not available.  
+Waste-to-Energy has been established as a National Strategic Program in the President Decree 58/2017. 
+According to its National Electric Generation Plan 2021 -2030 (RUPTL), state -owned utility PT Perusahaan 
+Listrik Negara (PLN) aims at reaching 277.5 MW in WtE capacities in 2030. Moreover, waste incineration has 
+been added to Indonesia’s 2021 updated Nationally Determined Contribution (NDC), which includes the 
+country’s emissions reduction goals under the 2015 Paris climate agreement.  
+The Presidential Regulation No 35/2018 regards the acceleration of the thermal treatment of solid waste. 
+Within this regulation, 12 cities are targeted as future location of WtE plants: Jakarta, Tangerang, South 
+Tangerang, Bekasi, Bandung, Semarang, Suraka rta, Surabaya, Makassar, Denpasar, Palembang and 
+Manado. It replaced the form regulation 18/2016 in which 7 cities were named.  

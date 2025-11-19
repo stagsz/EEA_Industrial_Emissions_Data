@@ -25,7 +25,8 @@
       "Bash(dir:*)",
       "Bash(cat:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(pdftotext:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,604 @@
+
+======================================================================
+PAGE 1
+======================================================================
+ 
+Picture credits: top left: WtE plant in Olsztyn, Poland, by courtesy of Doosan Lentjes GmbH; top right: © zlikovec – stock.adobe.com;  
+bottom: WtE plant in Warsaw, Poland, by courtesy of Doosan Lentjes GmbH, © MPO Sp. z o.o. w m.st. Warszawie. 
+ 
+ 
+ Waste to Energy 2024/2025 
+Technologies, plants, projects, players and backgrounds of the 
+global thermal waste treatment business  
+17th edition, 2024 
+
+
+======================================================================
+PAGE 2
+======================================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+======================================================================
+PAGE 3
+======================================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Waste to Energy 2024/2025 
+Technologies, plants, projects, players and backgrounds of the 
+global thermal waste treatment business  
+ 
+17th edition, 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mark Döing 
+Jonas Havel 
+Johannes Eich 
+Neele Buchholz 
+Helena Kresimon 
+ 
+ 
+
+======================================================================
+PAGE 4
+======================================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2024, ecoprog GmbH  
+In addition to the authors themselves, many people and institutions in the private waste management sector 
+as well as public sector authorities throughout the world contributed data to this research project. We would 
+like to take this opportunity to thank them for their assistance.  
+All the information relating to this study has been carefully researched, but we cannot guarantee its 
+accuracy. 
+  
+
+======================================================================
+PAGE 5
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 5 
+Content 
+ 
+Preface ................................ ................................ ................................ ................................ ......... 19 
+Management Summary ................................ ................................ ................................ ............... 21 
+Part I: Market and competition ................................ ................................ ................................ ... 25 
+1 This year’s highlights and trends ................................ ................................ ...................... 27 
+2 Plants worldwide ................................ ................................ ................................ ................ 29 
+2.1 Europe 34 
+2.2 Asia 36 
+2.3 North America 38 
+2.4 Rest of the world 39 
+3 Market development & forecast ................................ ................................ ......................... 41 
+3.1 Global market 41 
+3.2 Europe 44 
+3.3 Asia 46 
+3.4 North America 48 
+3.5 Africa & Middle East 49 
+3.6 Rest of the world 50 
+4 Operators: competition and market shares ................................ ................................ ...... 51 
+5 Technology providers: competition and market shares ................................ .................. 57 
+6 National markets ................................ ................................ ................................ ................. 63 
+6.1 Africa & Middle East 63 
+Egypt ............................................ 63 
+Israel ............................................ 66 
+Kuwait .......................................... 69 
+Qatar ............................................ 71 
+Saudi Arabia ................................ 73 
+United Arab Emirates .................. 76 
+Rest of Africa & Middle East ........ 81 
+6.2 Asia 85 
+China ............................................ 85 
+India ........................................... 135 
+Indonesia ................................... 146 
+Japan ......................................... 153 
+Malaysia ..................................... 191 
+Pakistan ..................................... 199 
+Philippines .................................. 204 
+
+======================================================================
+PAGE 6
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 6 
+Singapore .................................. 211 
+South Korea ............................... 217 
+Taiwan ....................................... 233 
+Thailand ..................................... 241 
+Vietnam ...................................... 250 
+Rest of Asia ............................... 258 
+6.3 Australia & Pacific 262 
+Australia ..................................... 262 
+Rest of Australia & Pacific ......... 268 
+6.4 Europe 270 
+Albania ....................................... 270 
+Austria ........................................ 276 
+Belgium ...................................... 282 
+Bulgaria ...................................... 288 
+Croatia ....................................... 292 
+Czech Republic.......................... 296 
+Denmark .................................... 303 
+Estonia ....................................... 311 
+Finland ....................................... 314 
+France ........................................ 321 
+Germany .................................... 335 
+Greece ....................................... 347 
+Hungary ..................................... 351 
+Ireland ........................................ 355 
+Italy ............................................ 360 
+Latvia ......................................... 369 
+Lithuania .................................... 372 
+Netherlands ................................ 377 
+Poland ........................................ 391 
+Portugal ...................................... 401 
+Romania ..................................... 406 
+Russia ........................................ 409 
+Serbia ......................................... 416 
+Slovakia ..................................... 421 
+Slovenia ..................................... 428 
+Spain .......................................... 434 
+Sweden ...................................... 441 
+Switzerland ................................ 448 
+Turkey ........................................ 457 
+United Kingdom ......................... 462 
+Rest of Europe ........................... 477 
+6.5 North America 480 
+Canada ...................................... 480 
+USA ............................................ 486 
+Rest of North America & Caribbiean
+ ................................................... 497 
+6.6 South & Central America 499 
+Brazil .......................................... 499 
+Mexico ........................................ 505 
+Rest of South & Central America
+ ................................................... 507 
+Part II: Background ................................ ................................ ................................ ................... 509 
+7 Scope ................................ ................................ ................................ ................................ . 511 
+7.1 Technology 511 
+7.2 Type of fuel or waste 511 
+7.3 Co- and mono-incinerators 514 
+7.4 Geographical differentiation 515 
+
+======================================================================
+PAGE 7
+======================================================================
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 7 
+8 Technology ................................ ................................ ................................ ....................... 517 
+8.1 Delivery and sorting/pre-treatment of fuel 517 
+8.2 Thermal treatment: incineration & gasification 521 
+8.3 Generation of energy 531 
+8.4 Flue gas cleaning 532 
+8.5 Carbon capture, storage and utilisation 533 
+9 Costs and revenues ................................ ................................ ................................ .......... 535 
+9.1 Investment sum 536 
+9.2 Operating costs 538 
+9.3 Revenues 540 
+10 Waste market drivers ................................ ................................ ................................ ....... 545 
+10.1 WtE and its role in circular economy 545 
+10.2 Shortage of land 546 
+10.3 Population growth and urbanisation 548 
+10.4 Changing waste characteristics 548 
+10.5 Landfill standards 549 
+10.6 Landfill fees and bans 549 
+10.7 Concerns against WtE 550 
+10.8 WtE vs Recycling 551 
+10.9 Incineration fees 552 
+10.10 Investment constraints 553 
+10.11 Alternative technologies 553 
+11 Energy market drivers ................................ ................................ ................................ ...... 559 
+11.1 Waste as a fuel 559 
+11.2 Feed-in tariffs 560 
+11.3 Decarbonisation 560 
+Methodology/data ................................ ................................ ................................ ...................... 565 
+Glossary, abbreviations ................................ ................................ ................................ ............ 569 
+Appendix 1: Details on active plants ................................ ................................ ....................... 571 
+Appendix 2: Known projects worldwide ................................ ................................ .................. 573 
+Appendix 3: Prognosis data ................................ ................................ ................................ ..... 575 
+
+======================================================================
+PAGE 8
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 8 
+ecoprog
+Figures 
+ 
+Figure 1: Plants worldwide ............................................................................................................................... 29 
+Figure 2: Incineration capacities worldwide (in tonnes) ................................................................................... 30 
+Figure 3: Operational waste incineration plants worldwide (as of late 2023)  ................................................... 31 
+Figure 4: Incineration capacities worldwide (in PJ) .......................................................................................... 32 
+Figure 5: Worldwide capacity by type of technology ........................................................................................ 32 
+Figure 6: Average plant size and age by region ............................................................................................... 33 
+Figure 7: Plants and treatment capacities in Europe ....................................................................................... 34 
+Figure 8: Capacities and lines by age in Europe .............................................................................................. 35 
+Figure 9: Average age by country in Europe .................................................................................................... 36 
+Figure 10: Plants and treatment capacities in Asia .......................................................................................... 37 
+Figure 11: Capacities and lines by age in Asia ................................................................................................ 37 
+Figure 12: Average age by country in Asia ...................................................................................................... 38 
+Figure 13: Plants and treatment capacities in North America .......................................................................... 39 
+Figure 14: Capacities and lines by age in North America ................................................................................ 39 
+Figure 15: Growth of capacities and market forecast until 2033 ...................................................................... 41 
+Figure 16: Projection of capacity growth by region .......................................................................................... 42 
+Figure 17: Development of investment volumes, commissioning, and maintenance  ...................................... 43 
+Figure 18: Market for the new construction of plants 2024-2033 by region ..................................................... 44 
+Figure 19: Development of plants and capacities in Europe ............................................................................ 45 
+Figure 20: European market forecast by subregion ......................................................................................... 46 
+Figure 21: Development of plants and capacities in Asia ................................................................................ 47 
+Figure 22: Asian market forecast by subregion ................................................................................................ 48 
+Figure 23: Development of plants and capacities in North America ................................................................ 49 
+Figure 24: Development of plants and capacities in Africa & Middle East ....................................................... 50 
+Figure 25: WtE plant operators worldwide ....................................................................................................... 53 
+Figure 26: Market shares of plant manufacturers worldwide ........................................................................... 57 
+Figure 27: Market shares of plant manufacturers Europe ................................................................................ 59 
+Figure 28: Market shares outside Europe and China ....................................................................................... 59 
+Figure 29: Technology providers worldwide ..................................................................................................... 61 
+
+======================================================================
+PAGE 9
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 9 
+ecoprog
+Figure 30: Development of plants and capacities in Egypt .............................................................................. 64 
+Figure 31: Project outlook Egypt ...................................................................................................................... 65 
+Figure 32: Project outlook Israel ....................................................................................................................... 67 
+Figure 33: Development of plants and capacities in Qatar .............................................................................. 72 
+Figure 34: Shares of incineration, recycling and landfilling of municipal solid waste in Saudi Arabia  ............. 74 
+Figure 35: Project outlook Saudi Arabia ........................................................................................................... 75 
+Figure 36: Shares of incineration, recycling and landfilling of municipal solid waste in UAE  .......................... 76 
+Figure 37: Capacities and lines by age in UAE ................................................................................................ 77 
+Figure 38: Development of plants and capacities in UAE ................................................................................ 78 
+Figure 39: Project outlook UAE ........................................................................................................................ 79 
+Figure 40: Locations of plants and projects in the UAE ................................................................................... 80 
+Figure 41: Project outlook Africa & Middle East ............................................................................................... 81 
+Figure 42: Capacities and lines by age in Rest of Africa & Middle East .......................................................... 83 
+Figure 43: Development of plants and capacities in the Rest of Africa & Middle East  .................................... 84 
+Figure 44: Shares of incineration, recycling and landfilling of municipal solid waste in China  ........................ 86 
+Figure 45: Capacities and lines by age in China .............................................................................................. 87 
+Figure 46: Commissioned plants and capacities per year ............................................................................... 88 
+Figure 47: Development of plants and capacities in China .............................................................................. 90 
+Figure 48: Project outlook China ...................................................................................................................... 90 
+Figure 49: The largest WtE plant developing companies in China .................................................................. 99 
+Figure 50: Licensees in China ........................................................................................................................ 100 
+Figure 51: Locations of plants and projects in China ..................................................................................... 101 
+Figure 52: Capacities and lines by age in India ............................................................................................. 136 
+Figure 53: Development of plants and capacities in India .............................................................................. 138 
+Figure 54: Locations of plants and projects in India ....................................................................................... 140 
+Figure 55: Project outlook India ...................................................................................................................... 141 
+Figure 56: Development of plants and capacities in Indonesia ...................................................................... 147 
+Figure 57: Capacities and lines by age in Indonesia ...................................................................................... 148 
+Figure 58: Project outlook Indonesia .............................................................................................................. 149 
+Figure 59: Locations of plants and projects in Indonesia ............................................................................... 152 
+Figure 60: Shares of incineration, recycling and landfilling of municipal solid waste in Japan  ...................... 153 
+
+======================================================================
+PAGE 10
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 10 
+ecoprog
+Figure 61: Capacities and lines by age in Japan ........................................................................................... 154 
+Figure 62: Development of plants and capacities in Japan ............................................................................ 155 
+Figure 63: Project outlook Japan .................................................................................................................... 157 
+Figure 64: Locations of plants and projects in Japan ..................................................................................... 159 
+Figure 65: Shares of treatment types of municipal solid waste in Malaysia  ................................................... 192 
+Figure 66: Basic FIT rates for biomass (solid waste) in Malaysia .................................................................. 192 
+Figure 67: Capacities and lines by age in Malaysia ....................................................................................... 193 
+Figure 68: Project outlook Malaysia ............................................................................................................... 194 
+Figure 69: Development of plants and capacities in Malaysia ....................................................................... 196 
+Figure 70: Locations of plants and projects in Malaysia ................................................................................ 197 
+Figure 71: Development of plants and capacities in Pakistan ........................................................................ 200 
+Figure 72: Project outlook Pakistan ................................................................................................................ 201 
+Figure 73: Locations of plants and projects in Pakistan ................................................................................. 202 
+Figure 74: Development of plants and capacities in the Philippines .............................................................. 206 
+Figure 75: Project outlook Philippines ............................................................................................................ 207 
+Figure 76: Locations of plants and projects in the Philippines ....................................................................... 209 
+Figure 77: Shares of incineration, recycling and landfilling of solid waste in Singapore  ................................ 211 
+Figure 78: Capacities and lines by age in Singapore ..................................................................................... 213 
+Figure 79: Development of plants and capacities in Singapore ..................................................................... 214 
+Figure 80: Project outlook Singapore ............................................................................................................. 214 
+Figure 81: Locations of plants and projects in Singapore .............................................................................. 216 
+Figure 82: Shares of incineration, recycling, and landfilling of municipal solid waste in South Korea  ........... 217 
+Figure 83: Throughput of waste incineration plants in South Korea .............................................................. 218 
+Figure 84: Locations of plants and projects in South Korea ........................................................................... 219 
+Figure 85: Capacities and lines by age in South Korea ................................................................................. 221 
+Figure 86: Development of plants and capacities in South Korea ................................................................. 222 
+Figure 87: Project outlook South Korea ......................................................................................................... 223 
+Figure 88: Shares of incineration, recycling, and landfilling of municipal solid waste in Taiwan  ................... 234 
+Figure 89: Capacities and lines by age in Taiwan .......................................................................................... 235 
+Figure 90: Project outlook Taiwan .................................................................................................................. 236 
+Figure 91: Development of plants and capacities in Taiwan .......................................................................... 236 
+
+======================================================================
+PAGE 11
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 11 
+ecoprog
+Figure 92: Locations of plants and projects in Taiwan ................................................................................... 238 
+Figure 93: Shares of municipal solid waste disposal in Thailand ................................................................... 241 
+Figure 94: Development of plants and capacities in Thailand ........................................................................ 243 
+Figure 95: Capacities and lines by age in Thailand ....................................................................................... 244 
+Figure 96: Project outlook Thailand ................................................................................................................ 245 
+Figure 97: Locations of plants and projects in Thailand ................................................................................. 249 
+Figure 98: Shares of incineration, recycling and landfilling of municipal solid waste in Vietnam  ................... 250 
+Figure 99: Capacities and lines by age in Vietnam ........................................................................................ 251 
+Figure 100: Development of plants and capacities in Vietnam ...................................................................... 253 
+Figure 101: Project outlook Vietnam .............................................................................................................. 253 
+Figure 102: Locations of plants and projects in Vietnam ............................................................................... 256 
+Figure 103: Project outlook Rest of Asia ........................................................................................................ 258 
+Figure 104: Capacities and lines by age in Rest of Asia ................................................................................ 259 
+Figure 105: Development of plants and capacities in the Rest of Asia .......................................................... 260 
+Figure 106: Shares of incineration, recycling and landfilling of municipal solid waste in Australia  ................ 262 
+Figure 107: Landfill levy rates in Australia ...................................................................................................... 263 
+Figure 108: Development of plants and capacities in Australia ..................................................................... 265 
+Figure 109: Project outlook Australia ............................................................................................................. 266 
+Figure 110: Locations of plants and projects in Australia ............................................................................... 267 
+Figure 111: Development of plants and capacities in the Rest of Australia & Pacific  .................................... 268 
+Figure 112: Project outlook Rest of Australia & Pacific .................................................................................. 269 
+Figure 113: Shares of incineration, recycling and landfilling of municipal solid waste in Albania  .................. 270 
+Figure 114: Project outlook Albania ............................................................................................................... 272 
+Figure 115: Development of plants and capacities in Albania ....................................................................... 273 
+Figure 116: Locations of plants and projects in Albania ................................................................................. 274 
+Figure 117: Shares of incineration, recycling and landfilling of municipal solid waste in Austria  ................... 276 
+Figure 118: Capacities and lines by age in Austria ........................................................................................ 278 
+Figure 119: Development of plants and capacities in Austria ........................................................................ 279 
+Figure 120: Locations of plants and projects in Austria ................................................................................. 280 
+Figure 121: Shares of incineration, recycling and landfilling of municipal solid waste in Belgium  ................. 282 
+Figure 122: Capacities and lines by age in Belgium ...................................................................................... 284 
+
+======================================================================
+PAGE 12
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 12 
+ecoprog
+Figure 123: Development of plants and capacities in Belgium ...................................................................... 285 
+Figure 124: Project outlook Belgium .............................................................................................................. 285 
+Figure 125: Locations of plants and projects in Belgium ................................................................................ 286 
+Figure 126: Shares of incineration, recycling and landfilling of municipal solid waste in Bulgaria  ................. 288 
+Figure 127: Development of plants and capacities in Bulgaria ...................................................................... 290 
+Figure 128: Project outlook Bulgaria .............................................................................................................. 291 
+Figure 129: Shares of incineration, recycling and landfilling of municipal solid waste in Croatia  .................. 292 
+Figure 130: Development of plants and capacities in Croatia ........................................................................ 294 
+Figure 131: Project outlook Croatia ................................................................................................................ 295 
+Figure 132: Shares of incineration, recycling and landfilling of municipal solid waste in the Czech Republic
+ ........................................................................................................................................................................ 296 
+Figure 133: Capacities and lines by age in Czech Republic .......................................................................... 298 
+Figure 134: Development of plants and capacities in the Czech Republic .................................................... 299 
+Figure 135: Project outlook Czech Republic .................................................................................................. 299 
+Figure 136: Locations of plants and projects in the Czech Republic ............................................................. 301 
+Figure 137: Shares of incineration, recycling and landfilling of municipal solid waste in Denmark  ............... 303 
+Figure 138: Capacities and lines by age in Denmark ..................................................................................... 305 
+Figure 139: Development of plants and capacities in Denmark ..................................................................... 307 
+Figure 140: Locations of plants and projects in Denmark .............................................................................. 308 
+Figure 141: Shares of incineration, recycling and landfilling of municipal solid waste in Estonia  .................. 311 
+Figure 142: Shares of incineration, recycling and landfilling of municipal solid waste in Finland  .................. 314 
+Figure 143: Capacities and lines by age in Finland ....................................................................................... 315 
+Figure 144: Project outlook Finland ................................................................................................................ 316 
+Figure 145: Development of plants and capacities in Finland ........................................................................ 317 
+Figure 146: Locations of plants and projects in Finland ................................................................................. 319 
+Figure 147: Shares of incineration, recycling and landfilling of municipal solid waste in France  ................... 321 
+Figure 148: Development of plants and capacities in France ........................................................................ 323 
+Figure 149: Capacities and lines by age in France ........................................................................................ 324 
+Figure 150: Project outlook France ................................................................................................................ 325 
+Figure 151: Locations of plants and projects in France ................................................................................. 327 
+Figure 152: Shares of incineration, recycling and landfilling of municipal solid waste in Germany  ............... 335 
+
+======================================================================
+PAGE 13
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 13 
+ecoprog
+Figure 153: Capacities and lines by age in Germany .................................................................................... 336 
+Figure 154: Project outlook Germany ............................................................................................................. 337 
+Figure 155: Development of plants and capacities in Germany..................................................................... 338 
+Figure 156: Locations of plants and projects in Germany .............................................................................. 340 
+Figure 157: Shares of incineration, recycling and landfilling of municipal solid waste in Greece  .................. 348 
+Figure 158: Greece’s demand for WtE facilities due to the National Waste Management Plan  .................... 350 
+Figure 159: Development of plants and capacities in Greece ........................................................................ 350 
+Figure 160: Shares of incineration, recycling and landfilling of municipal solid waste in Hungary  ................ 352 
+Figure 161: Project outlook Hungary .............................................................................................................. 353 
+Figure 162: Development of plants and capacities in Hungary ...................................................................... 354 
+Figure 163: Shares of incineration, recycling and landfilling of municipal solid waste in Ireland  ................... 355 
+Figure 164: Capacities and lines by age in Ireland ........................................................................................ 356 
+Figure 165: Project outlook Ireland ................................................................................................................ 357 
+Figure 166: Locations of plants and projects in Ireland .................................................................................. 358 
+Figure 167: Development of plants and capacities in Ireland ........................................................................ 359 
+Figure 168: Shares of incineration, recycling and landfilling of municipal solid waste in Italy  ....................... 360 
+Figure 169: Capacities and lines by age in Italy ............................................................................................. 362 
+Figure 170: Project outlook Italy ..................................................................................................................... 363 
+Figure 171: Development of plants and capacities in Italy ............................................................................. 365 
+Figure 172: Locations of plants and projects in Italy ...................................................................................... 366 
+Figure 173: Shares of incineration, recycling and landfilling of municipal solid waste in Latvia  .................... 369 
+Figure 174: Development of plants and capacities in Latvia .......................................................................... 370 
+Figure 175: Shares of incineration, recycling and landfilling of municipal solid waste in Lithuania  ............... 372 
+Figure 176: Development of plants and capacities in Lithuania ..................................................................... 374 
+Figure 177: Locations of plants and projects in Lithuania .............................................................................. 375 
+Figure 178: Shares of incineration, recycling and landfilling of municipal solid waste in the Netherlands  .... 377 
+Figure 179: Capacities and lines by age in the Netherlands .......................................................................... 378 
+Figure 180: Development of the Dutch CO2 price as of 2024 ........................................................................ 379 
+Figure 181: Development of plants and capacities in the Netherlands .......................................................... 381 
+Figure 182: Project outlook Netherlands ........................................................................................................ 381 
+Figure 183: Locations of plants and projects in the Netherlands ................................................................... 382 
+
+======================================================================
+PAGE 14
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 14 
+ecoprog
+Figure 184: Shares of incineration, recycling and landfilling of municipal solid waste in Norway  .................. 384 
+Figure 185: Capacities and lines by age in Norway ....................................................................................... 385 
+Figure 186: Project outlook Norway ............................................................................................................... 386 
+Figure 187: Development of plants and capacities in Norway ....................................................................... 387 
+Figure 188: Locations of plants and projects in Norway ................................................................................ 389 
+Figure 189: Shares of incineration, recycling and landfilling of municipal solid waste in Poland  ................... 391 
+Figure 190: Capacities and lines by age in Poland ........................................................................................ 392 
+Figure 191: Project outlook Poland ................................................................................................................ 394 
+Figure 192: Development of plants and capacities in Poland ........................................................................ 397 
+Figure 193: Locations of plants and projects in Poland ................................................................................. 398 
+Figure 194: Shares of incineration, recycling and landfilling of municipal solid waste in Portugal  ................ 401 
+Figure 195: Capacities and lines by age in Portugal ...................................................................................... 402 
+Figure 196: Development of plants and capacities in Portugal ...................................................................... 403 
+Figure 197: Project outlook Portugal .............................................................................................................. 404 
+Figure 198: Locations of plants and projects in Portugal ............................................................................... 405 
+Figure 199: Shares of incineration, recycling and landfilling of municipal solid waste in Romania  ............... 406 
+Figure 200: Project outlook Romania ............................................................................................................. 408 
+Figure 201: Shares of landfilling and other waste treatment of municipal solid waste in Russia  ................... 409 
+Figure 202: Capacities and lines by age in Russia ........................................................................................ 410 
+Figure 203: Development of plants and capacities in Russia ........................................................................ 411 
+Figure 204: Project outlook Russia ................................................................................................................ 413 
+Figure 205: Locations of plants and projects in Russia .................................................................................. 414 
+Figure 206: Shares of incineration, recycling and landfilling of municipal solid waste in Serbia  ................... 417 
+Figure 207: Development of plants and capacities in Serbia ......................................................................... 418 
+Figure 208: Project outlook Serbia ................................................................................................................. 418 
+Figure 209: Locations of plants and projects in Serbia .................................................................................. 419 
+Figure 210: Shares of incineration, recycling and landfilling of municipal solid waste in Slovakia  ................ 421 
+Figure 211: Development of plants and capacities in Slovakia ...................................................................... 422 
+Figure 212: Project outlook Slovakia .............................................................................................................. 423 
+Figure 213: Locations of plants and projects in Slovakia ............................................................................... 425 
+Figure 214: Shares of incineration, recycling and landfilling of municipal solid waste in Slovenia  ................ 428 
+
+======================================================================
+PAGE 15
+======================================================================
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 15 
+ecoprog
+Figure 215: Development of plants and capacities in Slovenia...................................................................... 430 
+Figure 216: Project outlook Slovenia .............................................................................................................. 430 
+Figure 217: Locations of plants and projects in Slovenia ............................................................................... 432 
+Figure 218: Shares of incineration, recycling and landfilling of municipal solid waste in Spain  ..................... 434 
+Figure 219: Capacities and lines by age in Spain .......................................................................................... 435 
+Figure 220: Development of plants and capacities in Spain .......................................................................... 437 
+Figure 221: Project outlook Spain .................................................................................................................. 438 
+Figure 222: Locations of plants and projects in Spain ................................................................................... 439 
+Figure 223: Shares of incineration, recycling and landfilling of municipal solid waste in Sweden  ................. 441 
+Figure 224: Capacities and lines by age in Sweden ...................................................................................... 442 
+Figure 225: Development of plants and capacities in Sweden ...................................................................... 444 
+Figure 226: Project outlook Sweden .............................................................................................................. 444 
+Figure 227: Locations of plants and projects in Sweden ................................................................................ 447 
+Figure 228: Shares of incineration, recycling and landfilling of municipal solid waste in Switzerland  ........... 448 
+Figure 229: Capacities and lines by age in Switzerland ................................................................................. 449 
+Figure 230: Development of plants and capacities in Switzerland ................................................................. 451 
+Figure 231: Project outlook Switzerland ......................................................................................................... 452 
+Figure 232: Locations of plants and projects in Switzerland .......................................................................... 454 
+Figure 233: Shares of incineration, recycling and landfilling of municipal solid waste in Turkey  ................... 458 
+Figure 234: Project outlook Turkey ................................................................................................................ 459 
+Figure 235: Development of plants and capacities in Turkey ........................................................................ 460 
+Figure 236: Locations of plants and projects in Turkey .................................................................................. 461 
+Figure 237: Rise of the landfill tax in England ................................................................................................ 462 
+Figure 238: Waste from households in the UK .............................................................................................. 463 
+Figure 239: Treatment of waste in the UK ...................................................................................................... 464 
+Figure 240: Treatment of waste managed from local authorities in England  ................................................. 465 
+Figure 241: Bonus payment process in regard to the market electricity price  ............................................... 466 
+Figure 242: Capacities and lines by age in the UK ........................................................................................ 467 
+Figure 243: Development of plants and capacities in the UK ........................................................................ 468 
+Figure 244: Project outlook United Kingdom .................................................................................................. 469 
+Figure 245: Locations of plants and projects in the UK .................................................................................. 473 

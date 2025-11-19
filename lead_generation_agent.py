@@ -1,24 +1,28 @@
 """
 SPIG-GMAB Lead Generation Agent
-Target: WASTE-TO-ENERGY PLANTS - Energy Recovery Optimization
+Target: WASTE-TO-ENERGY PLANTS - Dioxin Reduction & Energy Recovery Optimization
 
 Company: SPIG-GMAB (www.SPIG-GMAB.com)
 Mission: "TOGETHER WE SUCCEED, TOGETHER WE GO GREEN"
-Solutions: GMAB – Waste-to-Energy Optimization Technologies
+Solutions: GMAB – Advanced Emission Control & Energy Recovery Technologies
+- APCD (Air Pollution Control Device) systems for dioxin/PCDD/PCDF reduction
+- De novo synthesis prevention in flue gas treatment
+- Memory effect mitigation strategies
+- I-TEQ/TEQ dioxin toxicity equivalent compliance
 - Advanced energy recovery systems for waste incineration plants
-- Flue gas heat recovery and optimization
-- Steam cycle efficiency improvements
-- Emission control with energy recovery
+- Flue gas heat recovery with integrated emission control
+- Steam cycle efficiency improvements with clean emissions
 - Thermal energy maximization from waste combustion
 
 This agent finds WASTE-TO-ENERGY facilities needing:
-- Municipal solid waste (MSW) incineration plants
-- Industrial waste treatment facilities
+- Municipal solid waste (MSW) incineration plants with dioxin issues
+- Industrial waste treatment facilities with emission violations
 - Biomass/RDF (refuse-derived fuel) combustion plants
-- Hazardous waste thermal treatment
+- Hazardous waste thermal treatment facilities
 - Sewage sludge incineration facilities
+- Any WtE facility with PCDD/PCDF compliance challenges
 
-Focus: Maximize energy recovery while meeting strict emission standards
+Focus: Eliminate dioxin/PCDD/PCDF emissions while maximizing energy recovery
 """
 import asyncio
 import json
@@ -28,7 +32,7 @@ from claude_agent_sdk import query, tool, create_sdk_mcp_server, ClaudeAgentOpti
 # Define custom tools for database access
 @tool(
     name="query_database",
-    description="Query the leads database with SQL or filters",
+    description="Query the leads database for waste-to-energy and dioxin emissions",
     input_schema={  # Change from inputSchema
         "query_type": {
             "type": "string",
@@ -38,18 +42,33 @@ from claude_agent_sdk import query, tool, create_sdk_mcp_server, ClaudeAgentOpti
         "query": {
             "type": "string",
             "description": "SQL query or filter criteria as JSON"
+        },
+        "dioxin_focus": {
+            "type": "boolean",
+            "description": "Filter for facilities with dioxin/PCDD/PCDF emissions"
         }
     }
 )
 async def query_database(args, extra):
     """
-    Query EEA Industrial Emissions Database for waste energy opportunities
+    Query EEA Industrial Emissions Database for dioxin-emitting waste-to-energy facilities
+
+    DIOXIN-FOCUSED SEARCH: Priority on facilities with PCDD/PCDF/Dioxin emissions
 
     Uses actual CSV files from: converted_csv/
     - 4d_EnergyInput.csv (energy consumption data)
-    - 4e_EmissionsToAir.csv (combustion emissions = waste heat)
+    - 4e_EmissionsToAir.csv (dioxin/PCDD/PCDF emissions data - KEY)
     - 2_ProductionFacility.csv (facility information)
     - 2e_ProductionVolume.csv (production levels)
+    - 3d_BATConclusions.csv (Best Available Techniques - APCD compliance)
+
+    DIOXIN SEARCH FILTERS:
+    - Look for: PCDD, PCDF, Dioxin (including I-TEQ, TEQ equivalents)
+    - Match facilities with:
+      * Exceeding I-TEQ/TEQ limits
+      * At-risk of exceeding limits
+      * Memory effect indicators
+      * De novo synthesis issues
     """
     # IMPLEMENTATION NOTE: Replace mock with actual data
     # import pandas as pd
@@ -179,29 +198,46 @@ async def query_database(args, extra):
     }
 )
 async def score_lead(args, extra):
-    """Calculate lead score based on WASTE-TO-ENERGY plant optimization potential"""
+    """Calculate lead score based on DIOXIN REDUCTION & waste-to-energy plant optimization"""
     lead = args.get('lead_data', {})
     criteria = args.get('criteria', {})
 
-    # GMAB scoring logic - Focus on WASTE-TO-ENERGY PLANT OPTIMIZATION
+    # GMAB scoring logic - PRIORITY FOCUS: DIOXIN/PCDD/PCDF REDUCTION
     score = 0
     reasons = []
 
-    # 1. EMISSION COMPLIANCE PROBLEMS (25 points) - CRITICAL regulatory driver
+    # 1. DIOXIN/PCDD/PCDF EMISSIONS (40 points - HIGHEST PRIORITY) - Regulatory & health driver
     emission_status = lead.get('emission_levels', '').lower()
     compliance = lead.get('compliance_status', '').lower()
 
-    if 'exceed' in emission_status or 'violation' in emission_status or 'critical' in compliance or 'enforcement' in emission_status:
+    # DIOXIN-SPECIFIC VIOLATIONS - Highest Priority
+    has_dioxin_issue = 'dioxin' in emission_status or 'pcdd' in emission_status or 'pcdf' in emission_status
+
+    if has_dioxin_issue and ('exceed' in emission_status or 'violation' in emission_status or 'critical' in compliance):
+        score += 40
+        reasons.append("🚨 CRITICAL DIOXIN/PCDD/PCDF VIOLATION - HIGHEST PRIORITY (APCD technology needed)")
+    elif has_dioxin_issue and ('approaching' in emission_status or 'warning' in emission_status or '<90 days' in emission_status):
+        score += 35
+        reasons.append("⚠️ DIOXIN emissions APPROACHING limits - urgent APCD installation needed")
+    elif has_dioxin_issue and ('recent violation' in emission_status or 'within 12 months' in emission_status):
+        score += 30
+        reasons.append("Recent DIOXIN violations - APCD retrofit needed to prevent recurrence")
+    elif has_dioxin_issue and 'at risk' in emission_status:
         score += 25
-        reasons.append("🚨 CRITICAL EMISSION VIOLATION - exceeding limits, enforcement action (URGENT NEED for GMAB solutions)")
-    elif 'approaching' in emission_status or 'warning' in emission_status or '<90 days' in emission_status:
+        reasons.append("At risk of DIOXIN violations - proactive APCD system recommended")
+
+    # General emission violations (lower priority than dioxin-specific)
+    elif 'exceed' in emission_status or 'violation' in emission_status or 'critical' in compliance or 'enforcement' in emission_status:
         score += 20
-        reasons.append("⚠️ APPROACHING emission limits - compliance deadline imminent (high priority)")
-    elif 'recent violation' in emission_status or 'within 12 months' in emission_status:
+        reasons.append("🚨 EMISSION VIOLATION - exceeding limits, enforcement action")
+    elif 'approaching' in emission_status or 'warning' in emission_status or '<90 days' in emission_status:
         score += 15
+        reasons.append("⚠️ APPROACHING emission limits - compliance deadline imminent")
+    elif 'recent violation' in emission_status or 'within 12 months' in emission_status:
+        score += 10
         reasons.append("Recent emission violations - upgrade needed to ensure compliance")
     elif 'at risk' in emission_status or 'within 20%' in emission_status:
-        score += 10
+        score += 5
         reasons.append("At risk of violations - proactive upgrade recommended")
 
     # 2. Low current efficiency (25 points) - More room for improvement
@@ -367,143 +403,199 @@ async def find_qualified_leads():
         tools=[query_database, score_lead, export_leads]
     )
 
-    # GMAB WASTE-TO-ENERGY PLANT OPTIMIZATION LEAD FINDER
+    # GMAB DIOXIN REDUCTION & WASTE-TO-ENERGY PLANT OPTIMIZATION LEAD FINDER
     prompt = """
-    Find WASTE-TO-ENERGY PLANTS with energy efficiency improvement opportunities from the EEA Industrial Emissions Database.
+    Find WASTE-TO-ENERGY PLANTS with DIOXIN/PCDD/PCDF EMISSIONS and energy efficiency opportunities from the EEA Industrial Emissions Database.
 
     Company: SPIG-GMAB (www.SPIG-GMAB.com)
     Mission: "TOGETHER WE SUCCEED, TOGETHER WE GO GREEN"
 
-    Our Solutions for Waste-to-Energy Plants:
-    - Advanced flue gas heat recovery systems (economizers, condensers)
-    - ORC (Organic Rankine Cycle) systems for low-temperature heat conversion
-    - Steam cycle optimization and efficiency upgrades
-    - Heat pump integration for district heating
-    - Combined heat and power (CHP) maximization
-    - Boiler retrofit and modernization
+    PRIMARY FOCUS: DIOXIN/PCDD/PCDF EMISSION REDUCTION with ADVANCED APCD TECHNOLOGY
+
+    Our Core Solutions for Waste-to-Energy Plants:
+    1. APCD (Air Pollution Control Device) Systems for Dioxin Elimination:
+       - Advanced flue gas treatment systems (activated carbon injection, fabric filters)
+       - De novo synthesis prevention (cooling to <200°C post-treatment)
+       - Memory effect mitigation through optimized residence times
+       - I-TEQ/TEQ toxicity equivalent compliance systems
+
+    2. Dioxin-Integrated Energy Recovery:
+       - Flue gas heat recovery with integrated APCD (economizers + clean treatment)
+       - ORC systems for low-temperature heat conversion (post-dioxin treatment)
+       - Steam cycle optimization with clean emissions baseline
+       - Heat pump integration with dioxin-free heat source
+       - Combined heat and power (CHP) with emission compliance
+
+    3. Supporting Systems:
+       - Boiler retrofit for emission control integration
+       - Advanced monitoring and I-TEQ measurement systems
+       - Continuous emission monitoring (CEM) for dioxins
 
     TARGET FACILITIES (Ideal Customer Profile):
-    - Facility Types:
-      * Municipal Solid Waste (MSW) incinerators
-      * Refuse-Derived Fuel (RDF) combustion plants
-      * Biomass waste-to-energy facilities
-      * Industrial waste thermal treatment
-      * Sewage sludge incineration plants
-      * Hazardous waste thermal treatment
+    - Facility Types (DIOXIN PRIORITY):
+      * Municipal Solid Waste (MSW) incinerators WITH DIOXIN ISSUES
+      * Refuse-Derived Fuel (RDF) combustion plants with PCDD/PCDF emissions
+      * Biomass waste-to-energy facilities with emission violations
+      * Industrial waste thermal treatment (hazardous waste high dioxin risk)
+      * Sewage sludge incineration plants (HIGH dioxin emission risk)
+      * Hazardous waste thermal treatment (CRITICAL dioxin concern)
 
     - Location: European Union (focus: Germany, Netherlands, Italy, Sweden, Poland, France, Spain, Denmark)
-    - Plant Size: >300,000 tonnes/year waste throughput
-    - Current Efficiency: LOW to MEDIUM (<73% overall efficiency)
-    - Flue Gas Temperature: >120°C post-boiler (untapped heat)
-    - Current Status: Aging equipment, planned upgrades, or expansion projects
-    - Decision Makers: Plant Manager, Technical Director, Energy Manager, Municipal Waste Authority
+    - Plant Size: >300,000 tonnes/year waste throughput (sufficient for APCD ROI)
+    - Dioxin Status: CRITICAL (any recent violations, approaching limits, or at-risk)
+    - Current Efficiency: LOW to MEDIUM (<73%) - secondary priority vs dioxin control
+    - Flue Gas Temperature: >120°C post-boiler (for heat recovery + dioxin treatment)
+    - Current Status: Aging equipment, poor emission control, planned upgrades, or enforcement pressure
+    - Regulatory Pressure: Recent enforcement actions, compliance deadlines, EU BAT requirements
+    - Decision Makers: Plant Manager, Environmental/HSE Director, Technical Director, Municipal Authority, Regulatory Affairs
 
-    LEAD SCORING CRITERIA (0-100 points):
-    1. EMISSION COMPLIANCE PROBLEMS = 25 points (CRITICAL - Regulatory driver)
-       - CRITICAL violations (exceeding limits, enforcement notice): 25 points
-       - Approaching limits (warning, <90 days to comply): 20 points
-       - Recent violations (within 12 months): 15 points
-       - At risk (within 20% of limits): 10 points
+    LEAD SCORING CRITERIA (0-100+ points - DIOXIN-FOCUSED):
 
-    2. Low Current Efficiency = 25 points (High improvement potential)
-       - <67% efficiency: 25 points (CRITICAL - old technology)
-       - 67-70% efficiency: 20 points (MEDIUM - good improvement potential)
-       - 70-73% efficiency: 15 points (MODERATE - optimization possible)
+    *** PRIMARY: DIOXIN/PCDD/PCDF EMISSIONS (40+ points - HIGHEST PRIORITY) ***
+    1. DIOXIN/PCDD/PCDF VIOLATIONS (40 points - CRITICAL)
+       - CRITICAL dioxin violations (exceeding I-TEQ/TEQ limits): 40 points
+       - Recent dioxin violation history (within 24 months): 35 points
+       - Approaching dioxin limits (<90 days warning): 35 points
+       - At risk of dioxin exceedance (>80% of I-TEQ limit): 30 points
+       - Memory effect indicators in flue gas treatment: 25 points
+       - De novo synthesis risk (post-treatment temps >200°C): 25 points
+    [BONUS] Dioxin-specific APCD need identified: +10 points
 
-    3. Waste Heat Recovery Potential = 20 points
-       - VERY HIGH (>25 MW thermal recoverable): 20 points
-       - HIGH (18-25 MW thermal): 15 points
-       - MEDIUM (10-18 MW thermal): 10 points
+    2. General Emission Violations (Secondary Priority)
+       - Other violations (NOx, SO2, particulates): 15-20 points
+       - At risk of other emission violations: 10 points
 
-    4. Plant Size/Throughput = 15 points (Economy of scale)
-       - >600,000 tonnes/year: 15 points (Large facility)
-       - 500,000-600,000 tonnes/year: 12 points (Medium-large)
-       - 300,000-500,000 tonnes/year: 10 points (Medium)
+    3. Low Current Efficiency = 20 points (Supports APCD ROI)
+       - <67% efficiency: 20 points (ideal for integrated solution)
+       - 67-70% efficiency: 15 points
+       - 70-73% efficiency: 10 points
 
-    5. Urgency/Timing = 15 points (Planned upgrades = perfect opportunity)
-       - CRITICAL (boiler end-of-life, replacement planned): 15 points
-       - HIGH (upgrade/expansion planned 2025-2026): 10 points
-       - MEDIUM (seeking optimization): 5 points
+    4. Waste Heat Recovery Potential = 15 points (Secondary benefit after dioxin control)
+       - VERY HIGH (>25 MW thermal): 15 points
+       - HIGH (18-25 MW thermal): 12 points
+       - MEDIUM (10-18 MW thermal): 8 points
 
-    QUALIFICATION LEVELS:
-    - 🔥 HOT (70+ points): IMMEDIATE outreach - major efficiency improvement opportunity
+    5. Plant Size/Throughput = 10 points (Economy of scale for APCD)
+       - >600,000 tonnes/year: 10 points
+       - 500,000-600,000 tonnes/year: 8 points
+       - 300,000-500,000 tonnes/year: 6 points
+
+    6. Regulatory Pressure/Urgency = 15 points (APCD drivers)
+       - Enforcement action, compliance deadline <6 months: 15 points
+       - EU BAT compliance deadline approaching: 12 points
+       - Planned upgrade/retrofit: 10 points
+       - Seeking proactive compliance: 5 points
+
+    QUALIFICATION LEVELS (DIOXIN-FOCUSED):
+    - 🔥 CRITICAL (40+ points with dioxin issue): IMMEDIATE APCD outreach - compliance & health critical
+    - 🔥 HOT (70+ points): IMMEDIATE outreach - major opportunity
     - ⚠️ WARM (50-69 points): Priority outreach - good business case
     - COLD (<50 points): Long-term nurture
 
-    PRIORITY CATEGORIZATION (for Excel export):
-    After scoring, categorize ALL leads into 5 priority levels:
+    PRIORITY CATEGORIZATION (for Excel export - DIOXIN-FOCUSED):
 
-    📌 PRIORITY 1 - CRITICAL & URGENT (Highest Value)
-    - Score: 80-100 points OR EMISSION VIOLATIONS (25 pts) + any urgency
+    📌 PRIORITY 1 - DIOXIN CRITICAL & URGENT (Highest Value & Regulatory Risk)
+    - Score: 40+ points with DIOXIN/PCDD/PCDF violation OR 80-100 overall
     - Criteria:
-      * EMISSION VIOLATIONS/approaching limits (CRITICAL regulatory driver)
-      * OR: HIGH urgency (boiler replacement) + HIGH value (>€10M/year) + LOW efficiency (<68%)
-    - Action: IMMEDIATE executive outreach within 7 days
-    - Example: Plant with emission violations, aging boiler, or major compliance deadline
+      * DIOXIN VIOLATIONS/approaching I-TEQ/TEQ limits (CRITICAL health & regulatory driver)
+      * Memory effect or de novo synthesis issues
+      * Recent dioxin violation history + no effective APCD
+      * Enforcement action with dioxin focus
+    - Action: IMMEDIATE executive outreach within 48 hours (regulatory crisis)
+    - APCD Solution: Urgent APCD retrofit + continuous emission monitoring
+    - Example: Plant exceeding dioxin limits, health emergency potential, compliance deadline <3 months
 
-    📌 PRIORITY 2 - HIGH VALUE (Strong ROI)
-    - Score: 70-79 points OR revenue potential >€10M/year
-    - Criteria: Excellent financial opportunity + Good technical feasibility
-    - Action: Priority outreach within 2-3 weeks
-    - Example: Large modern plant with optimization potential
+    📌 PRIORITY 2 - DIOXIN FOCUSED HIGH VALUE (APCD + Energy ROI)
+    - Score: 70+ points with dioxin issues OR 70-79 overall + PCDD/PCDF emissions
+    - Criteria:
+      * Dioxin at-risk status + High heat recovery potential (integrated APCD+energy solution)
+      * Approaching dioxin limits + Planned upgrade (perfect timing)
+      * High compliance cost drivers + Energy savings upside
+    - Action: Priority outreach within 1-2 weeks
+    - APCD Solution: Integrated APCD + waste heat recovery system
+    - Example: Large plant with dioxin issues + efficiency opportunity, planned upgrade
 
-    📌 PRIORITY 3 - HIGH NEED (Strong Technical Need)
-    - Score: 60-75 points with LOW efficiency (<68%) OR aging equipment
-    - Criteria: Strong technical need even if medium revenue
+    📌 PRIORITY 3 - DIOXIN AT-RISK (Proactive APCD Opportunity)
+    - Score: 30-39 with dioxin indicators OR 60-75 with low efficiency + dioxin risk
+    - Criteria:
+      * At risk of dioxin violations (>80% limit)
+      * Aging equipment with dioxin risk + LOW efficiency
+      * Future compliance deadline 6-12 months
+    - Action: Outreach within 2-3 weeks (proactive positioning)
+    - Example: Plant approaching dioxin limits, proactive facility management
+
+    📌 PRIORITY 4 - GENERAL EMISSION + ENERGY OPPORTUNITY
+    - Score: 50-69 with non-dioxin emissions OR good energy but any dioxin concern
+    - Criteria: Medium value + Medium emission need + Good energy recovery
     - Action: Outreach within 1 month
-    - Example: Inefficient plant needing upgrade, medium throughput
+    - Example: Plant with NOx/PM issues but also heat recovery potential
 
-    📌 PRIORITY 4 - GOOD OPPORTUNITIES (Solid Prospects)
-    - Score: 50-69 points
-    - Criteria: Medium value + Medium need + Good possibility
-    - Action: Outreach within 2-3 months
-    - Example: Modern plant with incremental improvements
-
-    📌 PRIORITY 5 - LONG TERM (Pipeline Building)
-    - Score: 40-59 points OR smaller facilities
-    - Criteria: Qualified but lower immediate priority
-    - Action: Nurture, revisit quarterly
-    - Example: Small plants, high efficiency already, future potential
+    📌 PRIORITY 5 - COMPLIANCE MONITORING (Future APCD Need)
+    - Score: 30-49 with minor dioxin indicators OR <50 general
+    - Criteria: Qualified for future engagement, monitoring for dioxin trends
+    - Action: Quarterly compliance check-in, position as thought leader
+    - Example: Small plants, currently compliant but in dioxin-emitting sectors
 
     TASKS:
     1. Query the EEA database for ALL WASTE-TO-ENERGY facilities (waste management sector)
-    2. Identify ALL plants with:
-       - Municipal waste incineration
-       - RDF/SRF combustion
-       - Biomass waste processing
-       - Industrial waste thermal treatment
-       - Sewage sludge incineration
-    3. Score EVERY facility using GMAB WtE criteria above (no limit - find all)
-    4. DO NOT filter to "top 30" - include ALL qualified leads (score >40)
-    5. Categorize each lead into Priority 1-5 based on criteria above
-    6. Create detailed report with:
+       ** CRITICAL: FILTER FOR DIOXIN/PCDD/PCDF EMISSIONS FIRST **
+
+    2. Identify ALL plants with dioxin/PCDD/PCDF emissions:
+       - Municipal waste incineration WITH dioxin data/violations
+       - RDF/SRF combustion WITH dioxin risks
+       - Biomass waste processing WITH dioxin profile analysis
+       - Industrial waste thermal treatment (HIGHEST dioxin risk)
+       - Sewage sludge incineration (HIGH dioxin risk)
+       - Look for: PCDD, PCDF, Dioxin, I-TEQ, TEQ columns in emissions data
+       - Flag: Memory effect history, de novo synthesis indicators, APCD status
+
+    3. Filter for plants with current dioxin issues:
+       - Exceeding I-TEQ/TEQ limits
+       - Approaching dioxin limits (<90 days warning)
+       - Recent violation history (within 24 months)
+       - At-risk status (>80% of limit)
+       - NO adequate APCD system in place
+
+    4. Score EVERY facility using GMAB DIOXIN-FOCUSED criteria above (no limit - find all)
+       - DIOXIN violations = TOP priority (40+ points)
+       - Other factors secondary to dioxin control need
+
+    5. DO NOT filter to "top 30" - include ALL qualified leads (score >30 with dioxin concern, >50 without)
+
+    6. Categorize each lead into Priority 1-5 based on dioxin-focused criteria above
+
+    7. Create detailed report with:
        - Facility name, type (MSW/RDF/biomass), country
        - Waste throughput (tonnes/year) and waste type
        - Current energy output (electricity MW, heat MW)
        - Current overall efficiency (%)
+       - **DIOXIN/PCDD/PCDF EMISSION DATA** (I-TEQ mg/m³ or ng I-TEQ/Nm³)
+       - **DIOXIN COMPLIANCE STATUS** (violations, warnings, at-risk, compliant)
        - Flue gas temperature post-boiler
-       - Waste heat potential (MW thermal)
-       - Current recovery technology (boiler type, CHP status)
-       - **EMISSION COMPLIANCE STATUS** (violations, warnings, at-risk)
+       - Current emission control systems (APCD status, fabric filters, etc.)
+       - Memory effect or de novo synthesis indicators
+       - Waste heat potential (MW thermal) - secondary to dioxin control
        - Total score and qualification level
        - Priority categorization (1-5)
-       - Specific GMAB solution recommendations:
-         * Flue gas condenser for low-temp heat recovery
-         * ORC system for electricity generation from waste heat
-         * Heat pump for district heating expansion
-         * Boiler upgrade/retrofit for efficiency improvement
-         * Advanced emission control with energy recovery
-       - Annual revenue improvement potential (€M)
-       - Efficiency improvement potential (% points)
-       - Emission reduction potential (compliance benefit)
-       - ROI estimate and payback period
-    7. Export to 'GMAB_waste_to_energy_leads.xlsx' (Excel with 6 sheets):
-       - Sheet 1: PRIORITY 1 - CRITICAL & URGENT (emission violations + high value)
-       - Sheet 2: PRIORITY 2 - HIGH VALUE (>€10M revenue potential)
-       - Sheet 3: PRIORITY 3 - HIGH NEED (low efficiency, aging equipment)
-       - Sheet 4: PRIORITY 4 - GOOD OPPORTUNITIES (medium value/need)
-       - Sheet 5: PRIORITY 5 - LONG TERM (pipeline building)
-       - Sheet 6: ALL LEADS - MASTER LIST (complete database)
+       - Specific GMAB APCD solution recommendations:
+         * APCD system type for dioxin elimination
+         * De novo synthesis prevention temperature targets
+         * Memory effect mitigation strategy
+         * I-TEQ/TEQ monitoring & compliance assurance
+         * Integrated heat recovery + dioxin control system
+         * Boiler retrofit for clean combustion support
+       - Annual APCD cost potential (€M CAPEX for compliance)
+       - Energy recovery value (€M/year) - secondary benefit
+       - Payback analysis: APCD ROI + Energy savings
+       - Regulatory risk if dioxin not addressed
+
+    8. Export to 'GMAB_Dioxin_Control_Leads.xlsx' (Excel with 6 sheets):
+       - Sheet 1: PRIORITY 1 - DIOXIN CRITICAL & URGENT (violations, <3 months compliance deadline)
+       - Sheet 2: PRIORITY 2 - DIOXIN HIGH VALUE (APCD+Energy combined ROI)
+       - Sheet 3: PRIORITY 3 - DIOXIN AT-RISK (proactive APCD opportunity)
+       - Sheet 4: PRIORITY 4 - GENERAL EMISSION + ENERGY
+       - Sheet 5: PRIORITY 5 - COMPLIANCE MONITORING
+       - Sheet 6: ALL LEADS - DIOXIN FOCUS MASTER LIST
 
     Data Location: C:\\Users\\staff\\anthropicFun\\EEA_Industrial_Emissions_Data\\converted_csv\\
     Key Files:
@@ -653,15 +745,21 @@ async def geographic_wte_market_priority():
 
 if __name__ == "__main__":
     print("=" * 80)
-    print("   GMAB Waste-to-Energy Plant Optimization Lead Generation Agent")
-    print("   Target: WtE Plants with Low Efficiency & High Improvement Potential")
+    print("   GMAB DIOXIN CONTROL & Waste-to-Energy Optimization Lead Generation Agent")
+    print("   PRIMARY TARGET: DIOXIN/PCDD/PCDF ELIMINATION with APCD Technology")
+    print("   SECONDARY: Energy Efficiency & Heat Recovery Integration")
     print("   'TOGETHER WE SUCCEED, TOGETHER WE GO GREEN'")
     print("=" * 80)
     print()
-    print("   Focus: Municipal Waste, RDF, Biomass, Industrial Waste Incinerators")
-    print("   Priority: Plants with <70% efficiency, aging boilers, planned upgrades")
+    print("   DIOXIN FOCUS: WtE Plants with PCDD/PCDF Violations or At-Risk Status")
+    print("   APCD Solutions: Activated Carbon Injection, Fabric Filters, Temperature Control")
+    print("   Memory Effect & De Novo Synthesis Prevention")
+    print("   I-TEQ/TEQ Toxicity Equivalent Compliance & Monitoring")
     print()
-    print("   Data Source: EEA Industrial Emissions Database")
+    print("   Facility Types: MSW Incinerators, RDF Plants, Sewage Sludge, Industrial Waste")
+    print("   Geographic Focus: Germany, Netherlands, Italy, Poland, Sweden, France")
+    print()
+    print("   Data Source: EEA Industrial Emissions Database (PCDD/PCDF Emissions Data)")
     print("   Location: C:\\Users\\staff\\anthropicFun\\EEA_Industrial_Emissions_Data\\converted_csv\\")
     print()
     print("=" * 80)

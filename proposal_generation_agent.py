@@ -1,16 +1,21 @@
 """
-GMAB Proposal & Documentation Generator Agent
-Automatically creates ready-to-send sales materials for Priority leads
+GMAB DIOXIN CONTROL & APCD Proposal & Documentation Generator Agent
+Automatically creates ready-to-send sales materials for Priority Dioxin-Control Leads
 
 Takes evaluated leads from Lead Evaluation Agent and generates:
-- Executive proposals (PDF)
-- Financial models (Excel)
-- Stakeholder presentations (PowerPoint)
-- Technical specifications
-- Compliance documentation
-- Contract templates
+- Executive APCD proposals (PDF) - Dioxin Elimination Focused
+- Financial models with APCD ROI (Excel) - Compliance + Energy Savings
+- Stakeholder presentations for Environmental/HSE teams (PowerPoint)
+- APCD technical specifications & system design
+- Dioxin compliance & monitoring documentation
+- I-TEQ/TEQ measurement & reporting protocols
+- EU BAT Conclusions alignment documentation
+- Contract templates with emission guarantees
 
-OUTPUT: Complete proposal package per lead, ready for sales team delivery
+DIOXIN FOCUS: Primary emphasis on dioxin/PCDD/PCDF elimination via APCD
+SECONDARY: Integrated energy recovery value proposition
+
+OUTPUT: Complete dioxin-control proposal package per lead, ready for sales team delivery
 """
 import asyncio
 import json
@@ -20,47 +25,72 @@ from claude_agent_sdk import query, tool, create_sdk_mcp_server
 # Define proposal generation tools
 @tool(
     name="generate_executive_proposal",
-    description="Generate comprehensive executive proposal document for a WtE facility",
+    description="Generate comprehensive APCD/dioxin-focused executive proposal for WtE facility",
     inputSchema={
         "lead_data": {
             "type": "object",
-            "description": "Lead information and evaluation results"
+            "description": "Lead information with dioxin/PCDD/PCDF compliance data"
+        },
+        "dioxin_violation": {
+            "type": "boolean",
+            "description": "Facility has current dioxin violation or at-risk status"
         }
     }
 )
 async def generate_executive_proposal(args, extra):
     """
-    Generate executive proposal document (15-20 pages)
+    Generate APCD-focused executive proposal document (18-25 pages)
 
-    Sections:
-    1. Executive Summary
-    2. Facility Analysis & Current State
-    3. GMAB Technical Solution
-    4. Financial Business Case
-    5. Implementation Plan
-    6. Risk Mitigation
-    7. Reference Accounts & Case Studies
-    8. Terms & Next Steps
+    PRIMARY SECTIONS (Dioxin Control):
+    1. Executive Summary - DIOXIN COMPLIANCE CRISIS & APCD SOLUTION
+    2. Facility Analysis & Current Dioxin State (I-TEQ/TEQ levels, violations)
+    3. Dioxin Emission Problem Statement & Health/Regulatory Risk
+    4. GMAB APCD Technical Solution (de novo synthesis, memory effect, monitoring)
+    5. Dioxin Compliance Business Case (penalty avoidance + potential energy savings)
+    6. Implementation Plan with Dioxin Testing & Validation
+    7. Risk Mitigation & Emission Guarantees
+    8. Reference Accounts & Success Stories (dioxin compliance cases)
+    9. Terms & Next Steps (expedited for compliance-driven facilities)
+
+    SECONDARY SECTIONS (Energy Recovery):
+    - Integrated heat recovery with APCD (bonus value if applicable)
+    - Energy savings as secondary ROI driver
     """
     lead = args.get('lead_data', {})
 
     # In production, this would use a template engine (e.g., python-docx, jinja2)
     # and generate actual PDF via weasyprint or reportlab
 
+    dioxin_violation = args.get('dioxin_violation', False)
+
     proposal = {
-        "document_type": "Executive Proposal",
+        "document_type": "Executive APCD Proposal" if dioxin_violation else "Integrated APCD + Energy Proposal",
         "facility": lead.get('facility'),
-        "proposal_title": f"GMAB Waste-to-Energy Optimization Proposal: {lead.get('facility')}",
+        "proposal_title": f"GMAB APCD Dioxin Control Proposal: {lead.get('facility')}" if dioxin_violation else f"GMAB APCD + Energy Optimization: {lead.get('facility')}",
         "date_generated": "2025-10-17",
+        "dioxin_focus": dioxin_violation,
         "sections": {
             "executive_summary": {
-                "current_state": f"{lead.get('facility')} operates at {lead.get('current_efficiency', 70)}% efficiency",
-                "problem_statement": "Low efficiency + emission compliance challenges + aging equipment",
-                "gmab_solution": "Advanced flue gas heat recovery + ORC system + emission control",
-                "value_proposition": f"Increase efficiency to 78-82%, generate additional {lead.get('improvement_potential', '€10M/year')}",
-                "investment": "€28-35M CAPEX",
-                "payback": "2.5-3.5 years",
+                "current_state": f"{lead.get('facility')} operates at {lead.get('current_efficiency', 70)}% efficiency with DIOXIN COMPLIANCE RISK" if dioxin_violation else f"{lead.get('facility')} operates at {lead.get('current_efficiency', 70)}% efficiency",
+                "compliance_crisis": f"CRITICAL: Current dioxin emissions = {lead.get('dioxin_level', 'EXCEEDING')} I-TEQ limits → Regulatory enforcement risk" if dioxin_violation else None,
+                "problem_statement": "DIOXIN/PCDD/PCDF violations + memory effect issues + poor emission control" if dioxin_violation else "Low efficiency + emissions at risk + aging equipment",
+                "gmab_solution": "APCD system (activated carbon injection + fabric filters) + de novo synthesis prevention + I-TEQ/TEQ monitoring" if dioxin_violation else "Advanced APCD + flue gas heat recovery + ORC system",
+                "regulatory_driver": "EU Industrial Emissions Directive + BAT Conclusions compliance (CRITICAL deadline)" if dioxin_violation else "Compliance + energy efficiency opportunity",
+                "value_proposition": f"ELIMINATE dioxin emissions to <0.1 ng I-TEQ/Nm³ (compliant) within 8-12 months" if dioxin_violation else f"Increase efficiency to 78-82%, generate additional {lead.get('improvement_potential', '€10M/year')}",
+                "investment": "€12-18M APCD CAPEX" if dioxin_violation else "€28-35M CAPEX (APCD + energy recovery)",
+                "payback": "1.5-2.5 years (compliance + energy)" if dioxin_violation else "2.5-3.5 years",
                 "key_benefits": [
+                    "DIOXIN COMPLIANCE GUARANTEED - Eliminates regulatory enforcement risk",
+                    "Eliminates health hazard from dioxin exposure (workers + public)",
+                    "Penalty avoidance: €2-5M+ per violation",
+                    "Memory effect mitigation through temperature control",
+                    "De novo synthesis prevention in flue gas cooling",
+                    "Continuous I-TEQ/TEQ monitoring & reporting",
+                    "8-12% efficiency improvement (bonus from heat recovery)",
+                    "€3-6M annual savings from energy recovery",
+                    "EU grants available (up to 60% funding for compliance projects)",
+                    "Potential carbon credit revenue"
+                ] if dioxin_violation else [
                     "12-15% efficiency improvement",
                     "€8-14M additional annual revenue",
                     "Emission compliance guaranteed (NOx, SO2, dioxins)",
@@ -82,19 +112,43 @@ async def generate_executive_proposal(args, extra):
                 ]
             },
             "gmab_technical_solution": {
-                "system_components": [
-                    "Advanced Flue Gas Economizer (25 MW thermal recovery)",
-                    "ORC System (6.5 MW additional electricity generation)",
-                    "Heat Pump Integration (18 MW district heating expansion)",
-                    "Emission Control Upgrade (SCR for NOx, advanced filtration)",
-                    "Advanced Process Control System (24/7 optimization)"
-                ],
+                "dioxin_control_system": {
+                    "primary_components": [
+                        "Activated Carbon Injection (ACI) System - Dioxin binding",
+                        "Fabric Filter Baghouse - Dioxin particle capture + carbon recovery",
+                        "Temperature Control Unit - De novo synthesis prevention (<200°C post-filter)",
+                        "Memory Effect Mitigation - Optimized residence time design",
+                        "I-TEQ/TEQ Monitoring System - Continuous emission measurement (CEM)",
+                        "Data Recording & Reporting - EU compliance documentation"
+                    ],
+                    "secondary_components": [
+                        "Advanced Flue Gas Economizer (15-20 MW thermal recovery)",
+                        "ORC System (4-5 MW additional electricity generation)",
+                        "Heat Pump Integration (optional, 8-12 MW district heating)"
+                    ] if dioxin_violation else [
+                        "Advanced Flue Gas Economizer (25 MW thermal recovery)",
+                        "ORC System (6.5 MW additional electricity generation)",
+                        "Heat Pump Integration (18 MW district heating expansion)",
+                        "Advanced Process Control System (24/7 optimization)"
+                    ]
+                } if dioxin_violation else {
+                    "system_components": [
+                        "Advanced Flue Gas Economizer (25 MW thermal recovery)",
+                        "ORC System (6.5 MW additional electricity generation)",
+                        "Heat Pump Integration (18 MW district heating expansion)",
+                        "Emission Control Upgrade (SCR for NOx, advanced filtration)",
+                        "Advanced Process Control System (24/7 optimization)"
+                    ]
+                },
                 "performance_guarantees": {
-                    "efficiency_improvement": "Min 10% points (e.g., 70% → 80%)",
+                    "dioxin_compliance": "Guaranteed <0.1 ng I-TEQ/Nm³ (EU limit 0.1) with margin of safety" if dioxin_violation else None,
+                    "memory_effect_control": "Eliminated through optimized cooling profile" if dioxin_violation else None,
+                    "de_novo_synthesis": "Prevented by post-filter temperature <200°C" if dioxin_violation else None,
+                    "efficiency_improvement": "Min 8-10% points (compliance + energy)" if dioxin_violation else "Min 10% points (e.g., 70% → 80%)",
                     "emission_compliance": "Guaranteed below EU limits for 10 years",
                     "availability": "95% uptime guaranteed"
                 },
-                "installation_timeline": "16-20 months (detailed in Section 5)"
+                "installation_timeline": "8-12 months (dioxin compliance priority)" if dioxin_violation else "16-20 months (detailed in Section 5)"
             },
             "financial_business_case": {
                 "total_investment": "€32.5M",

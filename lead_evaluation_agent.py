@@ -1,14 +1,19 @@
 """
-GMAB Lead Evaluation Agent
-Evaluates and prioritizes leads found by the Lead Generation Agent
+GMAB DIOXIN CONTROL Lead Evaluation Agent
+Evaluates and prioritizes DIOXIN-FOCUSED leads from the Lead Generation Agent
+
+PRIMARY FOCUS: Dioxin/PCDD/PCDF elimination with APCD technology
+SECONDARY: Integrated energy recovery opportunities
 
 Takes leads from lead generation and performs:
-- Technical feasibility assessment
-- Detailed ROI calculation
-- Implementation complexity analysis
-- Solution sizing and design
-- Business case development
-- Sales priority ranking
+- DIOXIN COMPLIANCE ANALYSIS (I-TEQ/TEQ levels, violation risk)
+- APCD Technical Feasibility Assessment
+- Dioxin Control ROI Calculation (compliance cost + energy savings)
+- De novo synthesis & Memory effect Risk Analysis
+- APCD System Sizing and Design
+- Dioxin Elimination Business Case Development
+- Compliance-driven Sales Priority Ranking (health/regulatory risk)
+- EU BAT Conclusions Alignment Assessment
 """
 import asyncio
 import json
@@ -16,13 +21,91 @@ from claude_agent_sdk import query, tool, create_sdk_mcp_server, ClaudeAgentOpti
 
 
 # Define evaluation tools
+
+@tool(
+    name="dioxin_compliance_analysis",
+    description="Analyze dioxin/PCDD/PCDF compliance status and APCD need",
+    input_schema={
+        "lead_data": {
+            "type": "object",
+            "description": "Lead information with dioxin emission data"
+        }
+    }
+)
+async def dioxin_compliance_analysis(args, extra):
+    """
+    Evaluate dioxin/PCDD/PCDF compliance status and APCD technology need
+
+    Analyzes:
+    - Current dioxin emissions (I-TEQ/TEQ ng/Nm³)
+    - Distance from EU limit (0.1 ng I-TEQ/Nm³)
+    - Violation history and trends
+    - Memory effect risk indicators
+    - De novo synthesis indicators (flue gas cooling profile)
+    - Current APCD system status
+    - Regulatory deadline urgency
+    - Health/environmental risk assessment
+    """
+    lead = args.get('lead_data', {})
+
+    # Mock dioxin compliance analysis
+    dioxin_analysis = {
+        "facility": lead.get('facility'),
+        "dioxin_compliance_score": 75,  # 0-100 (100 = immediate action needed)
+        "urgency_rating": "CRITICAL",
+        "dioxin_metrics": {
+            "current_emissions_ng_i_teq_nm3": 0.15,
+            "eu_limit_ng_i_teq_nm3": 0.1,
+            "exceedance_percent": 50,
+            "compliance_status": "VIOLATION - Exceeding EU limit by 50%"
+        },
+        "violation_history": {
+            "violations_last_24_months": 2,
+            "last_violation_date": "2025-09-15",
+            "trend": "Increasing"
+        },
+        "dioxin_formation_risk": {
+            "memory_effect_risk": "HIGH - Inconsistent flue gas residence times detected",
+            "de_novo_synthesis_risk": "MEDIUM - Post-filter temperatures >210°C (target <200°C)",
+            "apcd_current_status": "INADEQUATE - Existing system insufficient for dioxin control"
+        },
+        "apcd_feasibility": "CRITICAL NEED - APCD retrofit essential for compliance",
+        "regulatory_deadline": "6 months - EU enforcement action imminent",
+        "recommended_apcd_system": {
+            "primary": "Activated Carbon Injection + Fabric Filter Baghouse",
+            "secondary_controls": "Temperature control unit + I-TEQ/TEQ CEM",
+            "implementation_timeline": "8-12 months (expedited for compliance)"
+        },
+        "key_findings": [
+            "Facility currently VIOLATING EU dioxin limits",
+            "No effective APCD currently in place",
+            "Memory effect and de novo synthesis risk factors present",
+            "APCD retrofit is MANDATORY for regulatory compliance",
+            "Health risk to workers and public from dioxin exposure"
+        ]
+    }
+
+    return {
+        "content": [
+            {
+                "type": "text",
+                "text": json.dumps(dioxin_analysis, indent=2)
+            }
+        ]
+    }
+
+
 @tool(
     name="technical_feasibility_analysis",
-    description="Analyze technical feasibility of waste heat recovery installation",
+    description="Analyze technical feasibility of APCD + waste heat recovery installation",
     input_schema={
         "lead_data": {
             "type": "object",
             "description": "Lead information to analyze"
+        },
+        "dioxin_critical": {
+            "type": "boolean",
+            "description": "Facility has critical dioxin compliance need"
         }
     }
 )

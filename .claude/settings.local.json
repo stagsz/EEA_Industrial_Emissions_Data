@@ -26,7 +26,12 @@
       "Bash(cat:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(pdftotext:*)"
+      "Bash(pdftotext:*)",
+      "mcp__desktop-commander__create_directory",
+      "Bash(powershell -Command:*)",
+      "mcp__desktop-commander__read_file",
+      "mcp__desktop-commander__write_file",
+      "mcp__desktop-commander__start_process"
     ],
     "deny": [],
     "ask": []

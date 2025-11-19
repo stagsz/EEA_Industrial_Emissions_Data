@@ -23,7 +23,9 @@
       "Bash(python -X utf8 outputs/create_sonderborg_pitch_materials.py)",
       "Bash(python:*)",
       "Bash(dir:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

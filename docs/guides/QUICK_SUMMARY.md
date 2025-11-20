@@ -1,28 +1,28 @@
 # EEA Industrial Emissions Data - Quick Summary
 
-## ✅ What I've Created For You
+##  What I've Created For You
 
 I've set up a complete analysis system to help you find industrial plants with emission problems from the European Environment Agency (EEA) database.
 
-### 🌍 NEW: EU Emissions Trading System (ETS) Data Available
+###  NEW: EU Emissions Trading System (ETS) Data Available
 **Updated: November 19, 2025**
-- ✅ EU ETS data downloaded and integrated (v2.0, September 2025)
-- ✅ Covers 2005-2024, all EU + EEA countries
-- ✅ Location: `data/market/EU_ETS_Data/`
+-  EU ETS data downloaded and integrated (v2.0, September 2025)
+-  Covers 2005-2024, all EU + EEA countries
+-  Location: `data/market/EU_ETS_Data/`
 - Includes: Excel workbooks, quality reports, data dictionary
 - **Use for:** Carbon cost exposure, emission reduction urgency scoring
 
-### 📁 Location
+###  Location
 **C:\Users\staff\anthropicFun\EEA_Industrial_Emissions_Data\**
 
-### 📄 Files Created
+###  Files Created
 
 1. **README.md** - Quick start guide (read this first!)
 2. **Industrial_Emissions_Data_Guide.md** - Comprehensive documentation
 3. **eea_emissions_analyzer.py** - Python analysis tool
 4. **downloaded_data/** - Empty folder for your data files
 
-## 🎯 The Database
+##  The Database
 
 ### European Industrial Emissions Portal
 The EEA maintains the **E-PRTR** (European Pollutant Release and Transfer Register), which tracks:
@@ -34,7 +34,7 @@ The EEA maintains the **E-PRTR** (European Pollutant Release and Transfer Regist
 ### Countries Covered
 EU-27 + Iceland, Liechtenstein, Norway, Serbia, Switzerland, UK
 
-## 🚀 How to Get Started
+##  How to Get Started
 
 ### Option 1: Quick Web Access (No Download)
 Visit: **https://industry.eea.europa.eu/**
@@ -64,7 +64,7 @@ Visit: **https://industry.eea.europa.eu/**
    - Pollutant hotspots (CO2, NOx, SO2, etc.)
    - Comprehensive summary report
 
-## 🔍 What Makes a "Problem Plant"?
+##  What Makes a "Problem Plant"?
 
 The analyzer identifies facilities with:
 
@@ -82,7 +82,7 @@ The analyzer identifies facilities with:
    - Increasing emissions year-over-year
    - Not implementing Best Available Techniques (BAT)
 
-## 📊 Key Data Tables
+##  Key Data Tables
 
 The database includes:
 
@@ -91,7 +91,7 @@ The database includes:
 - **PUBLISH_POLLUTANTTRANSFER** - Waste transfers
 - **LCP data** - Detailed power plant emissions
 
-## 💡 Example Use Cases
+##  Example Use Cases
 
 ### Find all plants in Sweden with high CO2 emissions:
 ```python
@@ -116,7 +116,7 @@ trends = analyzer.track_trends(
 sector_analysis = analyzer.analyze_by_sector(year=2023, top_sectors=10)
 ```
 
-## 🎓 Key Pollutants to Watch
+##  Key Pollutants to Watch
 
 ### Climate Impact:
 - **CO2** - Carbon dioxide (main GHG)
@@ -134,7 +134,7 @@ sector_analysis = analyzer.analyze_by_sector(year=2023, top_sectors=10)
 - **Cd** - Cadmium (toxic)
 - **Pb** - Lead (neurotoxic)
 
-## 🏭 Highest-Emitting Sectors
+##  Highest-Emitting Sectors
 
 Based on EEA data:
 1. **Energy production** (coal/gas power plants)
@@ -145,13 +145,13 @@ Based on EEA data:
 6. **Pulp and paper**
 7. **Waste management**
 
-## 📞 Need Help?
+##  Need Help?
 
 - **EEA Helpdesk**: industry.helpdesk@eea.europa.eu
 - **Documentation**: See `Industrial_Emissions_Data_Guide.md`
 - **Quick start**: See `README.md`
 
-## ⚠️ Important Notes
+##  Important Notes
 
 ### Data Limitations:
 - Only facilities **above reporting thresholds** are included
@@ -161,29 +161,29 @@ Based on EEA data:
 
 ### Reporting Thresholds:
 - CO2: ≥100,000 tonnes/year
-- NOx: ≥100 tonnes/year  
+- NOx: ≥100 tonnes/year
 - Heavy metals: Often 1-20 kg/year
 - See E-PRTR Regulation Annex II for full list
 
-## 🎯 Next Steps
+##  Next Steps
 
 1. **Read the README.md** for detailed instructions
 2. **Download the data** from EEA portal
 3. **Run the analyzer** to get immediate insights
 4. **Review the comprehensive guide** for advanced analysis
 
-## 📈 What You'll Get
+##  What You'll Get
 
 After running the analyzer:
-- ✅ List of top 50 problem plants (CSV)
-- ✅ Sector-by-sector emissions breakdown (CSV)
-- ✅ Country emissions comparison (CSV)
-- ✅ CO2 hotspots map data (CSV)
-- ✅ Summary report with key statistics (TXT)
-- ✅ Ready for further analysis in Excel/Python/R
+-  List of top 50 problem plants (CSV)
+-  Sector-by-sector emissions breakdown (CSV)
+-  Country emissions comparison (CSV)
+-  CO2 hotspots map data (CSV)
+-  Summary report with key statistics (TXT)
+-  Ready for further analysis in Excel/Python/R
 
 ---
 
-**All files committed to git** ✓  
-**Location**: `C:\Users\staff\anthropicFun\EEA_Industrial_Emissions_Data\`  
+**All files committed to git**
+**Location**: `C:\Users\staff\anthropicFun\EEA_Industrial_Emissions_Data\`
 **Created**: October 16, 2025

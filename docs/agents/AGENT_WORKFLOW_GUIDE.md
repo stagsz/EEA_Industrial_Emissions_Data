@@ -6,7 +6,7 @@ Complete step-by-step guide for running the three-agent GMAB waste-to-energy lea
 
 ---
 
-## 📋 Overview: Three-Agent System
+##  Overview: Three-Agent System
 
 This system automates the complete sales process for WtE plant optimization:
 
@@ -32,7 +32,7 @@ EEA Database (34,000 facilities)
 
 ---
 
-## 🚀 Quick Start (5 Minutes)
+##  Quick Start (5 Minutes)
 
 ### Prerequisites
 ```bash
@@ -71,7 +71,7 @@ python agents/run_agents_demo.py
 
 ---
 
-## 🎯 Agent 1: Lead Generation
+##  Agent 1: Lead Generation
 
 **File:** `agents/lead_generation_agent.py`
 
@@ -117,7 +117,7 @@ python agents/lead_generation_agent.py
 
 **Column Details:**
 ```
-Facility Name | Location | Country | WtE Type | 
+Facility Name | Location | Country | WtE Type |
 Current Efficiency (%) | Emissions Status | Waste Heat Potential (MW) |
 Score (0-100) | Priority (1-5) | Key Opportunity | Recommended Action
 ```
@@ -171,7 +171,7 @@ URGENCY_WEIGHT = 10
 
 ---
 
-## 🎯 Agent 2: Lead Evaluation
+##  Agent 2: Lead Evaluation
 
 **File:** `agents/lead_evaluation_agent.py`
 
@@ -223,8 +223,8 @@ python agents/lead_evaluation_agent.py
 
 **Column Details:**
 ```
-Facility | Score | Priority | Technical Feasibility | 
-CAPEX (€M) | Annual Savings (€M) | Payback (years) | NPV (€M) | 
+Facility | Score | Priority | Technical Feasibility |
+CAPEX (€M) | Annual Savings (€M) | Payback (years) | NPV (€M) |
 IRR (%) | Win Probability (%) | Contact Strategy | Next Steps
 ```
 
@@ -278,7 +278,7 @@ PRIORITY_1_WIN_PROB = 70  # Consider only if >70% to close
 
 ---
 
-## 🎯 Agent 3: Proposal Generation
+##  Agent 3: Proposal Generation
 
 **File:** `agents/proposal_generation_agent.py`
 
@@ -330,17 +330,17 @@ python agents/proposal_generation_agent.py
 **Output Structure:**
 ```
 outputs/GMAB_Proposals/
-├── [Facility_Name_1]/
-│   ├── Executive_Proposal_[Facility].pdf
-│   ├── Financial_Model_[Facility].xlsx
-│   ├── Presentation_Energy_Manager_[Facility].pptx
-│   ├── Presentation_CFO_[Facility].pptx
-│   ├── Presentation_Board_[Facility].pptx
-│   ├── Compliance_Documentation_[Facility].pdf
-│   └── Implementation_Roadmap_[Facility].pdf
-├── [Facility_Name_2]/
-│   └── (same structure)
-└── ...
+ [Facility_Name_1]/
+    Executive_Proposal_[Facility].pdf
+    Financial_Model_[Facility].xlsx
+    Presentation_Energy_Manager_[Facility].pptx
+    Presentation_CFO_[Facility].pptx
+    Presentation_Board_[Facility].pptx
+    Compliance_Documentation_[Facility].pdf
+    Implementation_Roadmap_[Facility].pdf
+ [Facility_Name_2]/
+    (same structure)
+ ...
 ```
 
 ### Specialized Analysis Modes
@@ -393,7 +393,7 @@ SHOW_TAX_BENEFITS = True
 
 ---
 
-## 📊 Complete Workflow Example
+##  Complete Workflow Example
 
 ### Scenario: Identify Best WtE Opportunities in Germany (Q1 2025)
 
@@ -458,7 +458,7 @@ Sales Team Receives:
   - Presentation_Energy_Manager.pptx (technical deck)
   - Presentation_CFO.pptx (financial deck)
   - Compliance_Documentation.pdf (regulatory alignment)
-  
+
 Sales Actions:
 1. Contact Energy Manager: "We've identified unique efficiency opportunity"
 2. Share Executive Proposal via email
@@ -476,7 +476,7 @@ Sales Actions:
 
 ---
 
-## 🔄 Monthly Workflow
+##  Monthly Workflow
 
 ### Week 1: Lead Generation
 ```bash
@@ -512,7 +512,7 @@ python agents/proposal_generation_agent.py
 
 ---
 
-## 🎓 Understanding the Outputs
+##  Understanding the Outputs
 
 ### Lead Generation Output Example
 
@@ -569,7 +569,7 @@ Recommendation: PRIORITY 1 - Immediate outreach, high probability deal
 
 ---
 
-## 🚨 Common Issues & Solutions
+##  Common Issues & Solutions
 
 ### Issue 1: "Agent takes too long"
 **Solution:**
@@ -600,7 +600,7 @@ Recommendation: PRIORITY 1 - Immediate outreach, high probability deal
 
 ---
 
-## ✅ Checklist: First Time Setup
+##  Checklist: First Time Setup
 
 - [ ] Python 3.8+ installed
 - [ ] Dependencies installed (`pip install ...`)
@@ -620,7 +620,7 @@ Recommendation: PRIORITY 1 - Immediate outreach, high probability deal
 
 ---
 
-## 📞 Next Steps
+##  Next Steps
 
 1. **Run all agents** with the quick start commands above
 2. **Review outputs** to understand what's being generated

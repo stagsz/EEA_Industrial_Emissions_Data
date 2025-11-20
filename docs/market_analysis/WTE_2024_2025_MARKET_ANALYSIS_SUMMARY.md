@@ -391,12 +391,12 @@ The ecoprog 2024-2025 report identifies **flue gas cleaning systems as a critica
 
 The ecoprog Waste to Energy 2024-2025 market study confirms:
 
-✅ **2,869 WtE plants globally** represent massive installed base for APCD retrofits
-✅ **576 million tonnes/year capacity** = scale opportunity
-✅ **20+ year average asset age** = urgent replacement cycle 2024-2035
-✅ **Regulatory tightening** (EU BAT, China, USA) = compliance-driven demand
-✅ **Dioxin control** = critical competitive differentiator for GMAB
-✅ **Energy recovery upside** = bonus ROI driver for integrated APCD systems
+ **2,869 WtE plants globally** represent massive installed base for APCD retrofits
+ **576 million tonnes/year capacity** = scale opportunity
+ **20+ year average asset age** = urgent replacement cycle 2024-2035
+ **Regulatory tightening** (EU BAT, China, USA) = compliance-driven demand
+ **Dioxin control** = critical competitive differentiator for GMAB
+ **Energy recovery upside** = bonus ROI driver for integrated APCD systems
 
 **GMAB is positioned to capture €7-16B TAM in the next 10 years** by focusing on dioxin compliance + energy recovery integration.
 

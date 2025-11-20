@@ -312,28 +312,28 @@ Output:
 ## Pro Tips for Effective Prompts
 
 ### 1. Be Specific About Numbers
-❌ "Find some good leads"
-✅ "Find the top 25 qualified leads scoring 70+ points"
+ "Find some good leads"
+ "Find the top 25 qualified leads scoring 70+ points"
 
 ### 2. Define "Qualified"
-❌ "Find qualified leads"
-✅ "Qualified = $10M+ revenue, 100-500 employees, tech industry, decision maker identified"
+ "Find qualified leads"
+ "Qualified = $10M+ revenue, 100-500 employees, tech industry, decision maker identified"
 
 ### 3. Specify Output Format
-❌ "Give me the results"
-✅ "Export to CSV with columns: Company, Contact, Score, Reason, Next Action"
+ "Give me the results"
+ "Export to CSV with columns: Company, Contact, Score, Reason, Next Action"
 
 ### 4. Include Context
-❌ "Find leads"
-✅ "Find leads for our new AI product targeting data teams who currently use manual processes"
+ "Find leads"
+ "Find leads for our new AI product targeting data teams who currently use manual processes"
 
 ### 5. Set Priorities
-❌ "Look at everything"
-✅ "Prioritize 1) Recent engagement, 2) Company size, 3) Geography"
+ "Look at everything"
+ "Prioritize 1) Recent engagement, 2) Company size, 3) Geography"
 
 ### 6. Request Actionability
-❌ "Show me leads"
-✅ "For each lead provide: Score, qualification reason, recommended first touchpoint, personalized message angle"
+ "Show me leads"
+ "For each lead provide: Score, qualification reason, recommended first touchpoint, personalized message angle"
 
 ---
 

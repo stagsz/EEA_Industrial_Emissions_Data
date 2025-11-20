@@ -4,7 +4,7 @@
 The European Environment Agency (EEA) maintains comprehensive databases of industrial emissions across Europe through the **European Pollutant Release and Transfer Register (E-PRTR)** and **Industrial Emissions Directive (IED)** reporting systems.
 
 ### Data Integration Status
-**✅ Updated: November 19, 2025**
+** Updated: November 19, 2025**
 - E-PRTR Industrial Emissions: Fully operational
 - **EU ETS Data: NOW AVAILABLE** - See EU Emissions Trading System section below
 
@@ -180,7 +180,7 @@ The download typically includes:
 
 ### SQL Query Example (if using Access or importing to database):
 ```sql
-SELECT 
+SELECT
     f.FacilityName,
     f.CountryCode,
     f.City,
@@ -302,7 +302,7 @@ DOI: https://doi.org/10.2909/[specific DOI from dataset]
 
 ---
 
-## EU Emissions Trading System (ETS) Data ✅ NEW
+## EU Emissions Trading System (ETS) Data  NEW
 
 ### Overview
 The EU ETS is the cornerstone of the EU's climate policy and provides complementary data to the E-PRTR industrial emissions reports. While E-PRTR covers all pollutants from large industrial sources, the EU ETS specifically tracks greenhouse gas emissions and carbon allowance trading for large installations.

@@ -4,7 +4,7 @@ Automated lead generation, evaluation, and proposal system for waste-to-energy (
 
 **Updated:** November 19, 2025
 
-## 🎯 What This Project Does
+##  What This Project Does
 
 This repository contains a **three-agent AI system** that:
 
@@ -20,71 +20,71 @@ This repository contains a **three-agent AI system** that:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 EEA_Industrial_Emissions_Data/
-├── 📚 docs/                              # All documentation (organized by topic)
-│   ├── guides/                          # Quick start guides
-│   │   ├── README.md                    # This file - project overview
-│   │   ├── CLAUDE.md                    # Project guidance for Claude Code
-│   │   └── QUICK_SUMMARY.md             # EEA database capabilities
-│   ├── agents/                          # Agent documentation
-│   │   ├── AGENT_WORKFLOW_GUIDE.md      # Step-by-step agent execution
-│   │   └── lead_prompting_guide.md      # Agent customization templates
-│   ├── data_structure/                  # Data documentation
-│   │   ├── Industrial_Emissions_Data_Guide.md   # EEA database deep dive
-│   │   └── DATA_INSIGHTS_ANALYSIS.md            # Data insights & patterns
-│   ├── market_analysis/                 # Market intelligence
-│   │   ├── WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md      # 2024-2025 analysis
-│   │   └── WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md
-│   ├── technical_reference/             # Technical reference
-│   │   ├── DIOXIN_APCD_REFERENCE_GUIDE.md
-│   │   ├── DIOXIN_CHANGES_SUMMARY.md
-│   │   └── EXTERNAL_DATA_CORRELATION_STRATEGY.md
-│   ├── GIT_WORKTREES_GUIDE.md          # Git workflow
-│   ├── restrictions.md                  # Data usage restrictions
-│   ├── TASK_COMPLETION_SUMMARY.md      # Completed work
-│   └── IMPLEMENTATION_COMPLETE.md       # Implementation status
-│
-├── 🤖 agents/                           # Agent implementations
-│   ├── lead_generation_agent.py         # Scan & score facilities
-│   ├── lead_evaluation_agent.py         # Deep analysis of top leads
-│   ├── proposal_generation_agent.py     # Auto-generate proposals
-│   └── run_agents_demo.py               # Demo execution
-│
-├── 🔧 scripts/                          # Utility scripts
-│   ├── analyze_data_structure.py
-│   ├── eea_emissions_analyzer.py        # General analysis tools
-│   ├── waste_to_energy_lead_finder.py   # WtE-specific analysis
-│   ├── industrial_emissions_lead_finder.py
-│   ├── emission_compliance_checker.py
-│   └── download_*.ps1, download_data.py # Data download utilities
-│
-├── 📊 data/                             # All data files (organized by type)
-│   ├── raw/                            # Source data
-│   │   ├── 1215_Public_Product_Full Access_v8.accdb  # Original EEA database
-│   │   └── downloaded_data/            # Downloaded EEA datasets
-│   ├── processed/                      # Converted/cleaned data
-│   │   ├── converted_database.db       # SQLite version
-│   │   └── converted_csv/              # 30+ CSV tables from database
-│   └── market/                         # Market analysis & reference
-│       ├── Active Plants Global WtE market 2024-2033.csv
-│       ├── Projects Global WtE market 2024-2033.csv
-│       ├── Waste to Energy 2024-2025.pdf
-│       └── WTE_Market_Analysis_2024-2025.pptx
-│
-├── 📤 outputs/                          # Generated outputs
-│   ├── GMAB_WasteToEnergy_Leads_YYYYMMDD.xlsx
-│   ├── GMAB_Evaluated_Leads_YYYYMMDD.xlsx
-│   └── GMAB_Proposals/                 # Per-facility proposal packages
-│
-└── 🐍 Python environments (.venv, venv), Git (.git), Config (.claude)
+  docs/                              # All documentation (organized by topic)
+    guides/                          # Quick start guides
+       README.md                    # This file - project overview
+       CLAUDE.md                    # Project guidance for Claude Code
+       QUICK_SUMMARY.md             # EEA database capabilities
+    agents/                          # Agent documentation
+       AGENT_WORKFLOW_GUIDE.md      # Step-by-step agent execution
+       lead_prompting_guide.md      # Agent customization templates
+    data_structure/                  # Data documentation
+       Industrial_Emissions_Data_Guide.md   # EEA database deep dive
+       DATA_INSIGHTS_ANALYSIS.md            # Data insights & patterns
+    market_analysis/                 # Market intelligence
+       WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md      # 2024-2025 analysis
+       WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md
+    technical_reference/             # Technical reference
+       DIOXIN_APCD_REFERENCE_GUIDE.md
+       DIOXIN_CHANGES_SUMMARY.md
+       EXTERNAL_DATA_CORRELATION_STRATEGY.md
+    GIT_WORKTREES_GUIDE.md          # Git workflow
+    restrictions.md                  # Data usage restrictions
+    TASK_COMPLETION_SUMMARY.md      # Completed work
+    IMPLEMENTATION_COMPLETE.md       # Implementation status
+
+  agents/                           # Agent implementations
+    lead_generation_agent.py         # Scan & score facilities
+    lead_evaluation_agent.py         # Deep analysis of top leads
+    proposal_generation_agent.py     # Auto-generate proposals
+    run_agents_demo.py               # Demo execution
+
+  scripts/                          # Utility scripts
+    analyze_data_structure.py
+    eea_emissions_analyzer.py        # General analysis tools
+    waste_to_energy_lead_finder.py   # WtE-specific analysis
+    industrial_emissions_lead_finder.py
+    emission_compliance_checker.py
+    download_*.ps1, download_data.py # Data download utilities
+
+  data/                             # All data files (organized by type)
+    raw/                            # Source data
+       1215_Public_Product_Full Access_v8.accdb  # Original EEA database
+       downloaded_data/            # Downloaded EEA datasets
+    processed/                      # Converted/cleaned data
+       converted_database.db       # SQLite version
+       converted_csv/              # 30+ CSV tables from database
+    market/                         # Market analysis & reference
+        Active Plants Global WtE market 2024-2033.csv
+        Projects Global WtE market 2024-2033.csv
+        Waste to Energy 2024-2025.pdf
+        WTE_Market_Analysis_2024-2025.pptx
+
+  outputs/                          # Generated outputs
+    GMAB_WasteToEnergy_Leads_YYYYMMDD.xlsx
+    GMAB_Evaluated_Leads_YYYYMMDD.xlsx
+    GMAB_Proposals/                 # Per-facility proposal packages
+
+  Python environments (.venv, venv), Git (.git), Config (.claude)
 ```
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -128,7 +128,7 @@ python agents/run_agents_demo.py
 
 ---
 
-## 📊 The Three Agents
+##  The Three Agents
 
 ### 1. Lead Generation Agent (`agents/lead_generation_agent.py`)
 
@@ -202,7 +202,7 @@ asyncio.run(update_existing_proposals())           # Refresh with new data
 
 ---
 
-## 📈 Data Sources & Structure
+##  Data Sources & Structure
 
 ### EEA Database Contents
 
@@ -235,7 +235,7 @@ asyncio.run(update_existing_proposals())           # Refresh with new data
 
 ---
 
-## 🔧 Customization & Advanced Usage
+##  Customization & Advanced Usage
 
 ### Switch from Mock Data to Real EEA Data
 
@@ -282,7 +282,7 @@ See `scripts/` for utility examples:
 
 ---
 
-## 📖 Documentation Map
+##  Documentation Map
 
 **Getting Started:**
 - Start here: `docs/guides/README.md` (this file)
@@ -307,7 +307,7 @@ See `scripts/` for utility examples:
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 ### Data Limitations
 - Only includes facilities above reporting thresholds
@@ -316,11 +316,11 @@ See `scripts/` for utility examples:
 - Check metadata for known quality issues
 
 ### Current Status (November 2025)
-✅ Three-agent system fully implemented
-✅ EEA database converted and indexed
-✅ 2024-2025 market analysis integrated
-✅ Regulatory compliance documentation included
-✅ **⚠️ Currently using mock data for demonstration**
+ Three-agent system fully implemented
+ EEA database converted and indexed
+ 2024-2025 market analysis integrated
+ Regulatory compliance documentation included
+ ** Currently using mock data for demonstration**
 
 ### Data Usage
 - EEA data is open-access (free to use with attribution)
@@ -329,7 +329,7 @@ See `scripts/` for utility examples:
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### "No leads found" error
 - Check CSV files exist in `data/processed/converted_csv/`
@@ -352,7 +352,7 @@ See `scripts/` for utility examples:
 
 ---
 
-## 🔗 External Resources
+##  External Resources
 
 ### EEA & Regulatory
 - **EEA Data Hub:** https://www.eea.europa.eu/datahub/
@@ -371,7 +371,7 @@ See `scripts/` for utility examples:
 
 ---
 
-## 📞 Questions or Issues?
+##  Questions or Issues?
 
 1. Check the comprehensive guide: `docs/guides/CLAUDE.md`
 2. Review relevant documentation in `docs/` folder
@@ -380,7 +380,7 @@ See `scripts/` for utility examples:
 
 ---
 
-**Project:** GMAB Waste-to-Energy Lead Generation System  
-**Data Version:** EEA 14.0 (2007-2023)  
-**Documentation Updated:** November 19, 2025  
+**Project:** GMAB Waste-to-Energy Lead Generation System
+**Data Version:** EEA 14.0 (2007-2023)
+**Documentation Updated:** November 19, 2025
 **Status:** Production Ready (Mock Data Mode)

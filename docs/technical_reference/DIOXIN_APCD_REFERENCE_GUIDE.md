@@ -300,14 +300,14 @@ Equipment & Install:
   - ORC System (4 MW electric): €3.2M
   - Control & Integration: €1.8M
   - Contingency (10%): €1.8M
-  ────────────────────
+
   Total Equipment: €17.8M
 
 Installation & Commissioning:
   - Labor & Installation: €3.2M
   - Engineering & Design: €1.5M
   - Project Management: €0.8M
-  ────────────────────
+
   Total Install: €5.5M
 
 TOTAL CAPEX: €23.3M
@@ -320,7 +320,7 @@ Annual Operating Costs:
   - Baghouse maintenance: €200K
   - CEM sampling: €150K
   - Labor & monitoring: €300K
-  ────────────────────
+
   Total OPEX: €1.1M/year
 
 Annual Revenue (New from APCD):
@@ -328,7 +328,7 @@ Annual Revenue (New from APCD):
   - Heat sales (10 MW × 5,000h × €45/MWh): €2.3M
   - EU carbon credits (2,000 tonnes CO2 avoided): €0.15M
   - Compliance penalty avoidance: €1.0M (avoid fines)
-  ────────────────────
+
   Total Annual Benefit: €6.3M
 
 Net Annual Benefit: €6.3M - €1.1M = €5.2M/year
@@ -387,24 +387,24 @@ ROI (10 years): 180%
 ## QUICK REFERENCE: DIOXIN SCORING FOR LEADS
 
 ### Priority 1 - CRITICAL (Immediate APCD Need)
-- ✓ Exceeding I-TEQ limit (>0.1 ng/Nm³)
-- ✓ Recent violation (last 24 months)
-- ✓ Enforcement action or compliance deadline <6 months
-- ✓ No adequate APCD in place
+-  Exceeding I-TEQ limit (>0.1 ng/Nm³)
+-  Recent violation (last 24 months)
+-  Enforcement action or compliance deadline <6 months
+-  No adequate APCD in place
 → **Action**: 48-hour outreach, executive briefing
 
 ### Priority 2 - HIGH (APCD Opportunity)
-- ✓ Approaching limit (0.08-0.10 ng I-TEQ/Nm³)
-- ✓ Memory effect or de novo synthesis risk
-- ✓ Planned upgrade or major maintenance
-- ✓ High waste throughput (>500K tonnes/year)
+-  Approaching limit (0.08-0.10 ng I-TEQ/Nm³)
+-  Memory effect or de novo synthesis risk
+-  Planned upgrade or major maintenance
+-  High waste throughput (>500K tonnes/year)
 → **Action**: 1-2 week outreach, technical discussion
 
 ### Priority 3 - MEDIUM (Proactive Positioning)
-- ✓ At-risk of dioxin violations (>80% of limit)
-- ✓ Aging emission control equipment
-- ✓ No formal APCD strategy in place
-- ✓ BAT compliance deadline approaching
+-  At-risk of dioxin violations (>80% of limit)
+-  Aging emission control equipment
+-  No formal APCD strategy in place
+-  BAT compliance deadline approaching
 → **Action**: Monthly newsletter, technical resources
 
 ---

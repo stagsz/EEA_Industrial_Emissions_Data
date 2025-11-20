@@ -20,18 +20,18 @@ claude
 
 ## Key Rules
 
-### ✅ What Worktrees Are Great For
+###  What Worktrees Are Great For
 - **Parallel Claude sessions** on different branches simultaneously
 - **Complete isolation** - changes in one worktree don't affect others
 - **Shared Git history** - all worktrees use the same repository
 - Working on different features/bugfixes at the same time
 
-### ⚠️ Critical Rules
+###  Critical Rules
 1. **Different agents = Different files** - Each Claude session should modify separate files or you'll have conflicts
 2. **Initialize every worktree** - Run `npm install`, `pip install`, setup config files in EACH worktree (they don't inherit node_modules/venv)
 3. **No built-in agent communication** - Multiple agents can't directly talk to each other (use shared `.claude/shared-context.md` file as workaround)
 
-### 💰 Cost Awareness
+###  Cost Awareness
 Multiple concurrent Claude sessions burn tokens fast. 3-5 agents running in parallel can exceed monthly limits quickly.
 
 ## For This Project
@@ -114,9 +114,9 @@ cd ~/EEA_Industrial_Emissions_Data
 ## Summary
 
 Worktrees enable true parallel development with Claude Code, but require:
-- ✅ Different agents work on different files
-- ✅ Full environment setup in each worktree
-- ✅ Awareness of token costs with multiple sessions
-- ✅ Clear file isolation to avoid conflicts
+-  Different agents work on different files
+-  Full environment setup in each worktree
+-  Awareness of token costs with multiple sessions
+-  Clear file isolation to avoid conflicts
 
 Perfect for your multi-agent architecture where lead generation, evaluation, and proposal agents can be enhanced independently!

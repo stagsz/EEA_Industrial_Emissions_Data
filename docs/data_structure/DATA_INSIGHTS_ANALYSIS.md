@@ -6,7 +6,7 @@ The `converted_csv` and `downloaded_data` directories contain a comprehensive da
 
 **Key Findings:**
 - **99,548 industrial facilities** across 33 European countries
-- **9.9 million TJ/year** total energy consumption 
+- **9.9 million TJ/year** total energy consumption
 - **1,388 million tonnes/year** total pollutant releases
 - **1,626 large/medium facilities** represent prime sales targets
 - **Waste sector** shows highest regulatory pressure and opportunity
@@ -20,17 +20,17 @@ The converted CSV files represent a structured database with the following hiera
 
 ```
 Sites (1_ProductionSite.csv)
-└── Facilities (2_ProductionFacility.csv) - 99,548 records
-    ├── Installations (3_ProductionInstallation.csv) - 69,255 records  
-    └── Installation Parts (4_ProductionInstallationPart.csv)
-        ├── Energy Input (4d_EnergyInput.csv) - 189,798 records
-        ├── Emissions to Air (4e_EmissionsToAir.csv) - 62,829 records
-        └── Pollutant Releases (2f_PollutantRelease.csv) - 550,366 records
+ Facilities (2_ProductionFacility.csv) - 99,548 records
+     Installations (3_ProductionInstallation.csv) - 69,255 records
+     Installation Parts (4_ProductionInstallationPart.csv)
+         Energy Input (4d_EnergyInput.csv) - 189,798 records
+         Emissions to Air (4e_EmissionsToAir.csv) - 62,829 records
+         Pollutant Releases (2f_PollutantRelease.csv) - 550,366 records
 ```
 
 **Key Compliance Data:**
 - Permit Details (3c_PermitDetails.csv)
-- BAT Conclusions (3d_BATConclusions.csv) 
+- BAT Conclusions (3d_BATConclusions.csv)
 - BAT Derogations (3e_BATDerogations.csv)
 - Competent Authority Inspections (3g_CompetentAuthorityInspections.csv)
 
@@ -38,7 +38,7 @@ Sites (1_ProductionSite.csv)
 E-PRTR (European Pollutant Release and Transfer Register) data providing:
 - Facility-level air releases (F1_4)
 - Water releases (F2_4) - 222,733 records
-- Waste transfers (F4_2) - 712,935 records  
+- Waste transfers (F4_2) - 712,935 records
 - National/sector aggregations (F1_1, F2_1, etc.)
 
 ---
@@ -63,7 +63,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
 
 1. **Waste Management (17,933 facilities)**
    - Non-hazardous waste disposal: 10,144 facilities
-   - Hazardous waste treatment: 6,180 facilities  
+   - Hazardous waste treatment: 6,180 facilities
    - Waste incineration: 765 facilities
    - **Opportunity:** Regulatory pressure from EU Waste Framework Directive
 
@@ -96,7 +96,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
 ### Pollutant Release Patterns
 **Top Pollutants by Reporting Frequency:**
 1. **Ammonia** - 97,041 releases (agricultural/waste facilities)
-2. **Nitrogen Oxides** - 37,213 releases (combustion processes)  
+2. **Nitrogen Oxides** - 37,213 releases (combustion processes)
 3. **Zinc Compounds** - 33,633 releases (industrial processes)
 4. **Carbon Dioxide** - 32,576 releases (all sectors)
 5. **Total Organic Carbon** - 26,748 releases (waste/chemical)
@@ -121,7 +121,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
 - **Approach:** Direct C-suite engagement, technical assessment
 - **Value:** High-value contracts (€1M+)
 
-#### Tier 2 Targets (1,378 facilities)  
+#### Tier 2 Targets (1,378 facilities)
 - **Criteria:** 1,000-10,000 TJ/year energy consumption
 - **Profile:** Mid-size manufacturers, regional waste plants
 - **Approach:** Technical sales process, compliance-focused messaging
@@ -141,7 +141,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
    - Strong environmental regulations
    - **Action:** Premium solutions, innovation partnerships
 
-2. **UK (15,950 facilities)**  
+2. **UK (15,950 facilities)**
    - Post-Brexit regulatory uncertainty
    - Need for compliance demonstration
    - **Action:** Regulatory compliance positioning
@@ -161,7 +161,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
 
 #### Thermal Power (3,468 facilities)
 - **Regulation:** EU ETS, Large Combustion Plant Directive
-- **Pain Point:** CO2 costs, NOx/SO2 limits  
+- **Pain Point:** CO2 costs, NOx/SO2 limits
 - **GMAB Solution:** Emission reduction technology
 - **Timeline:** Ongoing compliance pressure
 
@@ -182,7 +182,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
 - Official regulatory reporting data
 - Complete operational parameters
 
-### Limitations  
+### Limitations
 - Some downloaded files have encoding issues (require data cleaning)
 - 2021 latest data (2-3 year lag)
 - Missing economic/financial data on facilities
@@ -220,7 +220,7 @@ E-PRTR (European Pollutant Release and Transfer Register) data providing:
 The comprehensive nature of this dataset creates multiple value streams:
 
 1. **Direct Sales Targeting** - Immediate lead generation
-2. **Market Intelligence** - Industry reports and analysis  
+2. **Market Intelligence** - Industry reports and analysis
 3. **Regulatory Consulting** - Compliance advisory services
 4. **Technology Development** - R&D prioritization based on emission patterns
 5. **Partnership Development** - Identify system integrators and consultants

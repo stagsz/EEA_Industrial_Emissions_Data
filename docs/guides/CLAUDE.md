@@ -30,59 +30,59 @@ This is a **three-agent AI system** for GMAB (www.SPIG-GMAB.com) that automates 
 
 ```
 EEA_Industrial_Emissions_Data/
-├── agents/                          # Agent implementations
-│   ├── lead_generation_agent.py
-│   ├── lead_evaluation_agent.py
-│   ├── proposal_generation_agent.py
-│   └── run_agents_demo.py
-├── scripts/                         # Utility scripts and data processors
-│   ├── analyze_data_structure.py
-│   ├── eea_emissions_analyzer.py
-│   ├── industrial_emissions_lead_finder.py
-│   ├── waste_to_energy_lead_finder.py
-│   └── ... (data processing utilities)
-├── data/                            # All data files
-│   ├── raw/                        # Source data (original EEA database)
-│   │   ├── 1215_Public_Product_Full Access_v8.accdb    # Original EEA Access DB (1.2GB)
-│   │   └── downloaded_data/        # Downloaded EEA datasets
-│   ├── processed/                  # Converted/cleaned data
-│   │   ├── converted_database.db   # SQLite version (771MB)
-│   │   └── converted_csv/          # 30+ CSV tables from EEA database
-│   │       ├── 2_ProductionFacility.csv       # Facility names, locations, sectors
-│   │       ├── 2f_PollutantRelease.csv        # Emission levels by pollutant/year
-│   │       ├── 3_ProductionInstallation.csv   # Equipment and process details
-│   │       └── ... (25+ other CSV files)
-│   └── market/                     # Market analysis and reference data
-│       ├── Active Plants Global WtE market 2024-2033.csv
-│       ├── Market outlook Global WtE market 2024-2033.csv
-│       ├── Projects Global WtE market 2024-2033.csv
-│       └── ... (PDF, analysis documents)
-├── docs/                            # Documentation (all updated November 2025)
-│   ├── guides/                     # Quick start and overview
-│   │   ├── README.md               # Quick start guide
-│   │   ├── CLAUDE.md              # This file - project guidance
-│   │   └── QUICK_SUMMARY.md       # Database overview and capabilities
-│   ├── agents/                     # Agent-specific documentation
-│   │   ├── AGENT_WORKFLOW_GUIDE.md # Step-by-step workflow for all agents
-│   │   └── lead_prompting_guide.md # Templates for agent customization
-│   ├── data_structure/             # Database and data documentation
-│   │   ├── Industrial_Emissions_Data_Guide.md  # Deep dive into EEA structure
-│   │   └── DATA_INSIGHTS_ANALYSIS.md          # Data insights and patterns
-│   ├── market_analysis/            # Market intelligence documentation
-│   │   ├── WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md      # Current market analysis
-│   │   └── WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md # 2024-2025 market trends
-│   ├── technical_reference/        # Technical reference and deep dives
-│   │   ├── DIOXIN_APCD_REFERENCE_GUIDE.md   # Dioxin and APCD analysis
-│   │   ├── DIOXIN_CHANGES_SUMMARY.md        # Dioxin regulatory changes
-│   │   └── EXTERNAL_DATA_CORRELATION_STRATEGY.md
-│   ├── GIT_WORKTREES_GUIDE.md     # Git workflow guidance
-│   ├── restrictions.md             # Data usage restrictions
-│   ├── TASK_COMPLETION_SUMMARY.md # Completed implementation tasks
-│   └── IMPLEMENTATION_COMPLETE.md  # Implementation status
-├── outputs/                         # Generated proposal packages and outputs
-├── .git/                           # Version control with worktrees
-├── .venv/ & venv/                  # Python virtual environments
-└── .gitignore, .claude/            # Configuration files
+ agents/                          # Agent implementations
+    lead_generation_agent.py
+    lead_evaluation_agent.py
+    proposal_generation_agent.py
+    run_agents_demo.py
+ scripts/                         # Utility scripts and data processors
+    analyze_data_structure.py
+    eea_emissions_analyzer.py
+    industrial_emissions_lead_finder.py
+    waste_to_energy_lead_finder.py
+    ... (data processing utilities)
+ data/                            # All data files
+    raw/                        # Source data (original EEA database)
+       1215_Public_Product_Full Access_v8.accdb    # Original EEA Access DB (1.2GB)
+       downloaded_data/        # Downloaded EEA datasets
+    processed/                  # Converted/cleaned data
+       converted_database.db   # SQLite version (771MB)
+       converted_csv/          # 30+ CSV tables from EEA database
+           2_ProductionFacility.csv       # Facility names, locations, sectors
+           2f_PollutantRelease.csv        # Emission levels by pollutant/year
+           3_ProductionInstallation.csv   # Equipment and process details
+           ... (25+ other CSV files)
+    market/                     # Market analysis and reference data
+        Active Plants Global WtE market 2024-2033.csv
+        Market outlook Global WtE market 2024-2033.csv
+        Projects Global WtE market 2024-2033.csv
+        ... (PDF, analysis documents)
+ docs/                            # Documentation (all updated November 2025)
+    guides/                     # Quick start and overview
+       README.md               # Quick start guide
+       CLAUDE.md              # This file - project guidance
+       QUICK_SUMMARY.md       # Database overview and capabilities
+    agents/                     # Agent-specific documentation
+       AGENT_WORKFLOW_GUIDE.md # Step-by-step workflow for all agents
+       lead_prompting_guide.md # Templates for agent customization
+    data_structure/             # Database and data documentation
+       Industrial_Emissions_Data_Guide.md  # Deep dive into EEA structure
+       DATA_INSIGHTS_ANALYSIS.md          # Data insights and patterns
+    market_analysis/            # Market intelligence documentation
+       WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md      # Current market analysis
+       WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md # 2024-2025 market trends
+    technical_reference/        # Technical reference and deep dives
+       DIOXIN_APCD_REFERENCE_GUIDE.md   # Dioxin and APCD analysis
+       DIOXIN_CHANGES_SUMMARY.md        # Dioxin regulatory changes
+       EXTERNAL_DATA_CORRELATION_STRATEGY.md
+    GIT_WORKTREES_GUIDE.md     # Git workflow guidance
+    restrictions.md             # Data usage restrictions
+    TASK_COMPLETION_SUMMARY.md # Completed implementation tasks
+    IMPLEMENTATION_COMPLETE.md  # Implementation status
+ outputs/                         # Generated proposal packages and outputs
+ .git/                           # Version control with worktrees
+ .venv/ & venv/                  # Python virtual environments
+ .gitignore, .claude/            # Configuration files
 ```
 
 ## Running the Agents
@@ -232,7 +232,7 @@ The lead generation agent uses weighted scoring:
 
 ## Current Implementation Status
 
-✅ **Completed (November 2025)**
+ **Completed (November 2025)**
 - Three-agent architecture fully implemented with Claude Agent SDK
 - Lead generation with comprehensive WtE plant detection
 - Lead evaluation with ROI analysis and competitive positioning
@@ -242,7 +242,7 @@ The lead generation agent uses weighted scoring:
 - Regulatory compliance documentation (dioxin, APCD, BAT guidelines)
 - Documentation reorganization and updates
 
-⚠️ **Current State: Mock Data**
+ **Current State: Mock Data**
 - All agents currently use mock data for demonstration
 - See "Mock Data vs Real Data" section below for switching to live EEA data
 

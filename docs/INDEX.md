@@ -4,7 +4,7 @@ Master index for all project documentation. Last updated: November 19, 2025
 
 ---
 
-## 🚀 START HERE
+##  START HERE
 
 **New to this project?** Follow this path:
 
@@ -21,9 +21,9 @@ Then proceed based on your role:
 
 ---
 
-## 📚 Documentation by Category
+##  Documentation by Category
 
-### 🎯 Getting Started (5-10 minutes)
+###  Getting Started (5-10 minutes)
 
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
@@ -32,7 +32,7 @@ Then proceed based on your role:
 
 **Location:** `docs/guides/`
 
-### 📖 Guides (10-30 minutes each)
+###  Guides (10-30 minutes each)
 
 | Document | Purpose | Audience | Read Time |
 |----------|---------|----------|-----------|
@@ -42,7 +42,7 @@ Then proceed based on your role:
 
 **Locations:** `docs/guides/` and `docs/agents/`
 
-### 🗄️ Data Documentation (20-40 minutes)
+###  Data Documentation (20-40 minutes)
 
 | Document | Purpose | Use Case | Read Time |
 |----------|---------|----------|-----------|
@@ -51,7 +51,7 @@ Then proceed based on your role:
 
 **Location:** `docs/data_structure/`
 
-### 📈 Market Intelligence (10-20 minutes each)
+###  Market Intelligence (10-20 minutes each)
 
 | Document | Purpose | Last Updated | Read Time |
 |----------|---------|--------------|-----------|
@@ -60,7 +60,7 @@ Then proceed based on your role:
 
 **Location:** `docs/market_analysis/`
 
-### 🔬 Technical Reference (30-60 minutes)
+###  Technical Reference (30-60 minutes)
 
 | Document | Purpose | Topic | Read Time |
 |----------|---------|-------|-----------|
@@ -70,7 +70,7 @@ Then proceed based on your role:
 
 **Location:** `docs/technical_reference/`
 
-### ⚙️ Operational Documentation
+###  Operational Documentation
 
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
@@ -83,7 +83,7 @@ Then proceed based on your role:
 
 ---
 
-## 📁 File Organization
+##  File Organization
 
 ### By Role
 
@@ -141,67 +141,67 @@ Then proceed based on your role:
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 docs/
-├── INDEX.md (this file)
-├── guides/
-│   ├── README.md                    # START HERE
-│   ├── QUICK_SUMMARY.md
-│   └── CLAUDE.md
-├── agents/
-│   ├── AGENT_WORKFLOW_GUIDE.md
-│   └── lead_prompting_guide.md
-├── data_structure/
-│   ├── Industrial_Emissions_Data_Guide.md
-│   └── DATA_INSIGHTS_ANALYSIS.md
-├── market_analysis/
-│   ├── WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md
-│   └── WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md
-├── technical_reference/
-│   ├── DIOXIN_APCD_REFERENCE_GUIDE.md
-│   ├── DIOXIN_CHANGES_SUMMARY.md
-│   └── EXTERNAL_DATA_CORRELATION_STRATEGY.md
-├── GIT_WORKTREES_GUIDE.md
-├── restrictions.md
-├── TASK_COMPLETION_SUMMARY.md
-└── IMPLEMENTATION_COMPLETE.md
+ INDEX.md (this file)
+ guides/
+    README.md                    # START HERE
+    QUICK_SUMMARY.md
+    CLAUDE.md
+ agents/
+    AGENT_WORKFLOW_GUIDE.md
+    lead_prompting_guide.md
+ data_structure/
+    Industrial_Emissions_Data_Guide.md
+    DATA_INSIGHTS_ANALYSIS.md
+ market_analysis/
+    WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md
+    WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md
+ technical_reference/
+    DIOXIN_APCD_REFERENCE_GUIDE.md
+    DIOXIN_CHANGES_SUMMARY.md
+    EXTERNAL_DATA_CORRELATION_STRATEGY.md
+ GIT_WORKTREES_GUIDE.md
+ restrictions.md
+ TASK_COMPLETION_SUMMARY.md
+ IMPLEMENTATION_COMPLETE.md
 
 agents/
-├── lead_generation_agent.py
-├── lead_evaluation_agent.py
-├── proposal_generation_agent.py
-└── run_agents_demo.py
+ lead_generation_agent.py
+ lead_evaluation_agent.py
+ proposal_generation_agent.py
+ run_agents_demo.py
 
 scripts/
-├── analyze_data_structure.py
-├── eea_emissions_analyzer.py
-├── waste_to_energy_lead_finder.py
-├── emission_compliance_checker.py
-└── ... (utility scripts)
+ analyze_data_structure.py
+ eea_emissions_analyzer.py
+ waste_to_energy_lead_finder.py
+ emission_compliance_checker.py
+ ... (utility scripts)
 
 data/
-├── raw/
-│   ├── 1215_Public_Product_Full Access_v8.accdb
-│   └── downloaded_data/
-├── processed/
-│   ├── converted_database.db
-│   └── converted_csv/ (30+ CSV files)
-└── market/
-    ├── Active Plants Global WtE market 2024-2033.csv
-    ├── Projects Global WtE market 2024-2033.csv
-    └── ... (market data & PDFs)
+ raw/
+    1215_Public_Product_Full Access_v8.accdb
+    downloaded_data/
+ processed/
+    converted_database.db
+    converted_csv/ (30+ CSV files)
+ market/
+     Active Plants Global WtE market 2024-2033.csv
+     Projects Global WtE market 2024-2033.csv
+     ... (market data & PDFs)
 
 outputs/
-├── GMAB_WasteToEnergy_Leads_YYYYMMDD.xlsx
-├── GMAB_Evaluated_Leads_YYYYMMDD.xlsx
-└── GMAB_Proposals/
+ GMAB_WasteToEnergy_Leads_YYYYMMDD.xlsx
+ GMAB_Evaluated_Leads_YYYYMMDD.xlsx
+ GMAB_Proposals/
 ```
 
 ---
 
-## 🔄 Common Tasks
+##  Common Tasks
 
 ### I want to...
 
@@ -237,36 +237,36 @@ outputs/
 
 ---
 
-## 📊 Documentation Status
+##  Documentation Status
 
 **Last Updated:** November 19, 2025
 
 ### Fresh (Today - Nov 19)
-✅ CLAUDE.md - Updated with new directory structure
-✅ README.md - Updated with project overview
-✅ INDEX.md - Created new
+ CLAUDE.md - Updated with new directory structure
+ README.md - Updated with project overview
+ INDEX.md - Created new
 
 ### Updated (Nov 19, Earlier)
-✅ WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md
-✅ WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md
-✅ GIT_WORKTREES_GUIDE.md
-✅ DIOXIN_APCD_REFERENCE_GUIDE.md
-✅ DIOXIN_CHANGES_SUMMARY.md
+ WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md
+ WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md
+ GIT_WORKTREES_GUIDE.md
+ DIOXIN_APCD_REFERENCE_GUIDE.md
+ DIOXIN_CHANGES_SUMMARY.md
 
 ### Older (Oct 17-21)
-⚠️ AGENT_WORKFLOW_GUIDE.md (33 days old)
-⚠️ lead_prompting_guide.md
-⚠️ QUICK_SUMMARY.md
-⚠️ Industrial_Emissions_Data_Guide.md
-⚠️ DATA_INSIGHTS_ANALYSIS.md
-⚠️ EXTERNAL_DATA_CORRELATION_STRATEGY.md
-⚠️ restrictions.md
-⚠️ TASK_COMPLETION_SUMMARY.md
-⚠️ IMPLEMENTATION_COMPLETE.md
+ AGENT_WORKFLOW_GUIDE.md (33 days old)
+ lead_prompting_guide.md
+ QUICK_SUMMARY.md
+ Industrial_Emissions_Data_Guide.md
+ DATA_INSIGHTS_ANALYSIS.md
+ EXTERNAL_DATA_CORRELATION_STRATEGY.md
+ restrictions.md
+ TASK_COMPLETION_SUMMARY.md
+ IMPLEMENTATION_COMPLETE.md
 
 ---
 
-## 🔗 Quick Links
+##  Quick Links
 
 | Task | Document |
 |------|----------|
@@ -281,7 +281,7 @@ outputs/
 
 ---
 
-## 📞 Navigation
+##  Navigation
 
 - **You are here:** `docs/INDEX.md` (Documentation Map)
 - **Quick Start:** `docs/guides/README.md`

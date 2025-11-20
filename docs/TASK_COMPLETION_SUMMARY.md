@@ -6,7 +6,7 @@
 
 ---
 
-## TASK 1: Load CSV Data into lead_generation_agent.py Tools ✓
+## TASK 1: Load CSV Data into lead_generation_agent.py Tools
 
 **Objective**: Integrate global WtE facility data from CSV files into the lead generation agent
 
@@ -28,7 +28,7 @@
 
 ---
 
-## TASK 2: Add Plant Age Scoring from CSV Start Dates ✓
+## TASK 2: Add Plant Age Scoring from CSV Start Dates
 
 **Objective**: Implement age-based scoring for dioxin risk assessment
 
@@ -60,7 +60,7 @@
 
 ---
 
-## TASK 3: Implement Regulatory Weight Factors by Country ✓
+## TASK 3: Implement Regulatory Weight Factors by Country
 
 **Objective**: Add geography-based regulatory pressure weighting to scoring
 
@@ -96,7 +96,7 @@
 
 ---
 
-## TASK 4: Filter Leads for Age >15 Years AND (EU OR Emerging Regulation) ✓
+## TASK 4: Filter Leads for Age >15 Years AND (EU OR Emerging Regulation)
 
 **Objective**: Implement lead filtering based on age and regulatory region criteria
 
@@ -122,23 +122,23 @@ Filtered (PASS): 5 facilities (62.5%)
 Filtered (FAIL): 3 facilities (37.5%)
 
 Passing:
-  ✓ Berlin-Ruhleben (22yr + EU) - Aged plant + EU regulation
-  ✓ Amsterdam AEB (17yr + EU) - Plant age + EU strict regulation
-  ✓ Tokyo (27yr + Developed_Asia) - Aged plant + strict regulation
-  ✓ Shanghai (15yr + Emerging_Asia) - Meets age + regulation criteria
-  ✓ Brescia (25yr + EU) - Aged plant + EU regulation
+   Berlin-Ruhleben (22yr + EU) - Aged plant + EU regulation
+   Amsterdam AEB (17yr + EU) - Plant age + EU strict regulation
+   Tokyo (27yr + Developed_Asia) - Aged plant + strict regulation
+   Shanghai (15yr + Emerging_Asia) - Meets age + regulation criteria
+   Brescia (25yr + EU) - Aged plant + EU regulation
 
 Failing:
-  ✗ SYSAV Sweden (10yr + EU) - Plant age 10 < minimum 15
-  ✗ Toronto (30yr + N.America) - Region N.America not in priority
-  ✗ Singapore (7yr + Developed_Asia) - Plant age 7 < minimum 15
+   SYSAV Sweden (10yr + EU) - Plant age 10 < minimum 15
+   Toronto (30yr + N.America) - Region N.America not in priority
+   Singapore (7yr + Developed_Asia) - Plant age 7 < minimum 15
 ```
 
 **Status**: COMPLETE - Filtering working correctly, targeting high-opportunity segments
 
 ---
 
-## TASK 5: Test on Known Facilities to Validate New Scoring ✓
+## TASK 5: Test on Known Facilities to Validate New Scoring
 
 **Objective**: Comprehensive validation of all 4 previous tasks
 
@@ -175,13 +175,13 @@ Failing:
 | Singapore | 0 | 20 | 0 | 20 | PRIORITY 4 | LONG-TERM |
 
 **Key Validation Findings**:
-- ✓ Plant age calculated correctly (7-30 year range)
-- ✓ Regulatory weights assigned correctly by country
-- ✓ Filtering logic working: 62.5% pass rate (5/8 facilities)
-- ✓ Combined scoring produces expected priorities
-- ✓ Brescia correctly identified as PRIORITY 1 HOT LEAD (aged + EU + compliance issues)
-- ✓ CSV data loading infrastructure confirmed ready
-- ✓ All scoring ranges working (0-65 points observed)
+-  Plant age calculated correctly (7-30 year range)
+-  Regulatory weights assigned correctly by country
+-  Filtering logic working: 62.5% pass rate (5/8 facilities)
+-  Combined scoring produces expected priorities
+-  Brescia correctly identified as PRIORITY 1 HOT LEAD (aged + EU + compliance issues)
+-  CSV data loading infrastructure confirmed ready
+-  All scoring ranges working (0-65 points observed)
 
 **Status**: COMPLETE - All validation tests passing
 
@@ -275,7 +275,7 @@ Failing:
 
 ---
 
-**Status**: ALL TASKS COMPLETE AND VALIDATED ✓
+**Status**: ALL TASKS COMPLETE AND VALIDATED
 
 Implementation Date: November 19, 2025
 Testing: PASSING

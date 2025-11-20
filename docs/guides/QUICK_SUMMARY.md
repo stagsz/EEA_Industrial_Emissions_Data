@@ -4,6 +4,14 @@
 
 I've set up a complete analysis system to help you find industrial plants with emission problems from the European Environment Agency (EEA) database.
 
+### 🌍 NEW: EU Emissions Trading System (ETS) Data Available
+**Updated: November 19, 2025**
+- ✅ EU ETS data downloaded and integrated (v2.0, September 2025)
+- ✅ Covers 2005-2024, all EU + EEA countries
+- ✅ Location: `data/market/EU_ETS_Data/`
+- Includes: Excel workbooks, quality reports, data dictionary
+- **Use for:** Carbon cost exposure, emission reduction urgency scoring
+
 ### 📁 Location
 **C:\Users\staff\anthropicFun\EEA_Industrial_Emissions_Data\**
 

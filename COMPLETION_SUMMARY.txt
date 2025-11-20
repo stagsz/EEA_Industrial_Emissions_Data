@@ -37,11 +37,19 @@ DIRECTORY STRUCTURE CREATED:
 ================================================================================
 
 DATABASE COVERAGE:
-  • European industrial facilities: 34,000+
-  • Time period: 2007-2023 (16 years of continuous data)
+  • European industrial facilities: 34,000+ (E-PRTR)
+  • EU ETS covered installations: ~11,000 (NEW - Nov 19, 2025)
+  • Time period: 2007-2023 (E-PRTR), 2005-2024 (EU ETS - NEW)
   • Pollutants tracked: 100+ regulated substances
   • Total data points: 10+ million individual records
   • Geographic scope: All EU-27 + EFTA countries
+
+NEW: EU EMISSIONS TRADING SYSTEM DATA (Nov 19, 2025):
+  ✅ Downloaded from EEA Union Registry (v2.0, Sept 2025)
+  ✅ Coverage: 2005-2024 (20 years), all EU + EEA countries
+  ✅ Files: 11 total (Excel data cubes, quality reports, metadata)
+  ✅ Integration: Ready for carbon cost exposure scoring
+  ✅ Location: data/market/EU_ETS_Data/
 
 STORAGE SIZE:
   • EEA Access Database: 1.2 GB
@@ -140,6 +148,40 @@ UPDATED FILES (All current as of Nov 19, 2025):
      - Real-world examples
      - Specialized analysis modes
      - Best practices
+
+EU ETS DATA INTEGRATION FILES (NEW - Nov 19, 2025):
+  1. docs/data_structure/Industrial_Emissions_Data_Guide.md (UPDATED)
+     - Added 150+ line comprehensive EU ETS section
+     - Data structure and elements documented
+     - Integration guidance with E-PRTR
+     - Analysis approaches for lead scoring
+     - Regulatory context and phases
+
+  2. docs/guides/QUICK_SUMMARY.md (UPDATED)
+     - Added prominent EU ETS data availability notice
+     - Highlighted version 2.0 (Sept 2025)
+     - Documented use cases for carbon cost exposure
+
+  3. data/market/greate_external_databases.md (UPDATED)
+     - Updated EU ETS Registry section with completion status
+     - Added file names and coverage details
+     - Integrated with lead scoring strategy
+
+  4. ORGANIZATION_SUMMARY.md (UPDATED)
+     - Added EU_ETS_Data directory documentation
+     - Created EU ETS integration section
+     - Listed all 11 files with descriptions
+
+  5. EU_ETS_INTEGRATION_UPDATE.md (NEW - 317 lines)
+     - Comprehensive integration documentation
+     - Download status and file organization
+     - Data content and capabilities
+     - Development roadmap
+
+  6. data/market/EU_ETS_Data/DOWNLOAD_SUMMARY.md (NEW - 87 lines)
+     - Quick reference for EU ETS data
+     - File descriptions and contents
+     - Integration guidance
 
 EXISTING FILES (Already in correct locations):
   4. docs/guides/QUICK_SUMMARY.md

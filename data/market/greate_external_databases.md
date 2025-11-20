@@ -52,12 +52,17 @@ Correlating the EEA Industrial Emissions database with external datasets can dra
 - **Cost:** Free/Low cost
 - **ROI:** Emergency procurement opportunities (high margins)
 
-#### **EU ETS Registry & Transaction Data**
-- **What it provides:** Carbon allowance holdings, trading patterns, compliance status
-- **Correlation key:** Installation IDs, operator names
-- **Lead value:** Carbon cost pressure, emission reduction needs
+#### **EU ETS Registry & Transaction Data** ✅ **DOWNLOADED**
+- **What it provides:** Carbon allowance holdings, trading patterns, verified emissions 2005-2024
+- **Data format:** Excel files (ETS_cube_final_version78, ETS_DataViewer) + CSV data in ZIP
+- **Coverage:** All EU member states and EEA countries
+- **Temporal range:** 2005-2024 (latest data Sep 2025)
+- **Correlation key:** Installation IDs, operator names, facility addresses
+- **Lead value:** Carbon cost pressure, emission reduction needs, compliance deadlines
 - **Cost:** Free (public registry)
 - **ROI:** Perfect timing for emission reduction technology
+- **Data location:** `data/market/EU_ETS_Data/`
+- **Download status:** ✅ Complete - 11 files including quality reports
 
 ### 3. **Contact & Decision Maker Intelligence**
 

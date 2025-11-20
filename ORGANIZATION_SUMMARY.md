@@ -185,13 +185,20 @@ EEA_Industrial_Emissions_Data/
 - converted_database.db (SQLite conversion)
 - converted_csv/ (30+ CSV tables)
 
-**data/market/** (6+ items)
+**data/market/** (6+ items + EU ETS Data)
 - Active Plants Global WtE market 2024-2033.csv
 - Market outlook Global WtE market 2024-2033.csv
 - Projects Global WtE market 2024-2033.csv
 - Waste to Energy 2024-2025.pdf
 - WTE_Market_Analysis_2024-2025.pptx
 - Analysis text files
+- **EU_ETS_Data/** ✅ (NEW - Nov 19, 2025)
+  - ETS_cube_final_version78_2025-09-16.xlsx (Main EU ETS data 2005-2024)
+  - ETS_DataViewer_20250916.xlsx (Aggregated ETS data viewer)
+  - EU ETS table definition.xlsx (Data dictionary)
+  - Quality assurance PDF reports
+  - Metadata and README documentation
+  - 11 files total covering verified emissions, allowances, and compliance data
 
 ### Code Files by Location
 
@@ -358,6 +365,41 @@ Easy to find everything, new users know where to start
 
 ---
 
-**Status:** ✅ COMPLETE  
-**Last Updated:** November 19, 2025  
+**Status:** ✅ COMPLETE
+**Last Updated:** November 19, 2025 (Updated with EU ETS data)
 **Next Review:** When agents are modified or new features added
+
+---
+
+## 🌍 EU ETS Data Integration (Nov 19, 2025)
+
+### Latest Addition: EU Emissions Trading System Data
+
+**What Was Added:**
+- ✅ Downloaded complete EU ETS database from EEA Union Registry
+- ✅ Data version 2.0 (September 2025)
+- ✅ 11 files including Excel data, quality reports, and documentation
+- ✅ Temporal coverage: 2005-2024
+- ✅ Geographic coverage: All EU member states + EEA countries
+
+**Files Included:**
+- `ETS_cube_final_version78_2025-09-16.xlsx` - Main data cube with verified emissions
+- `ETS_DataViewer_20250916.xlsx` - Pre-aggregated data viewer
+- `EU ETS table definition.xlsx` - Data dictionary and definitions
+- Quality assurance PDFs and metadata
+
+**Location:** `data/market/EU_ETS_Data/`
+
+**Data Contents:**
+- Verified CO2-equivalent emissions by installation
+- Allowance holdings (free allocation + auctioned)
+- Compliance status and trading activity
+- Operator and facility information
+- Historical trends 2005-2024
+
+**Integration Ready:**
+This data integrates with the existing industrial emissions analysis to provide:
+1. **Carbon compliance pressure indicators** for lead scoring
+2. **Emission reduction urgency** identification
+3. **ETS cost analysis** for prospect targeting
+4. **Trend analysis** for sales timing optimization

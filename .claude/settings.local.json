@@ -35,7 +35,12 @@
       "WebFetch(domain:www.eea.europa.eu)",
       "Bash(powershell -ExecutionPolicy Bypass -File \"scripts\\download_eu_ets_data.ps1\")",
       "Bash(powershell -ExecutionPolicy Bypass -File \"scripts\\download_eu_ets_union_registry.ps1\")",
-      "mcp__desktop-commander__edit_block"
+      "mcp__desktop-commander__edit_block",
+      "mcp__bright-data__scrape_as_markdown",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_close",
+      "mcp__desktop-commander__list_directory"
     ],
     "deny": [],
     "ask": []

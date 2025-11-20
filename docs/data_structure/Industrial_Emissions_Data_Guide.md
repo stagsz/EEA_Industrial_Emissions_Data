@@ -3,6 +3,11 @@
 ## Overview
 The European Environment Agency (EEA) maintains comprehensive databases of industrial emissions across Europe through the **European Pollutant Release and Transfer Register (E-PRTR)** and **Industrial Emissions Directive (IED)** reporting systems.
 
+### Data Integration Status
+**✅ Updated: November 19, 2025**
+- E-PRTR Industrial Emissions: Fully operational
+- **EU ETS Data: NOW AVAILABLE** - See EU Emissions Trading System section below
+
 ## Key Database: Industrial Reporting Database
 
 ### Coverage
@@ -297,7 +302,157 @@ DOI: https://doi.org/10.2909/[specific DOI from dataset]
 
 ---
 
+## EU Emissions Trading System (ETS) Data ✅ NEW
+
+### Overview
+The EU ETS is the cornerstone of the EU's climate policy and provides complementary data to the E-PRTR industrial emissions reports. While E-PRTR covers all pollutants from large industrial sources, the EU ETS specifically tracks greenhouse gas emissions and carbon allowance trading for large installations.
+
+### Data Available
+**Version**: 2.0 (September 2025)
+**Temporal Coverage**: 2005-2024
+**Geographic Coverage**: All EU member states + EEA countries
+**Format**: Excel workbooks + CSV data
+
+### Files Included
+1. **ETS_cube_final_version78_2025-09-16.xlsx**
+   - Main data cube with detailed installation-level data
+   - Verified CO2-equivalent emissions
+   - Free allowances and auction allowances
+   - Compliance status
+   - Installation information
+
+2. **ETS_DataViewer_20250916.xlsx**
+   - Pre-aggregated data viewer
+   - Aggregated by country, sector, and year
+   - Easier for dashboard and reporting
+   - Interactive pivot-table ready
+
+3. **EU ETS table definition.xlsx**
+   - Data dictionary explaining all fields
+   - Field descriptions and formats
+   - Validation rules
+
+### Key Data Elements
+
+#### Emissions Data
+- **Verified emissions** (tCO2e) by installation and year
+- Includes Scopes 1, 2 (for specific sectors), and some Scope 3
+- Quality-assured and verified by accredited verifiers
+- Annual reporting (submissions by March 31)
+
+#### Allowances
+- **Free allocation**: Based on benchmarks and historical data
+- **Auctioned allowances**: Available through public auctions
+- **Surplus/deficit**: Installations with excess or shortfall
+- **Banking/borrowing**: Multi-year flexibility mechanisms
+
+#### Compliance Tracking
+- **Surrendered units**: Against verified emissions
+- **Penalties**: Non-compliance actions (€100/tCO2e penalty from 2021)
+- **Installation status**: Active, closed, or transferred
+
+#### Installation Information
+- **Operator details**: Company name, contact, permit number
+- **Facility location**: Coordinates, city, address
+- **Main activity**: NACE code, sector classification
+- **Capacity data**: Production capacity, fuel input where available
+
+### Integration with E-PRTR Data
+
+**Complementary Perspective:**
+- **E-PRTR**: All pollutants (CO2, NOx, SO2, heavy metals, etc.)
+- **EU ETS**: Focused on greenhouse gases (CO2, N2O, PFCs for certain sectors)
+
+**Facility Matching:**
+- Most large industrial facilities appear in both databases
+- Use facility names, locations, and NAC codes for correlation
+- ETS installations cover ~11,000 major emitters
+- E-PRTR covers ~34,000 facilities (includes smaller ones)
+
+**Combined Analysis Value:**
+1. **Carbon costs**: ETS allowance prices vs. emissions
+2. **Environmental burden**: E-PRTR pollutants + ETS carbon impact
+3. **Compliance pressure**: Both systems' requirements
+4. **Urgency scoring**: Facilities with both high emissions and carbon cost exposure
+
+### Data Access
+
+**Location**: `data/market/EU_ETS_Data/`
+
+**Download Source**: European Environment Agency Datahub
+URL: https://www.eea.europa.eu/en/datahub/datahubitem-view/98f04097-26de-4fca-86c4-63834818c0c0
+
+**Quality Assurance**:
+- ETC-CM EU-ETS data quality reports (quarterly)
+- Latest: September 2025
+- Background notes available for methodology
+
+### Suggested Analysis Approaches
+
+#### Approach 1: Identify Carbon Cost Exposure
+```
+SELECT installations WHERE:
+  - Verified emissions > 50,000 tCO2e/year
+  - AND compliance deficit in recent years
+  - AND free allocation declining
+  - RANK by emission trend (increasing = urgent need)
+```
+
+#### Approach 2: Compliance Risk Assessment
+```
+SELECT installations WHERE:
+  - Emissions growing vs. 2005 baseline (should decline)
+  - Shortfall in allowances (need to buy/reduce)
+  - Allocation mechanism changes approaching
+  - Result: Sales opportunity for emission reduction solutions
+```
+
+#### Approach 3: Technology Investment Indicators
+```
+SELECT installations WHERE:
+  - High emissions but low emissions intensity
+  - Growing production + growing emissions
+  - Still using BAT from 2000s (dated benchmarks)
+  - Result: Candidates for technology upgrade investments
+```
+
+### Key Metrics for Lead Scoring
+
+1. **Absolute Emission Level**: tCO2e/year
+2. **Compliance Status**: Surplus/deficit in allowances
+3. **Emission Trend**: % change year-over-year
+4. **Carbon Cost Exposure**: Allowance deficit × carbon price
+5. **Sector**: Energy-intensive vs. less intensive
+6. **Installation Status**: Active, expanding, or closing
+
+### Regulatory Context
+
+**EU ETS Phases:**
+- **Phase 1 (2005-2007)**: Pilot phase, free allocation 100%
+- **Phase 2 (2008-2012)**: First real compliance period, 90% free
+- **Phase 3 (2013-2020)**: Increasing auctioning, transition to 100%
+- **Phase 4 (2021-2030)**: Market-based allocation, strengthened targets
+
+**2024-2025 Relevance:**
+- Phase 4 in progress: Tighter emission caps
+- EU ETS Directive amendment passed (2023)
+- Carbon Boarder Adjustment Mechanism (CBAM) starting
+- Free allocation declining towards zero for some sectors
+
+### Contact & Resources
+
+**Data Provider**: European Environment Agency
+**Technical Support**: https://www.eea.europa.eu/about-us/contact
+
+**Latest Reports**:
+- EU ETS data viewer: https://www.eea.europa.eu/en/analysis/maps-and-charts/emissions-trading-viewer-1-dashboards
+- Background documentation: Included in download package
+
+---
+
+**EU ETS Data Added**: November 19, 2025
 **Document Created**: October 16, 2025
-**Data Version**: 14.0 (March 2025)
-**Temporal Coverage**: 2007-2023
-**Last Updated**: October 16, 2025
+**E-PRTR Data Version**: 14.0 (March 2025)
+**EU ETS Data Version**: 2.0 (September 2025)
+**Temporal Coverage**: 2007-2023 (E-PRTR), 2005-2024 (EU ETS)
+**Last Updated**: November 19, 2025

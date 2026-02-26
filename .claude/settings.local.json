@@ -40,7 +40,8 @@
       "mcp__playwright__browser_snapshot",
       "mcp__playwright__browser_click",
       "mcp__playwright__browser_close",
-      "mcp__desktop-commander__list_directory"
+      "mcp__desktop-commander__list_directory",
+      "Bash(start:*)"
     ],
     "deny": [],
     "ask": []

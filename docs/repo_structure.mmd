@@ -1,0 +1,127 @@
+graph TD
+    ROOT["EEA_Industrial_Emissions_Data/"]
+
+    ROOT --> CLAUDE_MD["CLAUDE.md<br/><i>Project manifest</i>"]
+    ROOT --> AGENTS
+    ROOT --> SCRIPTS
+    ROOT --> DATA
+    ROOT --> DOCS
+    ROOT --> OUTPUTS
+    ROOT --> ARCHIVE
+
+    %% ── Agents ──
+    subgraph AGENTS["agents/"]
+        A1["lead_generation_agent.py<br/><i>Scan EEA DB, score leads 0-100</i>"]
+        A2["lead_evaluation_agent.py<br/><i>ROI analysis, competitive positioning</i>"]
+        A3["proposal_generation_agent.py<br/><i>Auto-generate proposal packages</i>"]
+        A4["run_agents_demo.py"]
+    end
+
+    %% ── Scripts ──
+    subgraph SCRIPTS["scripts/"]
+        subgraph DL["download/"]
+            DL1["import_v16.py"]
+            DL2["update_eea_data.py"]
+            DL3["download_*.py / .ps1<br/><i>7 download scripts</i>"]
+        end
+        subgraph AN["analysis/"]
+            AN1["eea_emissions_analyzer.py"]
+            AN2["emission_compliance_checker.py"]
+            AN3["waste_to_energy_lead_finder.py"]
+            AN4["industrial_emissions_lead_finder.py"]
+            AN5["analyze_data_structure.py"]
+            AN6["sweden_paper_mills_*.py<br/>build_verified_mills.py<br/>check_data.py"]
+        end
+        subgraph RP["reports/"]
+            RP1["generate_nordic_leads_pdf.py"]
+            RP2["generate_gmab_strategy_pdf.py"]
+            RP3["generate_nassjo_pdf.py"]
+            RP4["create_wte_presentation.py"]
+            RP5["search_app.py"]
+        end
+        subgraph TS["tests/"]
+            TS1["test_wte_scoring.py"]
+        end
+    end
+
+    %% ── Data ──
+    subgraph DATA["data/"]
+        subgraph RAW["raw/"]
+            RAW1["EEA Access DB<br/><i>1.2 GB source</i>"]
+        end
+        subgraph PROC["processed/"]
+            PROC1[("converted_database.db<br/><i>SQLite 771 MB<br/>2007-2024 (v16)</i>")]
+            PROC2["converted_csv/<br/><i>30+ CSV tables</i>"]
+        end
+        subgraph MKT["market/"]
+            MKT1["WtE market CSVs<br/><i>2024-2033 forecasts</i>"]
+            MKT2["EU_ETS_Data/<br/><i>2005-2024</i>"]
+            MKT3["PDFs & analysis texts"]
+        end
+    end
+
+    %% ── Docs ──
+    subgraph DOCS["docs/"]
+        DINDEX["INDEX.md"]
+        subgraph DG["guides/"]
+            DG1["README.md"]
+            DG2["QUICK_SUMMARY.md"]
+            DG3["CLAUDE.md<br/><i>Extended dev guide</i>"]
+        end
+        subgraph DA["agents/"]
+            DA1["AGENT_WORKFLOW_GUIDE.md"]
+            DA2["lead_prompting_guide.md"]
+        end
+        subgraph DS["data_structure/"]
+            DS1["Industrial_Emissions_Data_Guide.md"]
+            DS2["DATA_INSIGHTS_ANALYSIS.md"]
+        end
+        subgraph DM["market_analysis/"]
+            DM1["WTE_ANALYSIS_SUMMARY_FOR_AGENTS.md"]
+            DM2["WTE_2024_2025_MARKET_ANALYSIS_SUMMARY.md"]
+        end
+        subgraph DT["technical_reference/"]
+            DT1["DIOXIN_APCD_REFERENCE_GUIDE.md"]
+            DT2["DIOXIN_CHANGES_SUMMARY.md"]
+            DT3["EXTERNAL_DATA_CORRELATION_STRATEGY.md"]
+        end
+        subgraph DARC["archive/"]
+            DARC1["4 stale docs"]
+        end
+    end
+
+    %% ── Outputs ──
+    subgraph OUTPUTS["outputs/"]
+        O1["PDFs, Excel reports,<br/>CSV lead lists"]
+    end
+
+    %% ── Archive ──
+    subgraph ARCHIVE["archive/"]
+        AR1["9 historical artifacts<br/><i>Completion summaries,<br/>old presentations</i>"]
+    end
+
+    %% ── Data flow ──
+    RAW1 -.->|"convert"| PROC1
+    PROC1 -.->|"export"| PROC2
+    PROC1 ====>|"query"| A1
+    MKT1 -.->|"enrich"| A1
+    A1 ==>|"Priority 1-2 leads"| A2
+    A2 ==>|"Qualified leads"| A3
+    A1 -.->|"Excel"| OUTPUTS
+    A2 -.->|"Excel"| OUTPUTS
+    A3 -.->|"Proposal packages"| OUTPUTS
+    AN1 -.->|"used by"| A1
+    DL1 -.->|"imports into"| PROC1
+
+    %% ── Styling ──
+    classDef db fill:#4a90d9,stroke:#2c5aa0,color:#fff
+    classDef agent fill:#50c878,stroke:#2e8b57,color:#fff
+    classDef output fill:#f4a460,stroke:#d2691e,color:#fff
+    classDef archive fill:#999,stroke:#666,color:#fff
+    classDef manifest fill:#e6c200,stroke:#b8960f,color:#000
+
+    class PROC1 db
+    class A1,A2,A3 agent
+    class O1 output
+    class AR1,DARC1 archive
+    class CLAUDE_MD manifest

@@ -1,0 +1,1541 @@
+=== PAGE 27 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+27 
+ecoprog
+1 This year’s highlights and trends 
+ 
+In this first chapter, we will highlight some recent developments on the Waste-to-Energy market. These are 
+described in more detail in the following chapters. 
+In the years to come, the global WtE market will continue to be led by Asia. China will remain the largest WtE 
+market, but this growth will decline in the years to come. 
+CO2 emissions and their pricing remain one of the most important issues in the WtE industry. However, 
+implementation remains difficult. 
+ 
+Chinese WtE market experiencing a major downturn 
+The Chinese Waste-to-Energy market is experiencing a major downturn. Over the recent years already, new 
+awardings have declined considerably. However, since 2023, this decline has even accelerated.  
+The country’s populated eastern coastal provinces are already facing overcapacities and forced plant 
+shutdowns. Therefore, in the future, we expect new commissionings to rather focus on the central and western 
+regions. Moreover, in the medium and in the long term, greater recycling efforts will also lead to a decreasing 
+demand for additional WtE plants. However, despite these developments, China will continue to lead the global 
+market development, albeit at a significantly lower level compared to the previous years. China will still account 
+for nearly half of all capacities worldwide to be built from 2024 to 2033 – in regard to tonnes per year. 
+In the years to come, the global Waste-to-Energy market will continue to be led by the Asian countries. 
+However, other promising markets, such as Thailand, Indonesia, India, and Malaysia, are not yet able to 
+compensate for the declining Chinese market. In most of these countries, sufficient and sustained financial 
+and regulatory support from the government continues to be lacking. In addition, many of these countries are 
+struggling with political instability. 
+In general, the European market will remain stable in the years to come. The long-lasting boom in new project 
+awardings in the UK has come to an end. However, we still see market potential in countries such as Poland 
+and the Czech Republic, as well as in markets like Italy and France.  
+ 
+Discussions about carbon management 
+At present, the potential of implementing carbon capture and storage (CCS) and carbon capture and utilisation 
+(CCU) technology is widely being discussed in the WtE sector. CCS and CCU describes the technology used 
+for the capture of CO2 at the emitter and the subsequent permanent storage or utilisation of the emissions. 
+In recent years, several carbon capture projects have been announced at WtE plants in several countries, 
+especially in Europe. The currently most promising CCS and CCU projects are located in the North Sea, and 
+projects at geographically adjacent WtE facilities to utilise the storage sites are underway. A first CCU system 
+is already operational at a WtE plant in the Netherlands, where the captured CO2 is used to supply local 
+greenhouses. 
+
+=== PAGE 28 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+28 
+ecoprog
+However, many of the current proposals are still not more than announcements, often aimed at receiving 
+government funding. Besides a still inadequate legal framework, the huge investment costs are a major 
+obstacle for implementing carbon capture technologies. Generally speaking, as of today, a carbon capture 
+price of more than 200 EUR/t of CO2 is considered as realistic. 
+ 
+Market concentration in the EPC sector comes to a halt 
+Since the publication of our last report, there have been no major changes among competitors in the WtE 
+market. In recent years, the number of engineering, procurement and construction (EPC) providers in the 
+European WtE market has decreased. Following a number of major takeovers in recent years, market 
+concentration appears to have at least come to a halt. 
+ 
+New market chapters, reflecting growing potential in the Middle East 
+In general, we see a growing market potential in the Middle East, especially in economically stronger countries. 
+For this year’s edition of our report, we have included the new market chapters Egypt, Kuwait, Qatar and Saudi 
+Arabia. Specific information on efforts for developing a WtE market are often still lacking in these countries. In 
+Saudi Arabia, for instance, incentives for the use of WtE have not yet been established. However, WtE gate 
+fees are planned to be introduced in the Kingdom. 
+ 
+ 
+
+=== PAGE 29 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+29 
+ecoprog
+2 Plants worldwide 
+ 
+Throughout the world, there are approximately 2,869 active thermal waste treatment plants by the end of 2023. 
+Not all of them are generating energy and can therefore not be classified as WtE plants.  
+Due to a special market structure with many small-scale plants, the Japanese WtE plant asset cannot be 
+considered as representative for the global WtE market.  
+ 
+Figure 1: Plants worldwide 
+ 
+ 
+With about 200,000 annual tonnes, the average size of a European waste incineration plant is more than three 
+times larger than a Japanese facility. However, newly installed large-scale plants in China, which increased 
+the country’s average plant capacity to about 370,000 tpy, are slowly compensating for the low average 
+capacities in Japan. Furthermore, the number of small-scale plants in Japan is decreasing. 
+Considering the poor utilisation of the WtE plants in Japan of less than 50%, China by far processes the largest 
+amounts of waste worldwide (based on the analysis of tonnes). 
+The thermal waste treatment plants in the USA are even larger and have an average capacity of around 
+400,000 tonnes of waste per year. The main reasons for this development are the energetic use of the plants 
+and the higher pressure in terms of costs. 
+ 
+WtE plants
+Country
+1,000  
+Japan
+1
+916
+China
+2
+233
+South Korea
+3
+131 
+France
+4
+98  
+Germany
+5
+71 
+USA
+6
+64
+United Kingdom
+7
+37  
+Italy
+8
+36   
+Sweden
+9
+29  
+Switzerland
+10
+Africa & 
+Near East
+0%
+Asia
+78%
+Europe
+19%
+Northern 
+America
+3%
+South & 
+Central 
+America
+0%
+Source: ecoprog 2024
+Number of plants
+n = 2,869
+
+=== PAGE 30 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+30 
+ecoprog
+Figure 2: Incineration capacities worldwide (in tonnes) 
+ 
+ 
+The different technical structures in the submarkets become especially obvious when not only considering the 
+incineration capacities in tonnes but also the calorific value of the waste. Due to the larger organic share in 
+their waste, Asia usually has a considerably lower calorific value than Europe or North America. Some waste 
+incineration plants in China can de facto incinerate up to twice as much waste than a similarly equipped plant 
+in Europe. The large capacities of some Chinese plants therefore only give limited evidence about their 
+technical size.  
+When considering the calorific value, the largest WtE capacities are operational in Europe. Considering the 
+poor utilisation of the Japanese plants, the European share of waste throughput is even larger. 
+Europe remains in the lead when it comes to the share of thermal waste treatment within the waste business. 
+No other region of the world has such a comprehensive waste legislation that restricts the landfilling of waste 
+and promoted the energetic use of residual waste. 
+Thermal waste recovery is of similarly great importance in individual Asian countries such as Japan, Taiwan, 
+South Korea or Singapore. This holds true for places with a dense population, lacking space and a sufficient 
+economic development. A similar situation has developed in large parts of the eastern coast of China, for 
+instance. However, still many other Asian countries do not yet have a waste incineration plant or only a few. 
+Capacities in mln 
+t/a
+Country
+341   
+China
+1
+63 
+Japan
+2
+27   
+USA
+3
+27   
+Germany
+4
+18  
+United Kingdom
+5
+16   
+France
+6
+8 
+South Korea
+7
+8
+Taiwan
+8
+7 
+Italy
+9
+7  
+Sweden
+10
+Africa & 
+Near East
+0%
+Asia
+76%
+Europe
+19%
+Northern 
+America
+5%
+South & 
+Central 
+America
+0%
+Capacities [mln t/a]
+n = 576
+Source: ecoprog 2024
+
+=== PAGE 31 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+31 
+Figure 3: Operational waste incineration plants worldwide (as of late 2023) 
+ 
+ 
+ 
+ 
+ 
+Asia
+Japan
+1,000
+China
+916
+South Korea
+233
+Taiwan
+26
+Thailand
+20
+India
+20
+Malaysia
+7
+Vietnam
+6
+Singapore
+5
+Iran
+4
+Azerbaijan
+1
+Myanmar
+1
+Sri Lanka
+1
+Maldives
+1
+Europe
+France
+131
+Germany
+98
+UK
+64
+Italy
+37
+Sweden
+36
+Switzerland
+29
+Denmark 
+27
+Norway
+18
+Belgium
+17
+Netherlands
+11
+Austria
+12
+Spain
+10
+Poland
+9
+Finland
+9
+Russia
+6
+Czech Republic
+4
+Portugal
+4
+Ireland
+2
+Slovakia
+2
+Albania
+1
+Source: ecoprog 2024
+Andorra
+1
+Estonia
+1
+Hungary
+1
+Iceland
+1
+Lithuania
+2
+Luxembourg
+1
+Monaco
+1
+Slovenia
+1
+Ukraine
+1
+Africa & Middle East
+Egypt
+2
+UAE
+2
+Qatar 
+1
+Ethiopia
+1
+Northern America
+USA
+71
+Canada 
+8
+Bermuda
+1
+
+=== PAGE 32 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+32 
+Figure 4: Incineration capacities worldwide (in PJ) 
+ 
+ 
+Grate combustion is the dominant incineration technology worldwide. It is not only preferred for untreated 
+waste but in many cases also for processed waste, such as refuse-derived fuel (RDF) from MBT plants. The 
+main reason for the dominance of grate combustion is its robustness in handling waste, which is a very 
+heterogeneous fuel with many impurities. 
+Fluidised bed incineration technology and especially gasification technology often need smaller particle sizes 
+and processed waste, respectively. This is the reason why fluidised bed incineration technology usually 
+accounts for a larger share amongst RDF power plants. The market share of other technologies, like plasma 
+gasification, gasification or pyrolysis, remains very small. As per out database, between 2014 and 2024, only 
+17 combustion lines using gasification or pyrolysis technology were commissioned worldwide. 
+ 
+Figure 5: Worldwide capacity by type of technology 
+ 
+Capacities in  PJ/a
+Country
+2,707
+China
+1
+473
+Japan
+2
+285
+USA
+3
+284
+Germany
+4
+202
+United Kingdom
+5
+174
+France
+6
+71
+Italy
+7
+69 
+Sweden
+8
+62 
+South Korea
+9
+62
+Taiwan
+10
+Africa & Near 
+East
+1%
+Asia
+69%
+Europe
+24%
+Northern 
+America
+6%
+South & 
+Central 
+America
+0%
+Capacities [PJ/a]
+n = 4,730 
+Assumptions: 10.5 MJ/kg 
+in Europe, North
+America and Australia; 
+7.5 MJ/kg in Asia and Africa
+Source: ecoprog 2024
+98%
+1%
+1%
+Grate combustion
+Fluidised bed
+Gasification & other
+Share in regard to capacity. 
+Evaluation of 760 treatment
+units becoming operational
+since 2019. Source: ecoprog
+
+=== PAGE 33 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+33 
+In terms of age, the incineration lines have been online for an average of about 19 years. This average age 
+differs considerably by market region. The oldest lines are installed in countries that once had a strong WtE 
+market, but where the framework conditions have worsened ever since. This holds especially true for North 
+America, where the profitability of recovery plants is much more dependent on energy prices than in other 
+countries.  
+ 
+Figure 6: Average plant size and age by region 
+ 
+ 
+ 
+ -
+ 100,000
+ 200,000
+ 300,000
+ 400,000
+ 500,000
+ 600,000
+ 700,000
+ 800,000
+ 900,000
+Africa &
+Near East
+Asia
+Australia &
+Pacific
+Europe
+Northern
+America
+South &
+Central
+America
+Source: ecoprog
+Average capacity [tpy]
+ -
+ 5.0
+ 10.0
+ 15.0
+ 20.0
+ 25.0
+ 30.0
+ 35.0
+ 40.0
+Africa & Near
+East
+Asia
+Australia &
+Pacific
+Europe
+Northern
+America
+South &
+Central
+America
+Source: ecoprog
+Age [years]
+Age [years]
+
+=== PAGE 34 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+34 
+In North America the average existing WtE unit is 34 years old. It also holds true for some European countries 
+such as France, where political preconditions had changed, or Denmark and the Netherlands, where the 
+market has been saturated.  
+Waste incineration plants are young where the markets have boomed in the past years, thus mainly in Asia, 
+but also in the UK. 
+ 
+2.1 
+Europe 
+For late 2023, we estimate 537 WtE plants to be operational in Europe with a combined capacity of 108.2 
+million tonnes per year. 
+The majority of capacities are located in France, the Benelux countries, Central Europe with Germany, 
+Switzerland and Austria, followed by the UK & Ireland and Scandinavia. 
+In regard to the population share, especially Scandinavia has high incineration capacities. Thermal waste 
+treatment has a long tradition in countries such as Denmark or Sweden, due to, amongst other reasons, the 
+major role WtE plants play for district heating schemes. Many of these countries incinerate more waste than 
+they produce, which means that they import waste to different extents. 
+The heat use improves the international competitiveness of the plants and creates a dependency on the 
+continuous supply of waste as fuel. However, these countries also aim to increase recycling shares and reduce 
+waste incineration in the future, for instance through including WtE in national or EU CO2 schemes. If waste 
+imports decrease and WtE capacities are closed, the heat supply must be replaced. 
+ 
+Figure 7: Plants and treatment capacities in Europe 
+ 
+ 
+The average age of the plants in the Scandinavian countries is comparatively high, with the exception of 
+Finland, where dedicated WtE plants only became operational after 2007. 
+In Central Europe, WtE capacities are comparatively large as well. Germany, Austria and Switzerland do hardly 
+landfill any MSW. Even though in Germany some MBT plants are responsible for residual waste treatment, 
+159   
+139   
+90   
+51   
+66   
+20   12   
+Plants
+n=537
+26.4
+33.4
+13.6
+10.6
+18.1
+3.5
+2.7
+Capacity [mln tpy]
+n=108.2
+France & BeNeLux
+Central Europe
+Scandinavia
+Southern Europe
+UK & Ireland
+EU Eastern Europe
+Rest of Europe
+Data estimated for late 2023
+Source: ecoprog
+
+=== PAGE 35 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+35 
+thermal treatment is the by far most common way of disposing of residual waste. Germany and Austria were 
+the strongest WtE markets in the first decade of the century due to the implementation of the EU Landfill 
+Directive. 
+ 
+Figure 8: Capacities and lines by age in Europe 
+ 
+However, Germany and Austria are not the only countries that have commissioned many WtE plants in the 
+past 20 years. Other countries such as the Netherlands, Norway, Finland and, UK, experienced a boom in 
+thermal waste treatment.  
+20% of the European WtE capacities are 10 years old or younger. These capacities are installed in about 13% 
+of the European thermal treatment lines. 45% of the European WtE boilers are older than 25 years, accounting 
+for 34% of the European thermal treatment capacities. 
+Countries with many older and smaller plants are France and Italy. Contrary to Scandinavia, these are often 
+not a part of a municipal energy economy. 
+As a result, some of the countries with many older facilities are also among those with a small average plant 
+capacity, such as France and Denmark. The largest average capacities are installed in densely populated 
+countries, especially in the Netherlands, but also in the UK, Austria and Germany. 
+ 
+ 
+0.00
+5.00
+10.00
+15.00
+20.00
+25.00
+30.00
+35.00
+40.00
+45.00
+ -
+ 50
+ 100
+ 150
+ 200
+ 250
+ 300
+ 350
+ 400
+ 450
+ 500
+n. a.
+> 25
+years
+21-25
+years
+16-20
+years
+11-15
+years
+< 10
+years
+Number of units
+Capacities [mln t/a]
+Number of units
+Capacity [mln t/a]
+Source: ecoprog
+
+=== PAGE 36 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+36 
+Figure 9: Average age by country in Europe 
+ 
+ 
+2.2 
+Asia 
+The Asian WtE asset is dominated by Japan and China. However, these two markets differ considerably 
+concerning their structure. 
+Japan used to be the traditional – and for a long time the only – WtE market in Asia. Due to a very specific 
+market structure in regard to legislation, domestic technologies and economic structure of the waste business, 
+more than 1,500 thermal treatment plants have been constructed since the 1960s.  
+Many of these plants use gasification and pyrolysis processes, due to, amongst others, the requirement of slag 
+melting that was part of the Japanese legislation in the 1990s. Due to their peripheral location, many plants 
+are very small and not in continuous operation; the overall utilisation of all plants amounts to less than 50%. 
+Many of them were lacking any form of energy recovery.  
+After the ash melting requirement was changed, the Japanese WtE asset increasingly shifts towards a 
+structure similar to the rest of the world. Many small disposal plants are shut down and replaced by larger 
+plants with an efficient energy recovery. This development reflects the trends towards more efficient, central 
+plants with a higher energy yield and towards an improved recycling. The development in South Korea is a 
+similar one. 
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+Source: ecoprog
+Age [years]
+
+=== PAGE 37 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+37 
+Figure 10: Plants and treatment capacities in Asia 
+ 
+ 
+The Chinese WtE market is opposite to the Japanese market. China’s WtE asset has increased from a handful 
+of WtE facilities in the beginning of the 2000s up to a technical capacity similar to the one in Japan in less than 
+15 years. 2021 was a record year with 190 new commissionings, according to our data. 
+As of late 2023, the Chinese WtE capacities represent 79% of the installed capacities on the Asian market, 
+with a plant asset that covers a market share of around 39%. China’s current capacity target for 2025 (292 
+mtpy) has already been exceeded in 2022. 
+Due to China’s WtE boom over the last decade, the WtE plant asset has an average age of only 6 years. 
+Similar to the European market, grate combustion is the dominating installed treatment technology.  
+ 
+Figure 11: Capacities and lines by age in Asia 
+ 
+1,000   
+916   
+233   
+20   
+31   
+37   
+8   
+Plants
+n=2,245
+Japan
+China
+South Korea
+India
+Saturated markets
+New markets
+Rest of Asia
+63.4
+340.5
+8.3
+8.3
+5.3
+11.7
+Capacity [mln tpy
+n=437.6
+Japan
+China
+South Korea
+Taiwan
+India
+Rest of Asia
+Data estimated for late 2023
+Source: ecoprog
+0.00
+50.00
+100.00
+150.00
+200.00
+250.00
+300.00
+350.00
+ -
+ 200
+ 400
+ 600
+ 800
+ 1,000
+ 1,200
+ 1,400
+ 1,600
+ 1,800
+n. a.
+> 25
+years
+21-25
+years
+16-20
+years
+11-15
+years
+< 10
+years
+Number of units
+Capacities [mln t/a]
+Number of units
+Capacity [mln t/a]
+Source: ecoprog
+
+=== PAGE 38 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+38 
+Apart from China and Japan, WtE assets are so far small in Asia. Taiwan and South Korea constructed 
+sufficient capacities, but, due to the size of these countries, to a much smaller extent than Japan or China. 
+Other countries, such as Malaysia, Vietnam, India, Indonesia or Thailand, are just beginning to develop a WtE 
+sector. 
+So far, landfilling still is the most common form of waste disposal in all of these countries. These countries – 
+most prominent India – therefore offer large potentials in thermal waste treatment. 
+ 
+Figure 12: Average age by country in Asia 
+ 
+ 
+2.3 
+North America 
+The WtE plant asset in the USA is on average 33 years old and the number of plants has been declining for 
+many years. Most plants still result from a WtE boom in the 1980s and early 1990s. This boom was based on 
+high overall energy prices and has not returned ever since. Only the most efficient plants are kept operational 
+and hardly any new plants have been constructed or old boilers refurbished. As a result, more than 20 WtE 
+plants were shut down in the past 20 years. 
+In contrast to a strongly regulated waste management sector in Europe, North America is lacking such 
+incentives.  
+As in the US, the construction of WtE plants is resulting from market factors that are not directly influenced by 
+the government, e.g., high energy prices, high disposal costs, lacking landfilling space or demands of the 
+citizens. 
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+Source: ecoprog
+Age [years]
+
+=== PAGE 39 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+39 
+Figure 13: Plants and treatment capacities in North America 
+ 
+ 
+In Canada, landfilling remains to be the cheapest and preferred option for waste disposal. The region is 
+sparsely populated and thus not lacking space for landfills. Therefore, incentives for using WtE technology 
+remain weak in Canada.  
+ 
+Figure 14: Capacities and lines by age in North America 
+ 
+ 
+2.4 
+Rest of the world 
+Outside of the 3 market regions mentioned above, as of late 2023, there are 7 operational facilities in the 
+region of Africa and Middle East. 
+8   
+71   
+1   
+Plants
+n=80
+0.7
+27.2
+0.1
+Capacity [mln tpy]
+n=27.9
+Canada
+USA
+Rest of Northern
+America
+Data estimated for late 2023
+Source: ecoprog
+0.00
+5.00
+10.00
+15.00
+20.00
+25.00
+30.00
+ -
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+ 160
+ 180
+ 200
+n. a.
+> 25
+years
+21-25
+years
+16-20
+years
+11-15
+years
+< 10
+years
+Number of units
+Capacities [mln t/a]
+Number of units
+Capacity [mln t/a]
+Source: ecoprog
+
+=== PAGE 40 ===
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+40 
+In Africa, the first WtE plant was commissioned in 2019 in the capital of Ethiopia, Addis Ababa. If operation 
+goes smooth, the facility could have a signal effect for other African countries, which are currently reorganising 
+their waste management systems.  
+A WtE plant was inaugurated in Doha, Qatar, in 2011. 
+In 2022, 2 plants went operational in Abu Khreita, Egypt. Also in 2022, a WtE plant went operational in Sharjah, 
+United Arab Emirates. A second facility in the UAE was commissioned in Dubai Warsan in 2023. 
+ 
+ 
+ 
+
+=== PAGE 41 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+41 
+3 Market development & forecast 
+ 
+3.1 
+Global market 
+The global business for thermal waste treatment will continue to grow. We expect the number of plants to grow 
+from currently 2,869 in late 2023 to about 3,104 by 20332. We expect the global treatment capacities to 
+increase from around 576 million annual tonnes at the end of 2023 to about 726 million annual tonnes within 
+the same period. This means that the international portfolio will increase by about 2.7% annually.  
+ 
+Figure 15: Growth of capacities and market forecast until 2033 
+ 
+ 
+The main reasons for this global growth remain: 
+• 
+The waste disposal pressure continues to increase, especially in economically growing countries due 
+to increasing waste amounts and lacking landfilling space in urban areas and agglomerations. 
+• 
+In Europe, too, landfilling still must be restricted in many countries, especially in Eastern and Southern 
+Europe, where countries have so far relied on MBT technology for waste treatment and will need 
+additional incineration capacities for sorting residues.  
+• 
+A plant asset that continues to grow and gets older, which results in increasing investments in 
+maintenance and renewal, for instance in countries like Germany or Switzerland.  
+ 
+ 
+2 You will find all figures and data for our estimations and the market forecast by country in the annex 
+“prognosis data”. 
+ -
+ 500
+ 1,000
+ 1,500
+ 2,000
+ 2,500
+ -
+ 100
+ 200
+ 300
+ 400
+ 500
+ 600
+before
+2019
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Capacities, commissioned
+Capacities, existing plants
+Number of Plants
+Operational plants
+Capacity [mln t/a]
+Data partly estimated up to 2023, from 2024 on forecasted, Source: ecoprog
+
+=== PAGE 42 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+42 
+Globally, the additional construction of capacities (in annual tonnes) will continue, albeit with a decreasing 
+speed. 
+In terms of capacity growth, Asia continues to dominate the market, again especially through the Chinese 
+market. We still expect a growing capacity in China in the years to come. Coming from 29.8 million annual 
+tonnes commissioned in 2023, we expect the annual capacity growth in China to gradually decrease to only 
+3.3 million annual tonnes in 2033. The main reason for this development is that the Chinese WtE market has 
+more or less collapsed, which has resulted significantly less new plant awardings since 2023. Nevertheless, 
+China will still account for 48.7% of all capacities worldwide to be built from 2024 to 2033 – in regard to tonnes 
+per year. 
+India remains a promising WtE market. Until 2033, we assume 2 to 4 new WtE plants to start operations in 
+India every year. The WtE potential is much higher in India. However, due to still lacking gate fees and 
+bureaucratic hurdles, we do not expect this potential to be fully exploited.  
+Other important Asian markets are Thailand, Indonesia, and Vietnam, that are also expected to realise more 
+WtE projects in the future. 
+ 
+Figure 16: Projection of capacity growth by region 
+ 
+Europe’s share in the global WtE market will decline further – even though European capacities are still 
+growing. The main reason for this is that new awardings in the UK, Europe’s formerly booming WtE market, 
+have practically come to an end in 2023. Nevertheless, there will be demand for new thermal treatment 
+capacity in countries that do not yet fulfil the EU’s waste legislation, e.g. in Poland. Even in saturated markets 
+such as Germany, Italy and France, some new projects are appearing. 
+We expect an additional demand for WtE capacities in Europe beyond the forecast period, driven by the 
+Circular Economy Package of the EU. Even if this legislation primarily enhances material recycling and organic 
+treatment, it will also require additional facilities for the thermal treatment of non-recyclable waste. This will 
+especially apply to those countries that have implemented MBT technology to a great extent in recent years 
+ -
+ 100
+ 200
+ 300
+ 400
+ 500
+ 600
+before
+2019
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Africa & Near East
+Asia
+Australia & Pacific
+Europe
+Northern America
+South & Central America
+Capacity [mln t/a]
+Data partly estimated up to 2023, from 2024 on forecasted, Source: ecoprog
+
+=== PAGE 43 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+43 
+to reduce the landfilling of biodegradable waste. Some countries such as Poland already progressed further 
+on this path, others, e.g. Italy and Spain, are acting slower. 
+Nevertheless, WtE is currently facing strong opposition in Europe, either through the EU taxonomy or by CO2 
+pricing being implemented or pursued by several countries. A CO2 price directly increases the cost for waste 
+incineration and thus, if not accompanied by higher landfill taxes, could contradict efforts to stop landfilling. 
+This might slow down or hinder the development of further WtE capacities. The regions where these actions 
+are in place, however, are countries that already have a well-developed WtE market and are only building up 
+little new capacity, e.g. Germany or the Netherlands.  
+ 
+Figure 17: Development of investment volumes, commissioning, and maintenance 
+ 
+Whereas investments in new constructions and renewals will develop in a volatile way resulting from the 
+respective regional framework conditions, expenses for maintenance will increase steadily. This development 
+follows the increasing number of plants and, region depending, the plants’ increasing age. 
+In the long run, despite the slowdown in the Chinese market, prospects on the worldwide market for thermal 
+waste treatment will remain very positive. A switch from landfilling to thermal waste treatment is usually 
+irreversible. Only the increase of material recovery and a general prevention of waste generation results in a 
+subsequent decline of waste for incineration. However, this potential is limited in most established economies 
+and by far smaller than the opportunities that come along as a consequence of the global efforts towards the 
+restriction of waste landfilling. 
+To estimate a rough figure on the long-term growth potential of WtE solutions, it makes sense to take a look 
+at the global waste amounts. According to estimations of the World Bank, about 2 billion tonnes of solid waste 
+were generated globally in 2016, almost 400 million tonnes of which were produced in Europe and Central 
+Asia. In 2023, the WtE capacities in Europe amount to about 108 million tonnes per year, which is roughly 
+25% of this estimated amount of solid waste. Due to the still high landfilling share in many countries in the 
+region, the thermal treatment share will increase in the years to come. In Scandinavian countries or Germany, 
+for instance, the WtE share is much higher. Driven by a rapid urbanisation and growing populations, the World 
+Bank expects the global amount of solid waste to jump to 3.4 billion tonnes until 2050. If we assumed a 
+ -
+ 2,000
+ 4,000
+ 6,000
+ 8,000
+ 10,000
+ 12,000
+ 14,000
+ 16,000
+ 18,000
+ 20,000
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Africa & Near East
+Asia
+Australia & Pacific
+Europe
+Northern America
+South & Central America
+Total investments 
+[mln €]
+Estimation & prognosis: ecoprog
+
+=== PAGE 44 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+44 
+worldwide thermal treatment market share of 25%, similar to the status quo in Europe and Central Asia, this 
+would amount to 850 million annual tonnes. 
+ 
+Figure 18: Market for the new construction of plants 2024-2033 by region 
+ 
+ 
+3.2 
+Europe 
+In recent years the growth of the European WtE market slowed down. Until 2012, most new plants had been 
+commissioned in Central Europe, e.g. in Germany and the Netherlands. Since then, the Central European 
+market is widely saturated. In the past decade, the growth has shifted mainly towards the UK and Eastern 
+Europe. However, due to their size, these markets could not fully compensate the saturation of the Central 
+European market, so that the commissioning rates of the booming years of 2003-2010 are not reached 
+anymore. 
+Since 2023, the long-lasting boom in new project awardings in the UK has come to an end. We expect the UK 
+market to become largely saturated by around 2028, once the projects that are currently under construction 
+are operational. Moreover, we expect only few and smaller plants to be commissioned in the UK from 2029 
+onwards. 
+Some market development can be observed in other European countries. such as Poland and the Czech 
+Republic, as well as in countries such as Italy and France. For the years to come, we expect a stronger market 
+development as growth will be allocated to a wider number of countries. 
+The number of plant retrofits will increase in the years to come, especially in Central Europe, e.g. in Germany. 
+This modernisation will be based on an aging asset, the currently large amounts of waste to be combusted 
+and the awarding of municipal disposal contracts that will guarantee the security needed for further 
+investments. Additionally, due to the strong demand for thermal treatment for several years now, a small 
+number of projects will even develop in these formerly saturated markets. 
+The share of landfilling in many countries especially in Eastern and Southern Europe is still high. To comply 
+with the EU waste legislation, material recycling and organic treatment will be enhanced, but also additional 
+facilities for the thermal treatment of non-recyclable waste will be required. This will especially apply to those 
+Africa & Near 
+East
+4%
+Asia
+73%
+Australia & 
+Pacific
+2%
+Europe
+18%
+Northern 
+America
+1%
+South & Central 
+America
+2%
+Share of capacities 2024-2033 [mln t/a]
+n = 175
+Africa & Near East
+7%
+Asia
+46%
+Australia & Pacifiic 
+3%
+Europe
+39%
+Northern America
+3%
+South & Central 
+America
+2%
+Source: ecoprog
+Estimation & 
+prognosis: ecoprog 2024
+Market volume new constructions 2024-2033
+
+=== PAGE 45 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+45 
+countries that implement MBT technology to a wide extent in recent years to reduce the landfilling of 
+biodegradable waste. One example is Poland, where a landfill tax as well as a landfill ban have resulted in a 
+WtE planning boom. With the existing sorting infrastructure for mixed MSW, we expect Poland to be an 
+attractive market for RDF combustion in the years to come. 
+ 
+Figure 19: Development of plants and capacities in Europe 
+ 
+ 
+Over the long term, market growth can be considered as certain. It is indicated by the legal regulations and, in 
+the past, they have been implemented, even though with a delay. However, in the end they have been 
+implemented comprehensively. In regard to its waste legislation, the European Union remains unique 
+throughout the world.  
+The ageing plants in Central Europe furthermore do not leave any doubt that modernisations will become 
+inevitable in the long term. Short contract periods in the municipal business are the most severe threat in this 
+respect as they do not allow for long-term investments into the existing plant portfolio. 
+With the fluctuation of the project awardings, the market for new constructions fluctuates as well. We expect 
+investments into new capacities to vary between around EUR 1.7 billion and EUR 4.5 billion between our 
+forecast period. The maintenance business will become increasingly important because of the growing and 
+ageing plant portfolio. We expect this sector to increase from EUR 2.2 billion in 2024 to about EUR 2.7 billion 
+in 2033. 
+ 
+ -
+ 100
+ 200
+ 300
+ 400
+ 500
+ 600
+ 700
+ -
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+before
+2019
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Capacities, commissioned
+Capacities, existing plants
+Number of Plants
+Operational plants
+Capacity [mln t/a]
+Data partly estimated up to 2023, from 2024 on forecasted, Source: ecoprog
+
+=== PAGE 46 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+46 
+Figure 20: European market forecast by subregion 
+ 
+ 
+3.3 
+Asia 
+The development of thermal waste recovery in Asia will continue, but its intensity will slow down. 
+In China, several areas in the populated eastern provinces are already facing overcapacities, at least in the 
+large, populated eastern coastal provinces. We still expect a growing plant asset, yet again at a lower level 
+compared to our forecast in the previous year.  
+In 2023, we have tracked 90 new commissionings in China. For 2024, however, we have considered only 55 
+commissionings in our project outlook. We predict about 86 million annual tonnes to be added in China 
+between 2024 and 2033. 
+Next to China, we also expect a growing WtE asset in countries such as Malaysia, Thailand, Indonesia, 
+Vietnam and the Philippines, which have also increased efforts to implement WtE projects.  
+We considered India as the potentially largest of the new developing WtE markets in Asia. However, as in all 
+new WtE markets, many projects will fail in the medium and long term. These countries cannot be compared 
+to the Chinese market, at least in the upcoming years, neither in terms of state subsidies nor in terms of a 
+structured development. Nevertheless, we expect some successful projects. 
+ 
+ -
+ 1.00
+ 2.00
+ 3.00
+ 4.00
+ 5.00
+ 6.00
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+France & BeNeLux
+Central Europe
+Scandinavia
+Southern Europe
+UK & Ireland
+EU Eastern Europe
+Rest of Europe
+Capacities [mln t/a]
+Estimation & prognosis: ecoprog
+
+=== PAGE 47 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+47 
+Figure 21: Development of plants and capacities in Asia 
+ 
+Economic opportunities of the respective countries have improved. Large-scale projects such as the 
+construction of a WtE plant is often realised without the states having completed the necessary structural 
+reforms in the waste sector. Both construction and operation are often not financed with the waste fees of the 
+connected households but with general tax money. This makes the prediction and the sustainability of such 
+projects a lot more difficult. 
+Apart from the new markets, there are a few Asian states that begun to develop thermal waste treatment early 
+and have also completed most parts of this structure, namely Taiwan, South Korea and Japan. These countries 
+had experienced a comparatively strong and stable economic growth in an earlier period than other countries 
+of the region, combined with scarcity of space for landfilling. Especially Taiwan and South Korea are focusing 
+on material recovery. Therefore, we expect the market in these countries to be mostly limited to modernisation 
+or replacements, with roughly stable overall capacities. 
+Japan is the country with the highest combustion share in Asia. Thermal waste recovery is an indispensable 
+part of Japanese waste policy; however, the recovery share has decreased in the past years in favour of 
+recycling. Nevertheless, the country still has many inefficient small-scale plants, especially in rural areas, which 
+are constantly being shut down and replaced by less and larger facilities. In this way, Japan produces a 
+continuous demand for waste incineration plants that still are, by European standards, rather small. However, 
+compared to the still ongoing Chinese growth this demand is rather low. 
+Even with growing demand in new markets, the Chinese market development still dominates the rest of the 
+region. Declining commissioning rates in China cannot be fully balanced by other countries. With the 
+approaching market saturation in China, as described above, the Asian demand will decline as well. 
+Compared to Europe, the forecast for Asia is more speculative. Sufficient statistic background information is 
+lacking for many countries, as well as reliable planning at higher levels. The innumerable project proposals 
+and their realisation remain difficult to be calculated in many places. 
+ -
+ 500
+ 1,000
+ 1,500
+ 2,000
+ 2,500
+ -
+ 100
+ 200
+ 300
+ 400
+ 500
+ 600
+before
+2019
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Capacities, commissioned
+Capacities, existing plants
+Number of Plants
+Operational plants
+Capacity [mln t/a]
+Data partly estimated up to 2023, from 2024 on forecasted, Source: ecoprog
+
+=== PAGE 48 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+48 
+Nevertheless, Asia will remain the most dynamic market region. In our forecast period, this region still accounts 
+for around 55% of worldwide investments in the WtE market from 2024 to 2033. 
+ 
+Figure 22: Asian market forecast by subregion 
+ 
+ 
+3.4 
+North America 
+North America is characterised by a very old plant portfolio that is in many cases long overdue in terms of 
+renewals. 
+However, the right preconditions for such renewal measures have been lacking so far. Political framework 
+conditions for thermal waste treatment remain difficult in the USA and Canada. There are no landfill bans and 
+only few federal states or provinces have introduced some kind of a (low) landfill tax. 
+As energy continues to be inexpensive, which is mainly the result of fracking, thermal waste recovery only 
+features limited competitiveness. We anticipate a scenario where landmark decisions on their further 
+operations have to be made for the ageing plants.  
+These landmark decisions will be made in favour of the needed renewal of a WtE plant in agglomerations that 
+lack landfill space. However, this would require a long-term disposal agreement with the respective 
+municipalities. In the end, the operation of plants must rely more profoundly on disposal charges than it had in 
+the past. 
+Plants will be closed, as was the case in the past, in places that cannot assert sufficient disposal charges. In 
+the USA this development has already begun. We assume further capacity cuts in the years to come. 
+ -
+ 10.00
+ 20.00
+ 30.00
+ 40.00
+ 50.00
+ 60.00
+ 70.00
+ 80.00
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+China
+Japan
+India
+Saturated markets
+New markets
+Rest of Asia
+Mln t/a
+Estimation & prognosis: ecoprog
+Saturated markets:
+South Korea, Taiwan,
+Singapore
+New markets: 
+Malaysia, Thailand, Vietnam, 
+Indonesia, Philippines
+
+=== PAGE 49 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+49 
+As of December 2024, it remains uncertain whether and to what extent the incoming Trump administration will 
+change the Bipartisan Infrastructure Law (BIL) and other laws, e.g. the Inflation Reduction Act (IRA). It is also 
+uncertain how this might affect the current corporate beneficiaries.  
+ 
+Figure 23: Development of plants and capacities in North America 
+ 
+3.5 
+Africa & Middle East 
+WtE projects are also likely in other states that have strong economies, especially in the Middle East.  
+For this year’s edition report, we have included the new market chapters Egypt, Kuwait, Qatar and Saudi 
+Arabia. In general, we also see potential in countries like Oman and Bahrain. 
+However, specific information on efforts for developing a WtE market are often still lacking in these countries. 
+These markets are more difficult to assess as stakeholders lack experience in the WtE sector.  
+Promising projects were announced in the United Arab Emirates and the first commissioning took place in 
+2022. Moreover, in 2022, 2 plants went operational in Egypt. However, we are currently not aware of the 
+respective capacities for the Egyptian facilities. 
+ 
+ -
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 100
+ -
+ 5
+ 10
+ 15
+ 20
+ 25
+ 30
+ 35
+before
+2019
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Capacities, commissioned
+Capacities, existing plants
+Number of Plants
+Operational plants
+Capacity [mln t/a]
+Data partly estimated up to 2023, from 2024 on forecasted, Source: ecoprog
+
+=== PAGE 50 ===
+ecoprog
+ 
+Copy SPIG SpA, Mr. Alberto Galantini 
+Not for forwarding or reproduction. 
+Market Study Waste to Energy 2024/2025, © ecoprog GmbH, www.ecoprog.com 
+50 
+Figure 24: Development of plants and capacities in Africa & Middle East 
+ 
+3.6 
+Rest of the world 
+Globalisation on the WtE market is increasing. Up to now, the growth mainly focused on the European, Asian 
+and North American markets. However, in recent years, first projects have been announced – and some even 
+came to fruition – in South America, Africa, and Australia.  
+In Australia, several projects were proposed next to the large agglomerations. The first projects are already 
+under construction. Until 2033, we expect the development of about 2.5 million annual tonnes of thermal 
+treatment capacity in this country. 
+Brazil also has significant WtE potential. We expect the first WtE plant to be commissioned in 2027 with 
+additional plants to follow in the years after, although the time schedule often remains uncertain. The still 
+uncertain political situation continues to be the main risk for long-term investments in this new market.  
+The same holds true for other South American countries that are facing waste management problems, such 
+as Mexico, Colombia and Argentina. For instance in Mexico, backfilled landfills create the demand for thermal 
+treatment capacity. However, policies supporting WtE capacity development are missing. 
+The first project to be successfully realised in South America is expected to have a signal effect on the other 
+countries, facing similar problems. This kind of signal effect could also be expected from the first project in 
+Addis Ababa, Ethiopia, which became operational in 2019. In the past, several projects have been announced 
+in other African countries, such as Nigeria, Ghana, Uganda and Kenya. 
+Our market forecast until 2033 assumes 30 WtE plants to be realised apart from the major markets in Asia, 
+Europe and North America. 
+ 
+ 
+ -
+ 5
+ 10
+ 15
+ 20
+ 25
+ -
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+before
+2019
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+2027
+2028
+2029
+2030
+2031
+2032
+2033
+Capacities, commissioned
+Capacities, existing plants
+Number of Plants
+Operational plants
+Capacity [mln t/a]
+Data partly estimated up to 2023, from 2024 on forecasted, Source: ecoprog
+

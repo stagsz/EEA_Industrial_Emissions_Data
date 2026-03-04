@@ -41,7 +41,10 @@
       "mcp__playwright__browser_click",
       "mcp__playwright__browser_close",
       "mcp__desktop-commander__list_directory",
-      "Bash(start:*)"
+      "Bash(start:*)",
+      "Bash(pip install:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []
